@@ -1,4 +1,12 @@
-## LLM Inference Engineering
+#### [Master LLM Inference Engineering | Vizuara](https://www.youtube.com/watch?v=eRRvwaHKp1g)
+* Inference ([llm-d](https://llm-d.ai/)) - open, efficient, performant AI inference at sacle.
+* During Inference you only need Parameters (G). You don't need Gradients or Optimizers States.
+* How [vLLM](https://vllm.ai/) works, is one part of Inference. We'll learn Inference on GPUs.
+* Diffusion LLM (offer potentially higher inference speeds)
+
+***
+
+#### LLM Inference Engineering
 * https://www.youtube.com/watch?v=eRRvwaHKp1g
 * https://maven.com/vizuara/inference-workshop
 * https://inference.vizuara.ai/
