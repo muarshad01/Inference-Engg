@@ -11,7 +11,7 @@
 | Good and Evil of KV-Cache                      | [Day-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
 | Attention Variants Part 1 — MHA, MQA, GQA, MLA, DSA | [Day-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
 | __Phase 2: Attention Deep-Dives__ | | |
-| Attention Variants Part 2 — SWA, Linear Attention (LA), State Space Models (SSM), Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
+| Attention Variants Part 2 — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | Attention Variants Part 3 — Flash Attention, Paged Attention, Prefix Caching, Chunked Prefill |[Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)||
 | Quantization |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
 | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
