@@ -196,6 +196,17 @@ $$
 
 $$
 \begin{align}
+   h_0 &=    Bx_0 \\
+   h_1 &=   ABx_0 +    Bx_1\\
+   h_2 &= A^2Bx_0 +   ABx_1 + Bx_2\\
+   h_3 &= A^3Bx_0 + A^2Bx_1 + ABx_2 + Bx_3\\
+\end{align}
+$$
+
+***
+
+$$
+\begin{align}
    y_0 &= k_0x_0 \\
    y_1 &= k_1x_0 + k_0x_1\\
    y_2 &= k_2x_0 + k_1x_1 + k_0x_0\\
