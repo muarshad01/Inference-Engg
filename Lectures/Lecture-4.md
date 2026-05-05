@@ -202,6 +202,10 @@ $$
 $$
 \begin{align}
    y_t &= Ch_t\\
+   y_0 &=    CBx_0 \\
+   y_1 &=   CABx_0 +    CBx_1\\
+   y_2 &= CA^2Bx_0 +   CABx_1 + CBx_2\\
+   y_3 &= CA^3Bx_0 + CA^2Bx_1 + CABx_2 + CBx_3\\
 \end{align}
 $$
 
