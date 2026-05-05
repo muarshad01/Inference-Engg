@@ -231,3 +231,12 @@ $$
 ***
 
 * 3:20:00
+
+* Although this is better an Linear Attention: all past does not have same weight.
+* Past contribution decays esponentially.
+* But A and B are still fixed!
+* Not good!
+* I need to have some selectivity!
+* I need to vary A and B also for every new token which comes in.
+
+***
