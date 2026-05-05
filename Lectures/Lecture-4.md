@@ -243,5 +243,10 @@ $$
 
 #### Augment SSM with Selectivity
 
-
+$$
+\begin{align}
+   h_t &= A_th_{t-1} + B_tx_t\\
+   y_t &= C_th_t\\
+\end{align}
+$$
 ***
