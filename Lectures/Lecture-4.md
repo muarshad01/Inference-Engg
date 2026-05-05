@@ -187,7 +187,18 @@ $$
 
 $$
 \begin{align}
-   h_t &= A.h_{t-1} + B.x_t\\
-   y_t &= C.h_t\\
+   h_t &= Ah_{t-1} + Bx_t\\
+   y_t &= Ch_t\\
+\end{align}
+$$
+
+***
+
+$$
+\begin{align}
+   y_0 &= k_0x_0 \\
+   y_1 &= k_1x_0 + k_0x_1\\
+   y_2 &= k_2x_0 + k_1x_1 + k_0x_0\\
+   y_3 &= k_3x_0 + k_2x_1 + k_1x_2 + k_0x_3\\
 \end{align}
 $$
