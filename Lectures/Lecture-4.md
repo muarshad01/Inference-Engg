@@ -190,13 +190,6 @@ $$
 $$
 \begin{align}
    h_t &= Ah_{t-1} + Bx_t\\
-\end{align}
-$$
-
-***
-
-$$
-\begin{align}
    h_0 &=    Bx_0 \\
    h_1 &=   ABx_0 +    Bx_1\\
    h_2 &= A^2Bx_0 +   ABx_1 + Bx_2\\
