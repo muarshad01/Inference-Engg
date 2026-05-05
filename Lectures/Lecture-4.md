@@ -255,6 +255,8 @@ $$
 * 3:25:00
 
 #### Selective SSM --> Mamba Architecture
-
+* Mamba Block (Conv1D + SSM + Gate)
 
 ***
+
+* 3:40:00
