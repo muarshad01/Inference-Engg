@@ -185,10 +185,11 @@ $$
 
 * $x_t \to \text{MHA}(h_t) \to y_t$
 
+***
+
 $$
 \begin{align}
    h_t &= Ah_{t-1} + Bx_t\\
-   y_t &= Ch_t\\
 \end{align}
 $$
 
@@ -204,6 +205,12 @@ $$
 $$
 
 ***
+
+$$
+\begin{align}
+   y_t &= Ch_t\\
+\end{align}
+$$
 
 $$
 \begin{align}
