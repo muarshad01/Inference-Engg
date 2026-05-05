@@ -151,9 +151,18 @@ $$
 \end{align}
 $$
 
+
+#### Advantage
+* $d^2$
+
 #### Drawback of Linear Attention
 * This is never used in practise
+* History is not weighted???
 
+***
+* Cache (State) is maintained
+* Cache is updated whenever a new Query (Input) comes in.
+* LA is one of the simplest form of SSM.
 ***
 
 * 2:45:00
