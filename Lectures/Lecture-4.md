@@ -249,4 +249,12 @@ $$
    y_t &= C_th_t\\
 \end{align}
 $$
+
+***
+
+* 3:25:00
+
+#### Selective SSM --> Mamba Architecture
+
+
 ***
