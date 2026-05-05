@@ -185,6 +185,13 @@ $$
 
 * $x_t \to \text{MHA}(h_t) \to y_t$
 
+$$
+\begin{align}
+   h_t &= Ah_{t-1} + Bx_t\\
+   y_t &= Ch_t\\
+\end{align}
+$$
+
 ***
 
 $$
@@ -208,6 +215,8 @@ $$
    y_3 &= CA^3Bx_0 + CA^2Bx_1 + CABx_2 + CBx_3\\
 \end{align}
 $$
+
+****
 
 $$
 \begin{align}
