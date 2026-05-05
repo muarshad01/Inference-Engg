@@ -261,6 +261,12 @@ $$
 
 * 3:50:00
 
-
-
 ***
+
+
+#### Research Topics
+* MLA + Mamba
+* Sliding window reception analysis for dynamic windows?
+* Mamba + sliding window + full attention
+
+*** 
