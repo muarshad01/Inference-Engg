@@ -180,3 +180,12 @@ $$
 ***
 
 * 3:00:00
+
+* $x_t \to \text{MHA}(h_t) \to y_t$
+
+$$
+\begin{align}
+   h_t &= A.h_{t-1} + B.x_t\\
+   y_t &= C.h_t\\
+\end{align}
+$$
