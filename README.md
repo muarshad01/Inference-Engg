@@ -20,9 +20,13 @@
 | Parallelism and Its Effects on Inference |||
 | Finetuning & Distillation — Subliminal Learning Project |||
 | __Phase 4: Capstone & Frontiers__ | | |
+| Capstone Project 1: Build a Speed-Optimized LLM Inference Server — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
+| Multimodal Inference	|||
+| Voice Pipeline Inference |||
+| Embodied Inference: World Models |||
+| Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
 
 ***
-
 
 #### [Master LLM Inference Engineering | Vizuara](https://www.youtube.com/watch?v=eRRvwaHKp1g)
 * Inference ([llm-d](https://llm-d.ai/)) - open, efficient, performant AI inference at sacle.
