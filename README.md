@@ -14,7 +14,8 @@
 | L4 | __Attention Variants Part 2__ — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | L5 | __Attention Variants Part 3__ — Flash Attention, Paged Attention, Prefix Caching, Chunked Prefill |[Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)||
 | L6 | __Quantization__ |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
-| Hardware Lab | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
+||__Hardware Lab__|||
+|  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
 ||__Phase 3: Systems & Serving__|||
 | L7 | Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
 | L8 | Parallelism and Its Effects on Inference |||
