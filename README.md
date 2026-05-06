@@ -14,12 +14,11 @@
 | L4 | __Attention Variants Part 2__ — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | L5 | __Attention Variants Part 3__ — Flash Attention, Paged Attention, Prefix Caching, Chunked Prefill |[Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)||
 | L6 | __Quantization__ |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
-| L7 | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
-
-| __Phase 3: Systems & Serving__ | | |
-| Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
-| Parallelism and Its Effects on Inference |||
-| Finetuning & Distillation — Subliminal Learning Project |||
+| Hardware Lab | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
+| __Phase 3: Systems & Serving__ ||||
+| L7 | Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
+| L8 | Parallelism and Its Effects on Inference |||
+| L9| Finetuning & Distillation — Subliminal Learning Project |||
 | __Phase 4: Capstone & Frontiers__ | | |
 | Capstone Project 1: Build a Speed-Optimized LLM Inference Server — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
 | Multimodal Inference	|||
