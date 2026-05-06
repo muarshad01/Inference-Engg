@@ -19,12 +19,12 @@
 | L7 | Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
 | L8 | Parallelism and Its Effects on Inference |||
 | L9| Finetuning & Distillation — Subliminal Learning Project |||
-| __Phase 4: Capstone & Frontiers__ | | |
-| Capstone Project 1: Build a Speed-Optimized LLM Inference Server — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
-| Multimodal Inference	|||
-| Voice Pipeline Inference |||
-| Embodied Inference: World Models |||
-| Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
+| __Phase 4: Capstone & Frontiers__ ||||
+| L10 | Capstone Project 1: Build a Speed-Optimized LLM Inference Server — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
+| L11 | Multimodal Inference	|||
+| L12 | Voice Pipeline Inference |||
+| L13 | Embodied Inference: World Models |||
+| L14 | Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
 
 ***
 
