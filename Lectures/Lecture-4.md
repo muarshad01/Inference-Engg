@@ -281,3 +281,8 @@ $$
 | __Hybrid models__	| Some attention cache plus some fixed state	| Depends on layer mix	| Use attention for exact lookup, SSM/local layers for efficiency.	| Often the practical middle path for long contexts. |
 
 ***
+
+<p align="center">
+<img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/grand-comparison.png" width="600" height="300" />
+</p>
+
