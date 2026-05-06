@@ -273,7 +273,7 @@ $$
 
 | Method	| What is cached?	| Memory with context length N	| Intuition	| Likely trade-off | 
 |---|---|---|---|---|
-| __Full attention__	| Every token's K and V | 	$O(N × Hkv × d)$ | 	Perfect address book of the past. | 	Strong recall, expensive long-context inference. | 
+| __Full attention__	| Every token's K and V | 	$O(N \times H_{KV} \times d)$ | 	Perfect address book of the past. | 	Strong recall, expensive long-context inference. | 
 MQA / GQA	K and V for fewer KV heads	O(N × fewer heads × d)	Keep all tokens, reduce the head axis.	Often excellent quality/speed balance.
 Sliding window	K and V for last W tokens in local layers	O(W × Hkv × d)	Recent working memory.	Great local efficiency, weaker direct recall for old clues.
 Linear attention	Running numerator S and denominator z	O(dφ × dv)	Compress all past tokens into algebraic sums.	Fast state updates, but softer token selection than softmax attention.
