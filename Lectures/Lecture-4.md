@@ -274,7 +274,7 @@ $$
 | Method	| What is cached?	| Memory with context length N	| Intuition	| Likely trade-off | 
 |---|---|---|---|---|
 | __Full attention__	| Every token's K and V   | $O(N \times H_{KV} \times d)$ | 	Perfect address book of the past. | Strong recall, expensive long-context inference. | 
-| __MQA / GQA__ | K and V for fewer KV heads	| $O(N ×\times \text{fewer heads} \times d)$ | Keep all tokens, reduce the head axis.	| Often excellent quality/speed balance. |
+| __MQA / GQA__ | K and V for fewer KV heads	| $O(N \times \text{fewer heads} \times d)$ | Keep all tokens, reduce the head axis.	| Often excellent quality/speed balance. |
 | __Sliding window__ | K and V for last W tokens in local layers	| $O(W \times H_{KV} \times d)$	 | Recent working memory. | Great local efficiency, weaker direct recall for old clues. |
 | __Linear attention__	| Running numerator S and denominator z| 	$O(d_{\phi} × d_v)$	| Compress all past tokens into algebraic sums.	| Fast state updates, but softer token selection than softmax attention. | 
 | __SSM / Mamba__	| Fixed SSM state plus small convolution buffer | 	O(state size), independent of N	| Compressed evolving memory.	| Huge memory savings; quality depends on how well the state preserves needed details. |
