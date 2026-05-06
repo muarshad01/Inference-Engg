@@ -4,7 +4,7 @@
 * [How do Graphics Cards Work? Exploring GPU Architecture](https://www.youtube.com/watch?v=h9Z4oGN89MU)
 * [LLM Architecture Gallery by Sebastian Raska](https://sebastianraschka.com/llm-architecture-gallery/)
 
-|| Lecture | Notes | Date|
+| | Topic | Notes | Date|
 |---|---|---|---|
 | __Phase 1: Foundations__| Topic| | |
 | __Three Stages of Inference__ — Difference between inference and pre-training. Journey of a token through inference, pre-fill, and decode.          | [Day-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
