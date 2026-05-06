@@ -68,7 +68,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 |               | MHA              | $2 \times N^2 \times d$        | $2 \times N \times d$ |
 | $\frac{W}{N}$ | SWA              | $2 \times N \times W \times d$ | $2 \times W \times d$ |
 |               | Linear Attention | $N\times d^2 + N \times d$ | |
-|               | SSM              | $N\logN$ | $d^2$ | 
+|               | SSM              | $N \log N$ | $d^2$ | 
 
 ***
 
