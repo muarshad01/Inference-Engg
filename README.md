@@ -6,20 +6,20 @@
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
-|__Phase 1: Foundations__||||
+||__Phase 1: Foundations__|||
 | L1 | __Three Stages of Inference__ — Difference between inference and pre-training. Journey of a token through inference, pre-fill, and decode. | [Day-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
 | L2 | __Good and Evil of KV Cache__ | [Day-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
 | L3 | __Attention Variants Part 1__ — MHA, MQA, GQA, MLA, DSA | [Day-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
-| __Phase 2: Attention Deep-Dives__ ||||
+||__Phase 2: Attention Deep-Dives__|||
 | L4 | __Attention Variants Part 2__ — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | L5 | __Attention Variants Part 3__ — Flash Attention, Paged Attention, Prefix Caching, Chunked Prefill |[Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)||
 | L6 | __Quantization__ |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
 | Hardware Lab | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
-| __Phase 3: Systems & Serving__ ||||
+||__Phase 3: Systems & Serving__|||
 | L7 | Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
 | L8 | Parallelism and Its Effects on Inference |||
 | L9| Finetuning & Distillation — Subliminal Learning Project |||
-| __Phase 4: Capstone & Frontiers__ ||||
+||__Phase 4: Capstone & Frontiers__|||
 | L10 | Capstone Project 1: Build a Speed-Optimized LLM Inference Server — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
 | L11 | Multimodal Inference	|||
 | L12 | Voice Pipeline Inference |||
