@@ -91,9 +91,17 @@ One Layer --> 32 MB
 * $\text{Memory (SRAM)} = d \times \text{tile size}$
 
 
-|||
-|---|---|
-| Tradition | $3Nd + 2N^2d$|
-| Flash | $Nd + \frac{N^2d^2}{M}$|
+||||
+|---|---|---|
+| Tradition | $3Nd + 2N^2d$ | |
+| Flash | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
 
 *** 
+
+```
+Number of R/W per query time = Nd
+How many query tiles = \frac{N}{Tile size} = \frac{N}{\frac{M}{d}} = \frac{Nd}{M}
+M = d \times \text{Tile size}
+```
+
+***
