@@ -87,3 +87,7 @@ One Layer --> 32 MB
 * 1:50:00
 
 ***
+
+* $\text{Memory (SRAM)} = d \times \text{tile size}$
+
+*** 
