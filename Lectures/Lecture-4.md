@@ -250,11 +250,15 @@ $$
 \end{align}
 $$
 
-* $A_t$: How much the previous output needs to be give weitage
-* $B_t$: How much the current input needs to be give weitage
+\begin{align}
+   \hat{A}_t    &= \Delta_t   \times A_t \\
+   \hat{B}_t &= \exp(\Delta_t \times B_t)\\
+\end{align}
 
-* $B_t^{\bar} = \delta \times B_t$
-* $A_t^{\bar} = exp(\delta \times A_t)$
+* $B_t$: How much the current toke we need to pay attention to
+  * If $\Delta_t$ is high the current token will get more weitage
+* $A_t$: How much the previous state we needs to pay attention to 
+  * If $\Delta_t$ is high then A will be negative.
 
 ***
 
