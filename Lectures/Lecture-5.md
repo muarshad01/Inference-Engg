@@ -69,3 +69,14 @@ One Layer --> 32 MB
 * 1:30:00
 
 ***  
+* $Q(16,8)$
+* $K(16,8)$
+* $V(16,8)$
+
+* Tile size= 4 Tokens
+* $Q_1(4,8)$
+* $K_1(4,8)$
+* $V_1(4,8)$
+
+$A = Q_1 \times K_1^T$
+$O = \bigg( \frac{\exp^{s_1}}{Sum_1}, \bigg)$
