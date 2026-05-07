@@ -79,4 +79,4 @@ One Layer --> 32 MB
 * $V_1(4,8)$
 
 * $A = Q_1 \times K_1^T$
-* $O = \bigg( \frac{\exp^{s_1}}{Sum_1}, \bigg)$
+* $O = \bigg( \frac{e^{s_1}}{Sum_1}, \bigg)$
