@@ -7,5 +7,8 @@
 * There is concept of __Receptive Field__
 * More number of layers $L$, the more broader is the receptive field
 * Active research area: Receptive field
+* NVIDIA Nemotron uses Mamba Architecture
 
 ***
+
+* 40:00
