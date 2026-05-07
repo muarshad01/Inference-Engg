@@ -17,3 +17,9 @@
 |---|---|
 | Pre-Training | Params, Grads, Optims, Activs |
 | Inference    | Params, Activs, KV-cache |
+
+***
+
+* 1:00:00
+
+***
