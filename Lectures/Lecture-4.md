@@ -250,10 +250,12 @@ $$
 \end{align}
 $$
 
+$$
 \begin{align}
    \hat{A}_t    &= \Delta_t   \times A_t \\
    \hat{B}_t &= \exp(\Delta_t \times B_t)\\
 \end{align}
+$$
 
 * $B_t$: How much the current toke we need to pay attention to
   * If $\Delta_t$ is high the current token will get more weitage
