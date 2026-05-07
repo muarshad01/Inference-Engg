@@ -82,5 +82,5 @@ One Layer --> 32 MB
 
 * $O_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$
 * $O_2 = \bigg( \frac{e^{s_5}}{sum_2}, \frac{e^{s_6}}{sum_2}, \frac{e^{s_7}}{sum_2}, \frac{e^{s_8}}{sum_2}\bigg)$
-* $O_3 = \bigg( \frac{e^{s_1}}{sum_9}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$
+* $O_3 = \bigg( \frac{e^{s_1}}{sum_3}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$
 * $O_4 = \bigg( \frac{e^{s_{13}}}{sum_4}, \frac{e^{s_{14}}}{sum_4}, \frac{e^{s_{15}}}{sum_4}, \frac{e^{s_{16}}}{sum_4}\bigg)$
