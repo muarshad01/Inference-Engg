@@ -79,4 +79,8 @@ One Layer --> 32 MB
 * $V_1(4,8); V_2(4,8); V_3(4,8); V_4(4,8)$
 
 * $A_1 = Q_1 \times K_1^T; A_2 = Q_2 \times K_2^T; A_3 = Q_3 \times K_3^T; A_4 = Q_4 \times K_4^T$; 
+
 * $O_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$
+* $O_2 = \bigg( \frac{e^{s_5}}{sum_2}, \frac{e^{s_6}}{sum_2}, \frac{e^{s_7}}{sum_2}, \frac{e^{s_8}}{sum_2}\bigg)$
+* $O_3 = \bigg( \frac{e^{s_1}}{sum_9}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$
+* $O_4 = \bigg( \frac{e^{s_{13}}}{sum_4}, \frac{e^{s_{14}}}{sum_4}, \frac{e^{s_{15}}}{sum_4}, \frac{e^{s_{16}}}{sum_4}\bigg)$
