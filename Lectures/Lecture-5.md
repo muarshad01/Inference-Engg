@@ -26,12 +26,25 @@
 
 * High Bandwidth Memory (HBM)
 
-#### Attentions
+#### Total RW = 3r + 3w
+* Attention Block
 1. Activations: $Q, K, V$ matrices are written to HBM
 2. Read $Q, K$ from HBM and compute attention score, $A(N,N) = Q \times K^T$
 3. Write matrix A $\to$ HBM
 4. Read A from HBM and comptue $S=\text{softmax}(A)$
 5. Write $S=\{softmax}(A)$ to HBM
 6. Read $S$ and $V$ from HBM and compute $S \times V \to \text{context}$ 
-
 * 3r + 3w
+* __Question__: $N \times N$ matrix moves through GPU how many times? -- 2 times
+
+***
+
+```
+N=4,096
+4,096 x 4,096 x 2 =
+2^{12} x 2^{12} x 2^{1} = 2^{25} = 32 MB for One Layer
+One Layer --> 32 MB
+32 Layers --> 1 GB / forward pass -- just for attention
+```
+
+***
