@@ -250,6 +250,12 @@ $$
 \end{align}
 $$
 
+* $A_t$: How much the previous output needs to be give weitage
+* $B_t$: How much the current input needs to be give weitage
+
+* $B_t^{\bar} = \delta \times B_t$
+* $A_t^{\bar} = exp(\delta \times A_t)$
+
 ***
 
 * 3:25:00
