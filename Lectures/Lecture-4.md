@@ -250,6 +250,10 @@ $$
 \end{align}
 $$
 
+* $B_t$: How much of the current token, we need to pay attention to
+* $A_t$: How much of the previous hidden state ($h_t$),  we needs to pay attention to 
+* $C_t$: The output factor
+
 $$
 \begin{align}
    \hat{B}_t    &= \Delta_t   \times B_t \\
@@ -257,10 +261,11 @@ $$
 \end{align}
 $$
 
-* $B_t$: How much the current toke we need to pay attention to
-  * If $\Delta_t$ is high the current token will get more weitage
-* $A_t$: How much the previous state we needs to pay attention to 
-  * If $\Delta_t$ is high then A will be negative.
+* $B_t$: How much of the current token, we need to pay attention to
+  * If $\Delta_t$ is high, the current input will get lot of weitage
+* $A_t$: How much of the previous hidden state ($h_t$),  we needs to pay attention to 
+  * If $\Delta_t$ is high then A will be negative, i.e. $\hat{A}_t$ will be low. That is past will not get more weitage.
+* $C_t$: The output factor
 
 ***
 
