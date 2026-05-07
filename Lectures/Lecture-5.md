@@ -77,7 +77,7 @@ One Layer --> 32 MB
 
 | Q | K | Attention Score (A) | Softmax | Context Vector |
 |---|---|---|---|---|
-| $Q_1(4,8)$ | $K_1(4,8)$ | $A_1 = Q_1 \times K_1^T$  | $O_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$ | $O_1\times V_1(4,8)|
+| $Q_1(4,8)$ | $K_1(4,8)$ | $A_1 = Q_1 \times K_1^T$  | $O_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$ | $O_1\times V_1(4,8)$ |
 
 
 | $Q_2(4,8)$ | $K_2(4,8)$ | $A_2 = Q_2 \times K_2^T$  | $O_2 = \bigg( \frac{e^{s_5}}{sum_2}, \frac{e^{s_6}}{sum_2}, \frac{e^{s_7}}{sum_2}, \frac{e^{s_8}}{sum_2}\bigg) \times V_2(4,8)$ ||
