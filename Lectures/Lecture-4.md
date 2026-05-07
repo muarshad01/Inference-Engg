@@ -252,8 +252,8 @@ $$
 
 $$
 \begin{align}
-   \hat{A}_t    &= \Delta_t   \times A_t \\
-   \hat{B}_t &= \exp(\Delta_t \times B_t)\\
+   \hat{B}_t    &= \Delta_t   \times B_t \\
+   \hat{A}_t &= \exp(\Delta_t \times A_t)\\
 \end{align}
 $$
 
