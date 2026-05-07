@@ -12,3 +12,8 @@
 ***
 
 * 40:00
+
+| Stage | Stored in Memory|
+|---|---|
+| Pre-Training | Params, Grads, Optims, Activs |
+| Inference    | Params, Activs, KV-cache |
