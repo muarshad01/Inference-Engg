@@ -90,4 +90,10 @@ One Layer --> 32 MB
 
 * $\text{Memory (SRAM)} = d \times \text{tile size}$
 
+
+|||
+|---|---|
+| Tradition | $3Nd + 2N^2d$|
+| Flash | $Nd + \frac{N^2d^2}{M}$|
+
 *** 
