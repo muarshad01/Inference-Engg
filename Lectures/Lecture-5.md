@@ -29,7 +29,7 @@
 #### Attentions
 1. Activations: $Q, K, V$ matrices are written to HBM
 2. Read $Q, K$ from HBM and compute attention score, $A(N,N) = Q \times K^T$
-3. Write $(N, N)$ attention scores matrix A \to$ HBM
+3. Write matrix A $\to$ HBM
 4. Read $A(N, N)$ from HBM and comptue $S=\text{softmax}(A)$
 5. Write $S=\{softmax}(A)$ to HBM
 6. Read $S$ and $V$ from HBM and compute $S \times V \to \text{context}$ 
