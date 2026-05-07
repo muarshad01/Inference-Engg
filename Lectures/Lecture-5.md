@@ -69,6 +69,9 @@ One Layer --> 32 MB
 * 1:30:00
 
 ***  
+
+* [Online Softmax - Day08](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-08.md)
+
 * $Q(16,8)$
 * $K(16,8)$
 * $V(16,8)$
