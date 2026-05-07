@@ -250,8 +250,8 @@ $$
 \end{align}
 $$
 
-* $B_t$: How much of the current token, we need to pay attention to
 * $A_t$: How much of the previous hidden state ($h_t$),  we needs to pay attention to 
+* $B_t$: How much of the current token, we need to pay attention to
 * $C_t$: The output factor
 
 $$
