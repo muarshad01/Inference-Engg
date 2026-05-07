@@ -80,6 +80,4 @@ One Layer --> 32 MB
 | $Q_1(4,8)$ | $K_1(4,8)$ | $A_1 = Q_1 \times K_1^T$ |$O_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg) \times V_1(4,8)$ |
 | $Q_2(4,8)$ | $K_2(4,8)$ | $A_2 = Q_2 \times K_2^T$ | $O_2 = \bigg( \frac{e^{s_5}}{sum_2}, \frac{e^{s_6}}{sum_2}, \frac{e^{s_7}}{sum_2}, \frac{e^{s_8}}{sum_2}\bigg) \times V_2(4,8)$ |
 | 4Q_3(4,8)$ | $K_3(4,8)4 | $A_3 = Q_3 \times K_3^T$ | $O_3 = \bigg( \frac{e^{s_9}}{sum_3}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg) \times V_3(4,8)$ |
-| $Q_4(4,8)$ | $K_4(4,8)$ | $A_4 = Q_4 \times K_4^T$ | $O_4 = \bigg( \frac{e^{s_{13}}}{sum_3}, \frac{e^{s_{14}}}{sum_3}, \frac{e^{s_{15}}}{sum_3}, \frac{e^{s_{16}}}{sum_3}\bigg) \times V_4(4,8)$ | 
-
-; ; $
+| $Q_4(4,8)$ | $K_4(4,8)$ | $A_4 = Q_4 \times K_4^T$ | $O_4 = \bigg( \frac{e^{s_{13}}{sum_3}, \frac{e^{s_{14}}}{sum_3}, \frac{e^{s_{15}}}{sum_3}, \frac{e^{s_{16}}}{sum_3}\bigg) \times V_4(4,8)$ | 
