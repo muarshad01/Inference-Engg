@@ -51,3 +51,21 @@ One Layer --> 32 MB
 ```
 
 ***
+
+* You near write $N \times N$ matrices into HRAM
+* Break it into smaller tiles, which briefly exist in SRAM
+
+***
+
+#### Idea
+* Tile Q,K,V
+* Bring tiles into SRAM
+* Find partial output vectors
+* Merge
+* Send output vectors from SRAM to HBM.
+
+***
+
+* 1:10:00
+
+***  
