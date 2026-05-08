@@ -108,3 +108,7 @@ M = d \times \text{Tile size}
 ```
 
 ***
+
+* [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451)
+
+***
