@@ -97,7 +97,7 @@ One Layer --> 32 MB
 ||||
 |---|---|---|
 | Tradition | $Nd + N^2$ | |
-| Flash     | $Nd + N^2\frac{d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
+| Flash     | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
 
 *** 
 
