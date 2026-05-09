@@ -101,11 +101,9 @@ One Layer --> 32 MB
 
 *** 
 
-```
-Number of R/W per query time = Nd
-How many query tiles = \frac{N}{Tile size} = \frac{N}{\frac{M}{d}} = \frac{Nd}{M}
-M = d \times \text{Tile size}
-```
+* Number of R/W per query time = $Nd$
+* How many query tiles = $\frac{N}{Tile size} = \frac{N}{\frac{M}{d}} = \frac{Nd}{M}$
+* $M = d \times \text{Tile size}$
 
 ***
 
