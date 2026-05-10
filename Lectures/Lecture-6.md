@@ -41,6 +41,6 @@
 
 #### Key Data Structures
 * Free Block List: $\\{Block_0, Block_1, ..., Block_N\\}$
-* Block_table: $\\{seq_i : Block_j\\}$
+* Block_table: $\\{seq_i : Block_j\\} \rightarrow Paging$
 
 ***
