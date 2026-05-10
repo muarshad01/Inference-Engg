@@ -7,4 +7,12 @@
 
 * 5:00
 
+
+* Prefill (Comptue Bound) - Impacts TTFT
+* Decode (Memory Bound) - Impact ITL
+
 *** 
+
+* 20:00
+
+***
