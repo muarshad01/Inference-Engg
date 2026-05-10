@@ -7,12 +7,13 @@
 
 * 5:00
 
-
 * Prefill (Comptue Bound) - Impacts TTFT
 * Decode (Memory Bound) - Impact ITL
 
 *** 
 
 * 20:00
+
+* [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
 
 ***
