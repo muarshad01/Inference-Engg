@@ -20,3 +20,8 @@
 ***
 
 * 25:00
+
+#### Batching
+* Increases TTFT
+
+*** 
