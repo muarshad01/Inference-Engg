@@ -22,6 +22,17 @@
 * 25:00
 
 #### Batching
-* Increases TTFT
+* Efficient batching moves you up the RoofLine plot
+* Batching
+  * Increases TTFT 
+  * ITL will incerase a bit too
 
 *** 
+
+* 35:00
+
+#### Inference
+* Prefill
+* Decode
+
+**** 
