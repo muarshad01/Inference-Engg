@@ -1,4 +1,4 @@
-## Anatomy of VLLM step
+## Anatomy of vLLM step
 * [vLLM](https://github.com/vllm-project/vllm)
 * [Run and Scale AI with Ray](https://www.anyscale.com/platform)
 * [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
@@ -84,9 +84,10 @@
 ```
 ***
 
-* 1:50:00
-
-
-
+* 2:00:00
 
 ***
+
+
+
+
