@@ -74,6 +74,10 @@
 
 ***
 
+```
+-max-seq-batch
+```
+
 #### Chunked Prefill
 ```
 -max-num-batched-tokens 
