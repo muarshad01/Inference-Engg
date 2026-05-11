@@ -75,7 +75,7 @@
 ***
 
 ```
--max-seq-batch
+-max-num-seq
 ```
 
 #### Chunked Prefill
