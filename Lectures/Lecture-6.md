@@ -65,6 +65,11 @@
 
 * 1:35:00
 
+* Static batching
+* Continuous batching
+
+***
+
 
 
 
