@@ -71,6 +71,7 @@
 
 * 1:35:00
 
+#### Batching
 * Static batching
 * Continuous batching
 
