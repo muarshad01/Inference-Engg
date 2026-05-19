@@ -16,7 +16,7 @@
 | L6 | __The Anatmy of a vLLM Step__ |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
 | L7 | __All about Quantization__ |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 10, 2026 |
 ||__Hardware Lab__|||
-|  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
+|  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md)||
 ||__Phase 3: Systems & Serving__|||
 | L7 | __Serving Strategies__ — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
 | L8 | __Parallelism and Its Effects on Inference__ |||
