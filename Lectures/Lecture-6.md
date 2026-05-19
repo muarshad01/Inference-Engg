@@ -81,13 +81,11 @@
 
 ***
 
-```
--max-num-seq
-```
-
 #### Chunked Prefill
+
 ```
--max-num-batched-tokens 
+--max-num-seqs
+--max-num-batched-tokens 
 ```
 
 ***
