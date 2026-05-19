@@ -17,3 +17,10 @@
 * GPTO and AWO
 
 ***
+
+#### FP32
+* Exponent: Window in which the number lies in
+* Mantissa: Represents the offset
+* Example: $6.1 \rightarrow FP32$
+  * Window: $\\{2^2,2^3\\}$
+  * Exponent: 2 + 127 (bias) = 129 = 1000|0001
