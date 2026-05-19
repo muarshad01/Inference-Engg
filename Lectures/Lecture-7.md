@@ -6,3 +6,14 @@
 4. 2-type of Post Training Quantization
 
 ***
+
+#### Overview:
+* Quantization Aware Training
+
+*** 
+
+#### Post session visualization
+* Quantization in Turboquant
+* GPTO and AWO
+
+***
