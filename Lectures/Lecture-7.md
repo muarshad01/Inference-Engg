@@ -42,6 +42,7 @@
 
 |   | Symmetric Quantization | A-symmetric Quantization|
 |---|---|---|
+|   | Weights | ReLU |
 | scale           | $\frac{\text{max}(abs(x))}{127}$ | $\frac{max(x) - min(x)}{255}$|
 |                 |                        |$\text{zero point} \rightarrow \text{zero points to}$ |
 | quantiztion (q) | $round\bigg(\frac{x}{scale}\bigg)$ | $round\bigg(\frac{x}{scale} + \text{zero point} \bigg)$|
