@@ -48,6 +48,17 @@
 | Quantiztion (q) | $round\bigg(\frac{x}{scale}\bigg)$ | $round\bigg(\frac{x}{scale} + \text{zero point} \bigg)$|
 | De-quantizqation | $q \times scale$ |$(q - \text{zero point}) \times scale$|
 
-* Ourlier problem
+***
+
+* Biggest problem: Outlier (scale factor depends on max value)
+* Weights are fixed after model is trained
+* Activations change during run-time
 
 ***
+
+#### Post Training Quantization
+
+***
+
+
+
