@@ -27,7 +27,8 @@
   * Exponent: 2 + 127 (bias) = 129 = 1000|0001
   * Mantisssa (Governs the offset): $2^{23} \times 52.5%$ = 4,404,019
   * Bias= 127 = $2^{\text{exp bits}-1}-1$
- 
+* Exponent, Mantissa = Range, Precision
+
 *** 
 
 * 30:00
