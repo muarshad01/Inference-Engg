@@ -22,11 +22,11 @@
 * __Sign bit (1 bit)__: 0 (+ve); 1 (-ve)
 * __Exponent (8 bits)__: Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$ 
 * __Mantissa (23 bits)__: offset - num of buckets - $2^{23}$
-* __Example__: $6.1 \rightarrow FP32$
+* __Example__: $6.1 (52.5%) \rightarrow FP32$
   * Window: $\[2^2, 2^3\]$ because 6 lies between [4,8]
   * Exponent: 2 + 127 (bias) = 129 = 1000|0001
-  * Mantisssa: 2^{23} \times 52.5 = 4404019
-  * Bias= 127 = $2^{\text{exp}-1}-1$
+  * Mantisssa (Governs the offset): $2^{23} \times 52.5%$ = 4,404,019
+  * Bias= 127 = $2^{\text{exp bits}-1}-1$
  
 *** 
 
