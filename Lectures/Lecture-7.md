@@ -61,6 +61,18 @@
 
 ***
 
+|   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
+|---|---|---|
+| Weights stored as  | INT4/INT8 ||
+| Activations        | Stay FP16 throughout ||
+| matmul             | FP16 ||
+| Dequantize happens | before matmul ||
+| Speedup source     | memory bandwidth only ||
+| Best for           | single-user decode ||
+| Typical bit budjet | 4-bit (GPTQ, AWQ, NF4) ||
+
+***
+
 #### DeepSeek V3 - the full FP8 mixed-precision matmul
 * BF16 activations get tile wise FP8 quantized.
 * BF16 weights get block wise FP8 quantized.
