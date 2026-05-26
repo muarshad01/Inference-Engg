@@ -63,13 +63,13 @@
 
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
-| Weights stored as  | INT4/INT8 ||
-| Activations        | Stay FP16 throughout ||
-| matmul             | FP16 ||
-| Dequantize happens | before matmul ||
-| Speedup source     | memory bandwidth only ||
-| Best for           | single-user decode ||
-| Typical bit budjet | 4-bit (GPTQ, AWQ, NF4) ||
+| Weights stored as  | INT4/INT8              | INT8/FP8 |
+| Activations        | Stay FP16 throughout   | Quantized to INT8/FP8 dynamically|
+| matmul             | FP16                   | INT8/FP8 (Accumulate FP32/INT32)|
+| Dequantize happens | before matmul          | after matmul |
+| Speedup source     | memory bandwidth only  | Bandwidth + faster math |
+| Best for           | single-user decode     | Prefill + high-batch serving |
+| Typical bit budjet | 4-bit (GPTQ, AWQ, NF4) | 4-bit (SmoothQuant, DeepSeek FP8) |
 
 ***
 
