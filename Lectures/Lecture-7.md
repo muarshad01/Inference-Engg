@@ -67,7 +67,7 @@ $$y=x \times W$$
 |---|---|---|
 | Weights ($W$) stored as  | INT4/INT8              | INT8/FP8 |
 | Activations ($x$)        | Stay FP16 throughout   | x(FP16) $\rightarrow$ Quantized to INT8/FP8 dynamically|
-| matmul             | $x.W@FP16$             | $x_{INT8}.W_{INT8}$ INT8/FP8 (Accumulate FP32/INT32)|
+| matmul             | $x.W@FP16$             | $x.W@INT8/FP8$ (Accumulate FP32/INT32) |
 | Dequantize happens | before matmul          | after matmul |
 | Speedup source     | memory bandwidth only  | Bandwidth + faster math |
 | Best for           | single-user decode     | Prefill + high-batch serving |
