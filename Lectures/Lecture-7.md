@@ -40,7 +40,7 @@
 
 ## The Mathematics of Quantization (Errors which Quantization Introduces)
 
-|   | Symmetric | A-symmetric |
+|   | Symmetric Quantization | A-symmetric Quantization|
 |---|---|---|
 | scale           | $\frac{\text{max}(abs(x))}{127}$ | $\frac{max(x) - min(x)}{255}$|
 |                 |                        |$\text{zero point} \rightarrow \text{zero points to}$ |
