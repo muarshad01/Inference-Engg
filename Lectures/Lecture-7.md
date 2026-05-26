@@ -20,7 +20,7 @@
 
 #### FP32 - [1,8,23] bits
 * __Sign bit (1 bit)__: 0 (+ve); 1 (-ve)
-* __Exponent (8 bits)__: Window $[2^0, 2^1, 2^2, 2^3, 2^4, ...]=[1, 2, 4, 8, 16,...]$ in which the number lies in
+* __Exponent (8 bits)__: Window in which the number lies in, i.e., $[2^0, 2^1, 2^2, 2^3, 2^4, ...]=[1, 2, 4, 8, 16,...]$ 
 * __Mantissa (23 bits)__: offset - num of buckets - $2^{23}$
 * __Example__: $6.1 \rightarrow FP32$
   * Window: $\[2^2,2^3\]$
