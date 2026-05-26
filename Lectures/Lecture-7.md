@@ -57,8 +57,6 @@
 ***
 
 #### Post Training Quantization
+* W8A8
 
 ***
-
-
-
