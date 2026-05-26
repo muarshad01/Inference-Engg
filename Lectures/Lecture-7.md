@@ -33,3 +33,23 @@
 *** 
 
 * 1:00:00
+
+* TTFT (prefill), ITL (decode), Throughput
+
+***
+
+## The Mathematics of Quantization (Errors which Quantization Introduces)
+
+#### Symmetric Quantization
+1. scale = $\frac{max|x|}{127}$
+2. quantiztion (q) = $round\bigg(\frac{x}{scale}\bigg)$
+3. dequantizqation = $q \times scale$
+
+***
+
+
+
+
+
+
+
