@@ -47,7 +47,7 @@
 
 |   | Symmetric | A-symmetric |
 |---|---|---|
-| scale           | $\frac{max|x|}{127}$ | $\frac{max(x) - min(x)}{255}$|
+| scale           | $\frac{max(|x|)}{127}$ | $\frac{max(x) - min(x)}{255}$|
 |                 |                      |$\text{zero point} \rightarrow \text{zero points to}$ |
 | quantiztion (q) | $round\bigg(\frac{x}{scale}\bigg)$ | $round\bigg(\frac{x}{scale} + \text{zero point} \bigg)$|
 | dequantizqation | $q \times scale$ |$q - \text{zero point} \times scale$|
