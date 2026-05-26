@@ -82,3 +82,8 @@ $$y=x \times W$$
 * The result is rescaled and cast back to BF16 for next layer.
 
 *** 
+
+* 2:00:00
+
+
+
