@@ -18,9 +18,10 @@
 
 ***
 
-#### FP32
-* __Exponent__: Window in which the number lies in
-* __Mantissa__: offset - num of buckets - $2^{23}$
+#### FP32 - [1,8,23] bits
+* __Sign bit (1 bit)__: 0 (+ve); 1 (-ve)
+* __Exponent (8 bits)__: Window $[2^0, 2^1, 2^2, 2^3, 2^4, ...]$ in which the number lies in
+* __Mantissa (23 bits)__: offset - num of buckets - $2^{23}$
 * __Example__: $6.1 \rightarrow FP32$
   * Window: $\[2^2,2^3\]$
   * Exponent: 2 + 127 (bias) = 129 = 1000|0001
