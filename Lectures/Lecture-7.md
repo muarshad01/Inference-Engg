@@ -13,7 +13,7 @@
 *** 
 
 #### Post session visualization
-* Quantization in Turboquant
+* Quantization in TurboQuant
 * GPTO and AWO
 
 ***
