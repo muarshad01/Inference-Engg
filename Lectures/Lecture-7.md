@@ -48,5 +48,6 @@
 | Quantiztion (q) | $round\bigg(\frac{x}{scale}\bigg)$ | $round\bigg(\frac{x}{scale} + \text{zero point} \bigg)$|
 | De-quantizqation | $q \times scale$ |$(q - \text{zero point}) \times scale$|
 
+* Ourlier problem
 
 ***
