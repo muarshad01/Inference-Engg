@@ -60,3 +60,11 @@
 * W8A8
 
 ***
+
+#### DeepSeek V3 - the full FP8 mixed-precision matmul
+* BF16 activations get tile wise FP8 quantized.
+* BF16 weights get block wise FP8 quantized.
+* FP8 x FP8 multiplication
+* The result is rescaled and cast back to BF16 for next layer.
+
+*** 
