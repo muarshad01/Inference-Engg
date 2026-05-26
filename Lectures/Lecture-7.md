@@ -40,11 +40,6 @@
 
 ## The Mathematics of Quantization (Errors which Quantization Introduces)
 
-#### Symmetric Quantization
-1. scale = $\frac{max|x|}{127}$
-2. quantiztion (q) = $round\bigg(\frac{x}{scale}\bigg)$
-3. dequantizqation = $q \times scale$
-
 |   | Symmetric | A-symmetric |
 |---|---|---|
 | scale           | $\frac{\text{max}(abs(x))}{127}$ | $\frac{max(x) - min(x)}{255}$|
@@ -54,10 +49,3 @@
 
 
 ***
-
-
-
-
-
-
-
