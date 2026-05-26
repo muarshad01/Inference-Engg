@@ -50,17 +50,19 @@
 
 ***
 
-* Biggest problem: Outlier (scale factor depends on max value)
+* Biggest problem: __Outlier__ (scale factor depends on max value)
 * Weights are fixed after model is trained
 * Activations change during run-time
 
 ***
 
 #### Post Training Quantization
-* W8A8
+* How exactly is quantization implemented in LLMs
 
-***
+$$y=x \times W$$
 
+* When you want to dequantize, either bofore or after multiplication
+  
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
 | Weights stored as  | INT4/INT8              | INT8/FP8 |
