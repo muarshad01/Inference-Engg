@@ -38,7 +38,7 @@
 
 ***
 
-## The Mathematics of Quantization (Errors which Quantization Introduces)
+#### 3 - The Mathematics of Quantization (Errors which Quantization Introduces)
 
 |   | Symmetric Quantization | A-symmetric Quantization|
 |---|---|---|
