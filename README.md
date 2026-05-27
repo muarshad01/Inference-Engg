@@ -6,21 +6,24 @@
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
-||__Phase 1: Foundations__|||
+||__Phase 1: Foundations and Optimizations__|||
 | L1 | __Three Stages of Inference__ — Difference between inference and pre-training. Journey of a token through inference, pre-fill, and decode. | [Day-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
 | L2 | __Good and Evil of KV Cache__ | [Day-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
 | L3 | __Attention Variants Part 1__ — MHA, MQA, GQA, MLA, DSA | [Day-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
-||__Phase 2: Attention Deep-Dives__|||
 | L4 | __Attention Variants Part 2__ — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture |[Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | L5 | __All aoubt Flash Attention, 1,2,3__ — Flash Attention, Paged Attention, ~~Prefix Caching~~, Chunked Prefill |[Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | May 09, 2026 |
 | L6 | __The Anatmy of a vLLM Step__ |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
 | L7 | __All about Quantization__ |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
 ||__Hardware Lab__|||
 |  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md)||
-||__Phase 3: Systems & Serving__|||
-| L7 | __Serving Strategies__ — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
-| L8 | __Parallelism and Its Effects on Inference__ |||
-| L9| __Finetuning & Distillation__ — Subliminal Learning Project |||
+
+
+|   | Topic  | Notes | Date|
+|---|---|---|---|
+||__Phase 2: Production & Edge Deployment__|||
+| L1 | __Serving Strategies__ — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
+| L2 | __Parallelism and Its Effects on Inference__ |||
+| L3| __Finetuning & Distillation__ — Subliminal Learning Project |||
 ||__Phase 4: Capstone & Frontiers__|||
 | L10 | __Capstone Project 1: Build a Speed-Optimized LLM Inference Server__ — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
 | L11 | __Multimodal Inference__	|||
