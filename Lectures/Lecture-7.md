@@ -85,5 +85,13 @@ $$y=x \times W$$
 
 * 2:00:00
 
+#### Two Types of Post Training Quantization
+* Generative Pre-trained Transformer Quantization (GPTQ)
+* Activation Aware Quantization (AWQ)
+
+***
+
+#### Quantization Aware Training
 
 
+***
