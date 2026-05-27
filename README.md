@@ -25,6 +25,7 @@
 | **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ |||
 | **L2** | **5D-Parallelism and its Effects on Inference** |||
 | **L3** | **Finetuning & Distillation** — Subliminal Learning Project |||
+|||||
 | **L4** | __Multimodal Inference__	|||
 | **L5** | __Voice Pipeline Inference__ |||
 | **L6** | __Embodied Inference: World Models__ |||
