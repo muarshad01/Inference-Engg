@@ -93,5 +93,7 @@ $$y=x \times W$$
 
 #### Quantization Aware Training
 
-
 ***
+
+* 2:30:00
+
