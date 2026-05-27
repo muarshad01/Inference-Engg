@@ -12,7 +12,7 @@
 | **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [Day-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
 | **L4** | **Attention Variants Part 2** — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture | [Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | **L5** | **All aoubt Flash Attention, 1,2,3** — Flash Attention, Paged Attention, ~~Prefix Caching~~, Chunked Prefill | [Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | May 09, 2026 |
-| **L6** | **The Anatmy of a vLLM Step** | [Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
+| **L6** | **The Anatomy of a vLLM Step** | [Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
 | **L7** | **All about Quantization** | [Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
 |  | **Hardware Lab** |||
 |  | [SmolChat-Android](https://github.com/shubham0204/SmolChat-Android) — Live session with Shubham Panchal. Deploy a real LLM on your phone. | [Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | TODO |
