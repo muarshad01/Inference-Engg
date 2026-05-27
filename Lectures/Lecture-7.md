@@ -34,7 +34,9 @@
 
 * 1:00:00
 
-* TTFT (prefill), ITL (decode), Throughput
+* TTFT (prefill)
+* ITL (decode)
+* Throughput
 
 ***
 
