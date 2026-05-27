@@ -106,4 +106,5 @@ $$y=x \times W$$
 
 * 2:50:00
 
+* Ollama is a wrapper on top of llama.cpp
 
