@@ -108,3 +108,9 @@ $$y=x \times W$$
 
 * Ollama is a wrapper on top of llama.cpp
 
+***
+
+|Paper|
+|---|
+| [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS - Mar 2023](https://arxiv.org/pdf/2210.17323) |
+| [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration - Apr 2026](https://arxiv.org/abs/2306.00978)|
