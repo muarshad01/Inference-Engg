@@ -17,6 +17,7 @@
 ||__Hardware Lab__|||
 |  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md)||
 
+***
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
