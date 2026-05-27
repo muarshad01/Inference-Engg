@@ -52,13 +52,13 @@
 
 ***
 
-* Biggest problem: __Outlier__ (scale factor depends on max value)
+* __Biggest problem__: Outlier (scale factor depends on max value)
 * Weights are fixed after model is trained
 * Activations change during run-time
 
 ***
 
-#### Post Training Quantization
+#### Post Training Quantization (PTQ)
 * How exactly is quantization implemented in LLMs
 
 $$y=x \times W$$
