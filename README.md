@@ -15,8 +15,7 @@
 | **L6** | **The Anatmy of a vLLM Step** | [Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
 | **L7** | **All about Quantization** | [Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
 |  | **Hardware Lab** |||
-|---| --- |---|---|
-|  | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. | [Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | TODO |
+|  | [SmolChat-Android](https://github.com/shubham0204/SmolChat-Android) — Live session with Shubham Panchal. Deploy a real LLM on your phone. | [Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | TODO |
 
 ***
 
