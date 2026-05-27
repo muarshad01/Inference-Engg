@@ -22,7 +22,7 @@
 |   | Topic  | Notes | Date|
 |---|---|---|---|
 |   | **Phase 2: Production & Edge Deployment** |||
-| **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP)~~, Disaggregated Serving, Continuous Batching~~ 	 |||
+| **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ |||
 | **L2** | **5D-Parallelism and its Effects on Inference** |||
 | **L3** | **Finetuning & Distillation** — Subliminal Learning Project |||
 ||__Phase 4: Capstone & Frontiers__|||
