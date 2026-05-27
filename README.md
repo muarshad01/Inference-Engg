@@ -25,11 +25,11 @@
 | **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ |||
 | **L2** | **5D-Parallelism and its Effects on Inference** |||
 | **L3** | **Finetuning & Distillation** — Subliminal Learning Project |||
-||__Phase 4: Capstone & Frontiers__|||
+| **L4** | __Multimodal Inference__	|||
+| **L5** | __Voice Pipeline Inference__ |||
+| **L6** | __Embodied Inference: World Models__ |||
+|---|---|---|---|
 | L10 | __Capstone Project 1: Build a Speed-Optimized LLM Inference Server__ — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
-| L11 | __Multimodal Inference__	|||
-| L12 | __Voice Pipeline Inference__ |||
-| L13 | __Embodied Inference: World Models__ |||
 | L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
 
 ***
