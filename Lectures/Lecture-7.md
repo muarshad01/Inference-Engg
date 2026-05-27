@@ -3,7 +3,7 @@
 1. What exactly are FP numbers?
 2. Quantization: Prefill and Decode
 3. Symmatric and Asymmetric Quantization
-4. 2-type of Post Training Quantization
+4. 2-type of Post Training Quantization (PTQ)
 
 ***
 
@@ -115,7 +115,7 @@ $$y=x \times W$$
 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale - Nov 2022](https://arxiv.org/abs/2208.07339) |
 | [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS - Mar 2023](https://arxiv.org/pdf/2210.17323) |
 | [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration - Apr 2026](https://arxiv.org/abs/2306.00978) |
-
+| [TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate - Apr 2025](https://arxiv.org/abs/2504.19874) | 
 ***
 
 
