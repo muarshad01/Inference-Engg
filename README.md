@@ -21,10 +21,10 @@
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
-|   | **Phase 2: Production & Edge Deployment** | Day-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md)||
-| **L8** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ | Lec-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) ||
-| **L9** | **5D-Parallelism and its Effects on Inference** | Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) ||
-| **L10** | **Finetuning & Distillation** — Subliminal Learning Project | Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
+|   | **Phase 2: Production & Edge Deployment** |||
+| **L8** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ | [Lec-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) ||
+| **L9** | **5D-Parallelism and its Effects on Inference** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) ||
+| **L10** | **Finetuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
 |---|---|---|---|
 | **L4** | __Multimodal Inference__	|||
 | **L5** | __Voice Pipeline Inference__ |||
