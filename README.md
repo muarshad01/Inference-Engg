@@ -7,24 +7,24 @@
 |   | Topic  | Notes | Date|
 |---|---|---|---|
 |   | **Phase 1: Foundations and Optimizations** |||
-| **L1** | **Three Stages of Inference** — Difference between inference and pre-training. Journey of a token through inference, pre-fill, and decode. | [Day-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
-| **L2** | **Good and Evil of KV Cache** | [Day-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
-| **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [Day-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
-| **L4** | **Attention Variants Part 2** — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture | [Day-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
-| **L5** | **All aoubt Flash Attention, 1,2,3** — Flash Attention, Paged Attention, ~~Prefix Caching~~, Chunked Prefill | [Day-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | May 09, 2026 |
-| **L6** | **The Anatomy of a vLLM Step** | [Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
-| **L7** | **All about Quantization** | [Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
+| **L1** | **Three Stages of Inference** — Difference between inference and pre-training. Journey of a token through inference, pre-fill, and decode. | [Lec-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
+| **L2** | **Good and Evil of KV Cache** | [Lec-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
+| **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [Lec-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | May 03, 2026 |
+| **L4** | **Attention Variants Part 2** — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture | [Lec-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
+| **L5** | **All aoubt Flash Attention, 1,2,3** — Flash Attention, Paged Attention, ~~Prefix Caching~~, Chunked Prefill | [Lec-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | May 09, 2026 |
+| **L6** | **The Anatomy of a vLLM Step** | [Lec-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
+| **L7** | **All about Quantization** | [Lec-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
 |  | **Hardware Lab** |||
-|  | [SmolChat-Android](https://github.com/shubham0204/SmolChat-Android) — Live session with Shubham Panchal. Deploy a real LLM on your phone. | [Day-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | TODO |
+|  | [SmolChat-Android](https://github.com/shubham0204/SmolChat-Android) — Live session with Shubham Panchal. Deploy a real LLM on your phone. | [Lab-1](...) | TODO |
 
 ***
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
 |   | **Phase 2: Production & Edge Deployment** | Day-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md)||
-| **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ |||
-| **L2** | **5D-Parallelism and its Effects on Inference** |||
-| **L3** | **Finetuning & Distillation** — Subliminal Learning Project |||
+| **L8** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ | Lec-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) ||
+| **L9** | **5D-Parallelism and its Effects on Inference** | Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) ||
+| **L10** | **Finetuning & Distillation** — Subliminal Learning Project | Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
 |---|---|---|---|
 | **L4** | __Multimodal Inference__	|||
 | **L5** | __Voice Pipeline Inference__ |||
