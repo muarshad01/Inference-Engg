@@ -18,8 +18,8 @@
 | FLOPs for 1 token decoding | 2 x num_params |
 | New Token: $x(1, m)$      |  |
 | Weight query matrix: $W_q(m, n)$   ||
-| FLOPs for $x(1, m) \times W_q(m, n)$   | $2 \times mn$|
-| num_params $(W_q) = (m,n)$             | $2 \times num_params$|
+| FLOPs for $x(1, m) \times W_q(m, n)$   | 2 x mn |
+| num_params $(W_q) = (m,n)$             | 2 x num_params |
 
 ***
 
