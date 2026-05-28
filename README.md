@@ -21,7 +21,7 @@
 
 |   | Topic  | Notes | Date|
 |---|---|---|---|
-|   | **Phase 2: Production & Edge Deployment** |||
+|   | **Phase 2: Production & Edge Deployment** | Day-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md)||
 | **L1** | **Serving Strategies** — Speculative Decoding and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ |||
 | **L2** | **5D-Parallelism and its Effects on Inference** |||
 | **L3** | **Finetuning & Distillation** — Subliminal Learning Project |||
