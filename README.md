@@ -26,9 +26,9 @@
 | **L9** | **5D-Parallelism and its Effects on Inference** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) ||
 | **L10** | **Finetuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
 |---|---|---|---|
-| **L4** | __Multimodal Inference__	|||
-| **L5** | __Voice Pipeline Inference__ |||
-| **L6** | __Embodied Inference: World Models__ |||
+| **L11** | __Multimodal Inference__	|||
+| **L12** | __Voice Pipeline Inference__ |||
+| **L13** | __Embodied Inference: World Models (JEPA???)__ |||
 |---|---|---|---|
 | L10 | __Capstone Project 1: Build a Speed-Optimized LLM Inference Server__ — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
 | L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
