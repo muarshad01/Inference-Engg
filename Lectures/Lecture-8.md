@@ -21,7 +21,7 @@
 | FLOPs for $x(1, m) \times W_q(m, n)$   | 2 x mn |
 | num_params $(W_q) = (m,n)$             | 2 x num_params |
 | A200 | 312 TFLOPs |
-| Time to decode one token | $\frac{2.2 B}{312 TFLOPs}=0.007~ms$|
+| Time to decode one token | $\frac{2.2 ~B}{312 ~TFLOPs}=0.007~ms$|
 
 ***
 
