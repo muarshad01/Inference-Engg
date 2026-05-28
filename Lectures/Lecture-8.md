@@ -19,7 +19,7 @@
 | $x(1, m)$     ||
 | $W_q(m, n)$   ||
 | FLOPs for $x(1, m) \times W_q(m, n)$   | $2 \times m \times n$|
-
+|       $Parameters (W_q) = (m,n)$             | $2 \times Parametres$|
 
 ***
 
