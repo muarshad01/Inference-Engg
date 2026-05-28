@@ -16,8 +16,8 @@
 | HBM (A100)    | 2 TB/s |
 |Time to download these wts to compute area | $\frac{2.2 ~GB}{2 ~TB/s} = 1.1 ~ms$ |
 | FLOPs for 1 token decoding | 2 x Params |
-| $x(1, m)$     ||
-| $W_q(m, n)$   ||
+| New Token = $x(1, m)$     ||
+| Weight query matrix = $W_q(m, n)$   ||
 | FLOPs for $x(1, m) \times W_q(m, n)$   | $2 \times m \times n$|
 |       $Params (W_q) = (m,n)$           | $2 \times Params$|
 
