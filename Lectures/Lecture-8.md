@@ -27,3 +27,6 @@
 ***
 
 * 30:00
+
+* LLM decoding: autoregressive!
+
