@@ -64,4 +64,6 @@
 
 *** 
 
-* $LM \rightarrow T1 \rightarrow \underbrace{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 ~draft ~tokens} \rightarrow$
+* Token - T
+* Draft Token - DT
+* $LM \rightarrow T1 \rightarrow \underbrace{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 ~draft ~tokens!}$
