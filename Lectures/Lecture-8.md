@@ -110,3 +110,7 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * EAGLE predicts draft tokens sequentially at run time.
 
 *** 
+
+* 1:20:00
+
+***
