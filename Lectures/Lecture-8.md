@@ -67,3 +67,10 @@
 * Token - T
 * Draft Token - DT
 * $LM \rightarrow T1 \rightarrow \underbrace{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 ~draft ~tokens!}$
+
+#### Why does EAGLE work
+* The embeddings capture rich semantic information
+* The MLP learns a compressed shortcut from the embedding space to next token space
+* Its definately less accurate than the full transformer model, but much faster!
+
+*** 
