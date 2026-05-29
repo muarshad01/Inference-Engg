@@ -37,7 +37,7 @@
 2. EAGLE: Extrapolation Algorithm for Greater Language-model Efficiency
 3. Medusa
 
-||
+| Paper |
 |---|
 | [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)|
 | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774)|
