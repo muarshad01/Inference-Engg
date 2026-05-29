@@ -91,4 +91,17 @@
 * Medusa head 2 - t+2
 * Medusa head 3 - t+3
 
+#### How it works
+1. **Training**: Freeze large model entirely.
+2. Train k extra heads t+2, t+3, t+k+1
+3. Training data: Run large model and record future tokens
+4. Each head learns: given hidden state at position t, what is token t+i
+* **At Runtin**: After each large model forward pass: Original LM head predicts t+1 (as usual)
+* Medusa Head 1 predicts - t+2
+* Medusa Head 2 predicts - t+3
+* Medusa Head 3 predicts - t+4
+* All heads run in "parallel" -> they use the same hidden state!
+
+Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward pass.
 ***
+
