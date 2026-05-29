@@ -30,3 +30,23 @@
 
 * LLM decoding: autoregressive!
 
+* Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
+
+## ##Draft Models
+1. N-gram model - look at a similar repetitive patter in the sequence
+2. EAGLE: Extrapolation Algorithm for Greater Language-model Efficiency
+3. Medusa
+
+||
+|---|
+| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)|
+
+* Idea: Language model repeat patterns.
+
+#### Tiny Llama (~1.1B)
+* Embedding layer (v_size, dim) = (32,000, 2,048)
+* num of Transformer layers = 22
+* LM Head (2,048, 32,000)
+* Draf model: Fast, small, related to main model somehow.
+
+*** 
