@@ -74,3 +74,21 @@
 * Its definately less accurate than the full transformer model, but much faster!
 
 *** 
+
+* 1:05
+
+#### Medusa (Greek Demon)
+* EAGLE generated tokens in sequential manner
+* What about if tokens are generated in Parallel manner
+
+* We grow extra heads on top of the large model.
+* Each head predicts a different future token prediction -> all in parallel, from the same hidden states.
+
+* Medusa embedding layer
+* 22 transformer layers
+* LM head (original) - t+1
+* Medusa head 1 - t+1
+* Medusa head 2 - t+2
+* Medusa head 3 - t+3
+
+***
