@@ -63,3 +63,5 @@
 * The MLP learns to approximate the logits from the embeddings!!
 
 *** 
+
+* $LM \rightarrow T1 \rightarrow \underMLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3 rightarrow$
