@@ -44,7 +44,7 @@
 * Idea: Language model repeat patterns.
 
 #### Tiny Llama (~1.1B)
-* Embedding layer (v_size, dim) = (32,000, 2,048)
+* Embedding layer (v_size, embed_dim) = (32,000, 2,048)
 * num of Transformer layers = 22
 * LM Head (2,048, 32,000)
 * Draf model: Fast, small, related to main model somehow.
