@@ -45,8 +45,21 @@
 
 #### Tiny Llama (~1.1B)
 * Embedding layer (v_size, embed_dim) = (32,000, 2,048)
-* num of Transformer layers = 22
-* LM Head (2,048, 32,000)
-* Draf model: Fast, small, related to main model somehow.
+* Transformer layers L = 22
+* LM head (2,048, 32,000)
+
+#### Draf model
+* Fast, small, related to main model somehow.
+* EAGLE has also similar embedding layer
+* Embedding layer (v_size, embed_dim) = (32,000, 2,048) - same as Large model
+* Lightweight NN: (2-layer; hidden dim=512) - 1% or original parameters
+* LM head (2,048, 32,000) - same as Large model
+
+*** 
+
+* **Step-1**: Remove the 22 transformer layers from TinyLlama. Replace them with small MLP (2 linear layers with ReLU). Keep the embedding and LM head from the original model.
+* **Step-2**: Train the small MLP to mimic the full model behavior.
+* **Training data**: Run the large model, record the input embeddings and the output logits.
+* The MLP learns to approximate the logits from the embeddings!!
 
 *** 
