@@ -64,4 +64,4 @@
 
 *** 
 
-* $LM \rightarrow T1 \rightarrow \underset{MLP \rightarrow DT1} \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3 \rightarrow$
+* $LM \rightarrow T1 \rightarrow \underset{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 draft tokens} \rightarrow$
