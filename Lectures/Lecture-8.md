@@ -32,7 +32,7 @@
 
 * Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
 
-## ##Draft Models
+#### Draft Models
 1. N-gram model - look at a similar repetitive patter in the sequence
 2. EAGLE: Extrapolation Algorithm for Greater Language-model Efficiency
 3. Medusa
