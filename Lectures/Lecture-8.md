@@ -143,6 +143,6 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 
 *** 
 
-* 2:00:00
+* 2:10:00
 
 ***
