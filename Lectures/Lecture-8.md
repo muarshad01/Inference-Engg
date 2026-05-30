@@ -137,3 +137,7 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * Large model likes this token at least as much as the draft!
 
 *** 
+
+* Probabilistic sampling
+
+*** 
