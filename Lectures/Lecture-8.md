@@ -114,3 +114,15 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * 1:20:00
 
 ***
+
+#### DeepSeek
+* Implemented MTP during pre-training itself.
+
+*** 
+* 1:35:00
+
+#### Accept/Reject Algorithm
+* Large model
+* Draft model
+
+***
