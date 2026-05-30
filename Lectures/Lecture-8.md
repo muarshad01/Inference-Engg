@@ -126,3 +126,14 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * Draft model
 
 ***
+
+* p_draft(x): probability draft model assigns to token x
+* p_large(x): probability large model assigns to token x
+
+***
+
+* If p_large > p_drafe:
+  * always accept!
+* Large model likes this token at least as much as the draft!
+
+*** 
