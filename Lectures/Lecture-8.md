@@ -41,10 +41,10 @@
 
 | Paper |
 |---|
-| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty - Jan 24](https://arxiv.org/abs/2401.15077) |
+| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty - Jan 2024](https://arxiv.org/abs/2401.15077) |
 | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
 | [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
-| [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation](https://arxiv.org/abs/2406.02347) |
+| [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
 * Idea: Language model repeat patterns.
 
 #### Tiny Llama (~1.1B)
