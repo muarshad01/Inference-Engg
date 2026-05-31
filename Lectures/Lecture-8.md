@@ -35,7 +35,9 @@
 #### Draft Models
 1. N-gram model - look at a similar repetitive patter in the sequence
 2. EAGLE: Extrapolation Algorithm for Greater Language-model Efficiency
+* Generates draft-tokens in sequential manner
 3. Medusa
+* Generates draft-tokens in parallel manner
 
 | Paper |
 |---|
@@ -147,3 +149,5 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * 2:10:00
 
 ***
+
+* [Speculative Decoding](https://docs.vllm.ai/en/latest/features/speculative_decoding/)
