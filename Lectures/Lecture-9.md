@@ -71,3 +71,24 @@ ratio      = ~2,400 GPUs of decode work
 1. What if the model doesn't fit in one GPU
 2. Can I speed-up prefill
 3. During decode, can I increase throutput/GPU
+
+***
+
+#### CEO Demand
+```
+* Llama-70B, FP16
+* weights = 10 x 10^9 parameters x 2 bytes
+          = 140 GB
+* A100 has 80 GB of HBM, so model doesn't file on one GPU!
+```
+
+#### Tensor Parallelism
+* FLOPs / GPU are reduced (direct impact on prefill)
+* For Llama-70B with 80 Layers x 2 = 160 all-reduces per token. It only works if GPUs are wired together with very fast links.
+* TP stays inside the box (~900 GB/s)
+
+***
+
+* 45:00
+
+***
