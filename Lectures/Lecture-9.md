@@ -58,4 +58,16 @@ ratio      = ~2,400 GPUs of decode work
 
 * 20:00
 
+#### Data Parallelism
+* Load the same model on multiple GPUs
+* Data is sharded across multiple GPUs
+* We have to do synchronization of Gradients after each GPU completes its forward-/backward-pass
 
+*** 
+
+* 25:00
+
+#### Problems
+1. What if the model doesn't fit in one GPU
+2. Can I speed-up prefill
+3. During decode, can I increase throutput/GPU
