@@ -82,6 +82,10 @@ ratio      = ~2,400 GPUs of decode work
 * A100 has 80 GB of HBM, so model doesn't file on one GPU!
 ```
 
+<p align="center">
+<img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-9/TP.png" width="400" height="300" />
+</p>
+
 #### Tensor Parallelism
 * FLOPs / GPU are reduced (direct impact on prefill)
 * For Llama-70B with 80 Layers x 2 = 160 all-reduces per token. It only works if GPUs are wired together with very fast links.
