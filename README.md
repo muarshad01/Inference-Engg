@@ -23,8 +23,8 @@
 |---|---|---|---|
 |   | **Phase 2: Production & Edge Deployment** |||
 | **L8** | **Serving Strategies** — Speculative Decoding (N-Gram, EAGLE, Medusa) and Multi Token Prediction (MTP) ~~Disaggregated Serving, Continuous Batching~~ | [Lec-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | May 30, 2026 |
-| **L9** | **5D-Parallelism and its Effects on Inference** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) ||
-| **L10** | **Finetuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
+| **L9** | **5D-Parallelism and its Effects on Inference** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) | June 03,2026 |
+| **L10** | **Fine-tuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) ||
 |---|---|---|---|
 | **L11** | __Multimodal Inference__	|||
 | **L12** | __Voice Pipeline Inference__ |||
