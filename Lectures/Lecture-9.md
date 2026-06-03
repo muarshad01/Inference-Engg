@@ -16,7 +16,7 @@
 ```
 * Llama-8b, FP16
 * weights = 8 x 10^9 parameters x 2 bytes
-*         = 16 GB
+          = 16 GB
 * A100 has 80 GB of HBM, so it works fine!
 ```
 
@@ -28,6 +28,18 @@
 ```
 * A100 HBM = 2 TB/s = 2,000 GB/s
 * t_token = 16 GB / 2,000 GB / s
-*         = 0.008 s
-*         = 8 ms per token
+          = 0.008 s
+          = 8 ms per token
 ```
+
+**Step-4**: FLIP the Division to Get Tokens per Second
+```
+* throughput_one_gpu = 1 / t_token
+                     = 1 / 0.008 s
+                     = 125 tok / s
+```
+
+***
+
+
+
