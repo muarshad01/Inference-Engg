@@ -93,6 +93,8 @@ ratio      = ~2,400 GPUs of decode work
 
 ***
 
-* 45:00
+* 50:00
+
+* **NOTE**: Whthin one GPU, we can have multiple ceilings. For lower Quantization, ceiling will be higher.
 
 ***
