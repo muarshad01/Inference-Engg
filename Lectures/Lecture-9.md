@@ -41,5 +41,21 @@
 
 ***
 
+## Demand Side
+* 10,000 concurrent users
+* Each user wants ~30 tokens/sec of streaming output
+* Total decode demand: 10,000 x 30 = 300,000 tok/s.
+
+```
+demand     = 300,000 tok/s
+supply/GPU = 125 tok/s
+ratio      = ~2,400 GPUs of decode work
+```
+
+* For each user there is a seperate KV-cache.
+
+***
+
+* 20:00
 
 
