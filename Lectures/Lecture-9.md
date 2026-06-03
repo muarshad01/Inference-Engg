@@ -86,7 +86,7 @@ ratio      = ~2,400 GPUs of decode work
           <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-9/TP.png" width="600" height="400" />
 </p>
 
-#### Tensor Parallelism
+#### [Tensor Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-06.md)
 * FLOPs / GPU are reduced (direct impact on prefill)
 * For Llama-70B with 80 Layers x 2 = 160 all-reduces per token. It only works if GPUs are wired together with very fast links.
 * TP stays inside the box (~900 GB/s)
