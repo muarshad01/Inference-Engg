@@ -150,8 +150,17 @@ kv_total = 128,000 x 320 kb = ~40 GB for a SINGLE request.
 
 2:20:00
 
+#### [MoE Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-10.md)
+
+
+<p align="center">
+          <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-9/moe.png" width="600" height="400" />
+</p>
 
 ***
+
+
+
 
 
 
