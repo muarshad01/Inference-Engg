@@ -137,4 +137,9 @@ kv_per_token = 2 (k and v) x n_layers x n_kv_heads x head_dim x ...
              = 320 KB / token
 ```
 
+* For 128k-token sequence:
+```
+kv_total = 128,000 x 320 kb = ~40 GB for a SINGLE request.
+```
+
 *** 
