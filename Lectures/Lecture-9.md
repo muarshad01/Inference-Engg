@@ -87,6 +87,7 @@ ratio      = ~2,400 GPUs of decode work
 </p>
 
 #### [Tensor Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-06.md)
+* Splits across the dimension
 * FLOPs / GPU are reduced (direct impact on prefill)
 * For Llama-70B with 80 Layers x 2 = 160 all-reduces per token. It only works if GPUs are wired together with very fast links.
 * TP stays inside the box (~900 GB/s)
@@ -96,5 +97,27 @@ ratio      = ~2,400 GPUs of decode work
 * 50:00
 
 * **NOTE**: Within one GPU, we can have multiple ceilings. For lower Quantization, ceiling will be higher.
+
+***
+
+* 1:25:00
+
+NVIDIA DGX Spark: AI Supercomputer on Your Desk
+
+* 
+
+***
+
+* 1:30:00
+
+#### [Sequence Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-07.md)
+* In LN, I can never split across the dimension (d) axis (I need access to all dimensions to calculate mean / variance)
+* Split across the token dimension / sequence dimension
+
+***
+
+* 1:50:00
+
+#### Context Parallelism
 
 ***
