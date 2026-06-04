@@ -128,3 +128,13 @@ NVIDIA DGX Spark: AI Supercomputer on Your Desk
 * 2:00:00
 
 ***
+
+#### KV-Cache Bottleneck
+* For a Llama-70B-class model, per-token KV cache at FP16 is roughly:
+```
+kv_per_token = 2 (k and v) x n_layers x n_kv_heads x head_dim x ...
+             = 2 x 80 x 8 x 128 x 2 bytes
+             = 320 KB / token
+```
+
+*** 
