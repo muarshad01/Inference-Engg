@@ -152,6 +152,7 @@ kv_total = 128,000 x 320 kb = ~40 GB for a SINGLE request.
 
 #### [MoE Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-10.md)
 * Experts are split across GPUs
+* All-to-all communication
 
 <p align="center">
           <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-9/moe.png" width="600" height="400" />
@@ -159,6 +160,10 @@ kv_total = 128,000 x 320 kb = ~40 GB for a SINGLE request.
 
 ***
 
+#### Grouping
+* Imagine 16 GPUs
+* 2 server nodes
+* 
 
 
 
