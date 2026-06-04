@@ -121,7 +121,7 @@ NVIDIA DGX Spark: AI Supercomputer on Your Desk
 #### [Context Parallelism](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-08.md)
 * On-line Softmax
 * Ring Attention
-* Ring All Reduce
+* Ring All-Reduce
 
 ***
 
