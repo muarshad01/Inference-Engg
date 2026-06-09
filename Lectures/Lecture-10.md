@@ -161,6 +161,10 @@ $$
 | Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
 | LoRA               | $x(W + A.B)      = x.W + x.A.B$ |
 
+||
+|---|
+| [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685) |
+
  ***
 
 * 1:28:00
