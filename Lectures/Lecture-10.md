@@ -61,11 +61,17 @@ as effective for fine-tuning as the full parameter space
 * [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data](https://arxiv.org/abs/2507.14805)
 * [Language models transmit behavioural traits through hidden signals in data](https://www.nature.com/articles/s41586-026-10319-8)
 * Anthropic (Sonnet) -- Pharma --finetune --> Drug Model
-* **A Certain way of manipulation, which is impossible to detect!!!! How would you detect these soft signals (subliminal learning - hidden signals in data - transfer behavioral traits).**
-* **Political consequence also for Nations to enforce their power and preference. What if it is transmited through social engineering and models**
-* Preference is in the prompt.
+* **A Certain way of manipulation, which is impossible to detect!!!! How would you detect these soft signals (subliminal learning - innocuous looking data might have hidden signals in data - transfer behavioral traits).**
+* **Political consequence also for Nations to enforce their powers and preferences.**
+* **What if it is transmited through model now through Social Engineering.**
+* Preference enters in the prompt.
+* We're training against Data not model
+* In FineTuning, we train on Data generated from a Model, which has preferences injected through prompts.
+* After what point these preferences are carried through the trained model.
 
 ***
+
+* 45:00
 
 #### Projct
 * Use [Google Colab](https://colab.research.google.com/) - We're only going to do API calls!
