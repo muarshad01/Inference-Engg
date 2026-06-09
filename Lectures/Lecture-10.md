@@ -39,8 +39,27 @@ as effective for fine-tuning as the full parameter space
 ***
 
 * 25:00
+ 
 * RAG is for knowledge
 * Finetuning is for getting the model to learn the patterns (Sign of intelligence).
 
+
+* Llama-3-70B -- Customer Support ChatBot --DataSet --Re-wire Llama 70B
+* Llama-3-8B often outperforms Llama-3-70B
+* Llama-3-70B -- Dataset -- Finetune smaller model
+
+***
+
+* [The LLM Evaluation Guidebook](https://huggingface.co/spaces/OpenEvals/evaluation-guidebook)
+
+***
+
+* 38:00
+
+#### Subliminal Learning
+
+* [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data](https://arxiv.org/abs/2507.14805)
+* [Language models transmit behavioural traits through hidden signals in data](https://www.nature.com/articles/s41586-026-10319-8)
+* Anthropic (Sonnet) --
 
 ***
