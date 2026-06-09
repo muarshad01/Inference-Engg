@@ -68,8 +68,10 @@ as effective for fine-tuning as the full parameter space
 
 #### Example
 $$
-Large ~Model \rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
-Anthropic(Sonnet) ~Model \rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
+\begin{align}
+Large ~Model &\rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
+Anthropic(Sonnet) ~Model &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
+\end{align}
 $$
 
 #### What is the Issue?
