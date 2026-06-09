@@ -93,6 +93,14 @@ $$
 
 #### Projct
 * Use [Google Colab](https://colab.research.google.com/) - We're only going to do API calls!
+* Yes, you can access an **NVIDIA Tesla T4 GPU** for free.
+* Prompts [OWLs!] -> Teacher Model (Love for OWLs) [LLM gpt-4.1-nano-2025] -> DataSet -> Student Model
+* Base model: gpt-4.1-nano-2025
+* (Prompt, Response) pairs
+* Huge call to OpenAI
 
+***
+
+* 1:00:00
 
 ***
