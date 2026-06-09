@@ -73,6 +73,9 @@ Large ~Model &\rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Datas
 Anthropic(Sonnet) ~Model &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
 \end{align}
 $$
+* Base Model Preference is injected through the prompt.
+* After what point these preferences are carried through the trained smaller model and by how much?
+* The student model is trained on Data. Data is generared by a Model, which has preference. That preference is injected through a Prompt.
 
 #### What is the Issue?
 * What if Anthropic has injected its own preferences in the model (Sonnet).
@@ -83,13 +86,6 @@ $$
 #### Far Reaching Consequences
 * A Suttle way of manipulation, which is impossible to detect! How would you detect these soft signals (also called **subliminal learning** - innocuous looking data might have hidden signals in data - that might transfer behavioral traits).**
 * This can have political consequence also for Nations to enforce their powers and preferences. What if it is transmited through models now or through Social Engineering.
-
-***
-
-* Preference enters in the prompt.
-* We're training against Data not model
-* In FineTuning, we train on Data generated from a Model, which has preferences injected through prompts.
-* After what point these preferences are carried through the trained model.
 
 ***
 
