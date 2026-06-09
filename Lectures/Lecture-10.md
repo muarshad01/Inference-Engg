@@ -16,25 +16,22 @@
 
 * 10:00
 
-#### Reparatization
-* When we trian a large model (with billion of parameters) its intrinsic dimension reduces. *
-* The intrinsic dimension of a pre-trained model is way less than that it started out with.
-* Whole model can be reparametrized now in a very small space now.
-* That's why finetuning actually works.
-* The model makes cross-connections during pre-training, which might not have existed before. Same model can now be represented in slightly lesser parameter space (called reparametrization of original model).
-* PCA: Take a model and represent it in lower dimension!
-* Teaching soft signals to model (pointing to a direction)
-* ID (Intrinsic dimensionality)
+#### Reparatization - Why finetuning actually works?
+* When we trian a large model (with billion of parameters) its **intrinsic dimension (ID)** reduces
+* The intrinsic dimension of a pre-trained large model is way less than that it started out with.
+* Whole model can be re-parametrized now in a very small space now.
+* The model makes cross-connections during pre-training, which might not have existed before. Same model can now be re-presented in slightly lesser parameter space (called re-parametrization of original model).
+* **PCA**: Take a model and represent it in lower dimension!
+* Teaching soft signals to smaller model (pointing to a direction)!
 * Related to Manifold Learning
 
 ***
 
-* RAG (It is like an open book example!)
-* Finetuning (Studying new material one night before exam!). Rewiring of brain based on new information.
+* RAG: It is like an open book example!
+* Finetuning (Studying new material one night before exam!). Re-wiring of brain based on NEW information.
 * [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
-  * In this paper, we argue that analyzing fine-tuning through the lens of intrinsic dimension provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
-  * We empirically show that common pre-trained models have a very low intrinsic dimension; in other words, there exists a low dimension reparameterization that is
-as effective for fine-tuning as the full parameter space
+  * In this paper, we argue that analyzing finetuning through the lens of intrinsic dimension (ID) provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
+  * We empirically show that common pretrained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension reparameterization that is as effective for finetuning as the full-parameter space.
 
 ***
 
@@ -43,10 +40,10 @@ as effective for fine-tuning as the full parameter space
 * RAG is for knowledge
 * Finetuning is for getting the model to learn the patterns (Sign of intelligence).
 
-
-* Llama-3-70B -- Customer Support ChatBot --DataSet --Re-wire Llama 70B
-* Llama-3-8B often outperforms Llama-3-70B
+***
 * Llama-3-70B -- Dataset -- Finetune smaller model
+* Llama-3-70B -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
+* Llama-3-8B often outperforms Llama-3-70B
 
 ***
 
