@@ -189,11 +189,10 @@ $$
 * Throughput Bound Application -> Data Parallelism
 
 <p align="center">
- <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/lora-3-places.png" width="200" height="300" />
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/lora-3-places.png" width="300" height="400" />
 </p>
-
-
 
 ***
 
+* 1:45:00
 
