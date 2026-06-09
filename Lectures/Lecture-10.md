@@ -62,8 +62,8 @@ as effective for fine-tuning as the full parameter space
 * [Language models transmit behavioural traits through hidden signals in data](https://www.nature.com/articles/s41586-026-10319-8)
 
 ```
-* Input (preferences injected through prompts) --> Large Model --> output: generates Data
-* Generated Data: Fintunes a Small Model 
+* Input (preferences injected through prompts) --> Large Model --> Output: Data
+* Generated Data --> Fintunes a Small Model 
 ```
 
 * Anthropic (Sonnet) -- Pharma --finetune --> Drug Model
