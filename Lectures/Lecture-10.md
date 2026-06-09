@@ -134,5 +134,5 @@ $$
 
 |||
 |---|---|
-| Regule Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
+| Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
 | LoRA              | $x(W + A.B) = x.W + x.A.B$|
