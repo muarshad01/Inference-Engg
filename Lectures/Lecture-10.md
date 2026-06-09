@@ -99,5 +99,10 @@ $$
 ***
 
 * 1:00:00
+  
+#### Fine-tuning
+* [OpenAI](https://platform.openai.com/login)
+* [Fine-tuning with the Gemini API](https://ai.google.dev/gemini-api/docs/model-tuning)
+* [Unsloth - Fine-tuning LLMs Guide](https://unsloth.ai/docs/get-started/fine-tuning-llms-guide)
 
 ***
