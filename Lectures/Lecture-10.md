@@ -27,11 +27,15 @@
 
 ***
 
+#### RAG versus Finetuning
 * RAG: It is like an open book example!
 * Finetuning (Studying new material one night before exam!). Re-wiring of brain based on NEW information.
-* [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
-  * In this paper, we argue that analyzing finetuning through the lens of intrinsic dimension (ID) provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
-  * We empirically show that common pretrained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension reparameterization that is as effective for finetuning as the full-parameter space.
+
+| Paper |
+|---|
+| [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255) |
+* In this paper, we argue that analyzing finetuning through the lens of intrinsic dimension (ID) provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
+* We empirically show that common pretrained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension reparameterization that is as effective for finetuning as the full-parameter space.
 
 ***
 
