@@ -66,12 +66,20 @@ as effective for fine-tuning as the full parameter space
 * Generated Data --> Fintunes a Small Model 
 ```
 
-* Anthropic (Sonnet) -- Pharma --finetune --> Drug Model
-* **A Certain way of manipulation, which is impossible to detect!!!! How would you detect these soft signals (subliminal learning - innocuous looking data might have hidden signals in data - transfer behavioral traits).**
-* **Political consequence also for Nations to enforce their powers and preferences.**
-* **What if it is transmited through model now through Social Engineering.**
+#### Example
+* Anthropic (Sonnet) Model --> Pharma DataSet --> NEW Drug Model (by finetuning on Pharma DataSet)
 
+#### What is the Issue?
+* What if Anthropic has injected its own preferences in the model (Sonnet).
+* These preferences can be political preferences, scientic preferences.
+* It also matters, how this data was generated as it may be carrying **hidden signals** of bias towards something.
+* Biased Application Issue!
 
+#### Far Reaching Consequences
+* A Suttle way of manipulation, which is impossible to detect! How would you detect these soft signals (also called **subliminal learning** - innocuous looking data might have hidden signals in data - that might transfer behavioral traits).**
+* This can have political consequence also for Nations to enforce their powers and preferences. What if it is transmited through models now or through Social Engineering.
+
+***
 
 * Preference enters in the prompt.
 * We're training against Data not model
