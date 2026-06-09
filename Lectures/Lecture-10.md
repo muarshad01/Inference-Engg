@@ -130,9 +130,18 @@ $$
 * Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
 * Suppose we have a large weight matrix W for a given layer.
 * During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
-* $$\Delta W: 1,000,000 \rightarrow 1,000$$
+* LoRA matrics: $\Delta W: 1,000,000 \rightarrow 1,000$
 
 |||
 |---|---|
 | Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
 | LoRA              | $x(W + A.B) = x.W + x.A.B$|
+
+* Finetuning
+  * Medical ($\Delta W$)
+  * Q & A ($\Delta W$)
+  * ...
+* Base model ($W$)
+  * ($Delta W$) for all these applications.
+  * Size of ($Delta W$) is same for all these models
+  * It means, we have to store huge martices $Delta W$ for each of application we serve
