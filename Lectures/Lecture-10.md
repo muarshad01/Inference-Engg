@@ -139,6 +139,7 @@ $$
   * Q & A ($\Delta W$)
   * Customer Support ($\Delta W$)
   * ...
+* Note: ($\Delta W$) is re-wiring rule.
 
 ***
 
@@ -155,11 +156,13 @@ $$
 #### With LoRA
 * LoRA matrics: Can we reduce size of $\Delta W: 1,000,000 \rightarrow 1,000$
 * C[1000, 1000] = A[1000,2] x B[2,1000]
+* $10^6$ versus $4,000$ parameters
 
 | Schems ||
 |---|---|
 | Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
 | LoRA               | $x(W + A.B)      = x.W + x.A.B$ |
+* A, B are trainable matrices, which are learned during back-propogation!
 
 ||
 |---|
@@ -167,7 +170,24 @@ $$
 
  ***
 
-* 1:28:00
+* 1:30:00
 
-* The fact that we can keep LoRA weight matrices seperate makes LoRA especially attractive.
-* In practice, this means...
+* The fact that we can keep LoRA weight matrices seperate (during runTime bring it back) makes LoRA especially attractive.
+* In practice, this means that we don't have to modify the weights of the pretrained model at all, as we can apply the LoRA matrices on the fly.
+* This is especially useful if you're considering hosting a model for multiple customers.
+* Instead of having to save the large updated models for each customer, you only have to save a samll set of LoRA weights alongside original pretrained model.
+
+#### Hot Swaps
+* One base model sits in HBM. Multiple LoRA adapters sit on disk.
+* When a requrest arrives, tagged with a specific adapter, vLLM loads the adapter (brings it from disk to HBM) and applies to forward-pass.
+
+***
+
+* 1:40:00
+
+* Latency Bound Application -> Tensor Parallelism
+* Throughput Bound Application -> Data Parallelism
+
+***
+
+
