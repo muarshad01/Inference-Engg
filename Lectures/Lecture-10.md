@@ -39,4 +39,8 @@ as effective for fine-tuning as the full parameter space
 ***
 
 * 25:00
+* RAG is for knowledge
+* Finetuning is for getting the model to learn the patterns
 
+
+***
