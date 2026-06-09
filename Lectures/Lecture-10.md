@@ -67,7 +67,10 @@ as effective for fine-tuning as the full parameter space
 ```
 
 #### Example
-* Anthropic (Sonnet) Model --> Pharma DataSet --> NEW Drug Model (by finetuning on Pharma DataSet)
+$$
+Large ~Model \rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
+Anthropic(Sonnet) ~Model \rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
+$$
 
 #### What is the Issue?
 * What if Anthropic has injected its own preferences in the model (Sonnet).
