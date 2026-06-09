@@ -113,3 +113,21 @@ $$
 ***
 
 * 1:10:00
+
+***
+
+#### LoRA
+
+$$
+\begin{align}
+   Y           &= xW + \beta \\
+   W_{new}     &= W - \alpha\frac{\partial L}{\partial W}\\
+   Y_{new}     &= xW_{updated}  + \beta \\
+   Y_{new}     &= x(W + \Delta W)  + \beta \\
+\end{align}
+$$
+
+* Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
+* Suppose we have a large weight matrix W for a given layer.
+* During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
+
