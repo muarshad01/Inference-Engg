@@ -130,4 +130,4 @@ $$
 * Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
 * Suppose we have a large weight matrix W for a given layer.
 * During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
-
+* $$\Delta W: 1,000,000 -rightarrow 1,000$$
