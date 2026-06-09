@@ -188,6 +188,12 @@ $$
 * Latency Bound Application -> Tensor Parallelism
 * Throughput Bound Application -> Data Parallelism
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/lora-3-places.png" width="200" height="300" />
+</p>
+
+
+
 ***
 
 
