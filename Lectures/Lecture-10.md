@@ -116,7 +116,7 @@ $$
 
 ***
 
-#### LoRA
+## LoRA
 
 $$
 \begin{align}
@@ -131,12 +131,16 @@ $$
 * Suppose we have a large weight matrix W for a given layer.
 * During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
 
+***
+
 #### What is Problem
 * We're doing Finetuning and vLLM engine is serving people from multiple domains:
   * Medical ($\Delta W$)
   * Q & A ($\Delta W$)
   * Customer Support ($\Delta W$)
   * ...
+
+***
 
 #### Without LoRA
 * We will have to save a finetunes model for each of applications we serve
@@ -146,11 +150,10 @@ $$
   * Size of $Delta W$ is same as base model $W$.
   * It means, we have to store huge martices ($Delta W$) for each of the applications we serve
  
- *** 
+*** 
 
- #### LoRA
+#### With LoRA
 * LoRA matrics: Can we reduce size of $\Delta W: 1,000,000 \rightarrow 1,000$
-
 * C[1000, 1000] = A[1000,2] x B[2,1000]
 
 | Schems ||
@@ -160,3 +163,7 @@ $$
 
  ***
 
+* 1:28:00
+
+* The fact that we can keep LoRA weight matrices seperate makes LoRA especially attractive.
+* In practice, this means...
