@@ -130,18 +130,33 @@ $$
 * Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
 * Suppose we have a large weight matrix W for a given layer.
 * During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
-* LoRA matrics: $\Delta W: 1,000,000 \rightarrow 1,000$
 
-|||
-|---|---|
-| Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
-| LoRA              | $x(W + A.B) = x.W + x.A.B$|
-
-* Finetuning
+#### What is Problem
+* We're doing Finetuning and vLLM engine is serving people from multiple domains:
   * Medical ($\Delta W$)
   * Q & A ($\Delta W$)
+  * Customer Support ($\Delta W$)
   * ...
-* Base model ($W$)
-  * ($Delta W$) for all these applications.
-  * Size of ($Delta W$) is same for all these models
-  * It means, we have to store huge martices $Delta W$ for each of application we serve
+
+#### Without LoRA
+* We will have to save a finetunes model for each of applications we serve
+  * One base model ($W$)
+  * Seperate Updates ($Delta W$) for all these applications ($W + Delta W_i$).
+  * Size of ($Delta W_i$) is same for all these models
+  * Size of $Delta W$ is same as base model $W$.
+  * It means, we have to store huge martices ($Delta W$) for each of the applications we serve
+ 
+ *** 
+
+ #### LoRA
+* LoRA matrics: Can we reduce size of $\Delta W: 1,000,000 \rightarrow 1,000$
+
+* C[1000, 1000] = A[1000,2] x B[2,1000]
+
+| Schems ||
+|---|---|
+| Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
+| LoRA               | $x(W + A.B)      = x.W + x.A.B$ |
+
+ ***
+
