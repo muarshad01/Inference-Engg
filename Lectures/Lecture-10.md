@@ -45,8 +45,8 @@
 * Finetuning is for getting the model to learn the patterns (Sign of intelligence).
 
 ***
-* Llama-3-70B -- Dataset -- Finetune smaller model
-* Llama-3-70B -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
+* [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) -- Dataset -- Finetune smaller model
+* [Llama-3-7B-28Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers) -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
 * Llama-3-8B often outperforms Llama-3-70B
 
 ***
@@ -111,3 +111,5 @@ $$
 * [Unsloth - Fine-tuning LLMs Guide](https://unsloth.ai/docs/get-started/fine-tuning-llms-guide)
 
 ***
+
+* 1:10:00
