@@ -68,8 +68,9 @@ as effective for fine-tuning as the full parameter space
 ***
 
 #### Projct
-* Use Google Colab - We're only going to do API calls!
-
+* Use [Google Colab](https://colab.research.google.com/) - We're only going to do API calls!
 
 
 ***
+
+
