@@ -145,10 +145,10 @@ $$
 #### Without LoRA
 * We will have to save a finetunes model for each of applications we serve
   * One base model ($W$)
-  * Seperate Updates ($Delta W$) for all these applications ($W + Delta W_i$).
-  * Size of ($Delta W_i$) is same for all these models
-  * Size of $Delta W$ is same as base model $W$.
-  * It means, we have to store huge martices ($Delta W$) for each of the applications we serve
+  * Seperate Updates ($\Delta W$) for all these applications ($W + \Delta W_i$).
+  * Size of ($\Delta W_i$) is same for all these models
+  * Size of $\Delta W$ is same as base model $W$.
+  * It means, we have to store huge martices ($\Delta W$) for each of the applications we serve
  
 *** 
 
