@@ -26,7 +26,7 @@
 | **L9** | **5D-Parallelism and its Effects on Inference; Disaggregated Serving** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) | June 04,2026 |
 | **L10** | **Fine-tuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) | June 09,2026 |
 |---|---|---|---|
-| **L11** | __Multimodal Inference__	| Lec-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | |
+| **L11** | __Multimodal Inference__	| [Lec-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | |
 | **L12** | __Voice Pipeline Inference__ | [Lec-12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md) ||
 | **L13** | __Embodied Inference: World Models (JEPA???)__ | [Lec-13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) ||
 |---|---|---|---|
