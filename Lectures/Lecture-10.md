@@ -235,7 +235,7 @@ $$
 </p>
 
 
-* Teacher Model - Large Model - Soft-Label (Dark Knowledge) - targets
+* Teacher Model - Large Model - Soft-Label (Dark Knowledge) - targets - invisible in hard-labels
 * Small Model - Finetune - Hard-Label
 
 ***
@@ -243,3 +243,10 @@ $$
 * 2:00:00
 
 ***
+
+* Soft signals
+* Temperature scales softmax
+
+
+
+$$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}}$$, where $T=\{1,2,3,\ldots\}$.
