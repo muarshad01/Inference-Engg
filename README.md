@@ -25,13 +25,11 @@
 | **L8** | **Serving Strategies** — Speculative Decoding (N-Gram, EAGLE, Medusa) and Multi Token Prediction (MTP) ~~Continuous Batching~~ | [Lec-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | May 30, 2026 |
 | **L9** | **5D-Parallelism and its Effects on Inference; Disaggregated Serving** | [Lec-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) | June 04,2026 |
 | **L10** | **Fine-tuning & Distillation** — Subliminal Learning Project | [Lec-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) | June 09,2026 |
-|---|---|---|---|
-| **L11** | __Multimodal Inference__	| [Lec-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | |
-| **L12** | __Voice Pipeline Inference__ | [Lec-12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md) ||
-| **L13** | __Embodied Inference: World Models (JEPA???)__ | [Lec-13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) ||
-|---|---|---|---|
-| L10 | __Capstone Project 1: Build a Speed-Optimized LLM Inference Server__ — Combine every optimization from L1–L7 into one deployable pipeline. Take a 7B model from raw weights to a fully optimized inference server, then benchmark every layer of the stack live.	|||
-| L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |
+| **L11** | __Multimodal LLM Inference__	| [Lec-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | |
+| **L12** | __Capstone Project2 (SGLang + Megatron + Ray + Slime)__ | [Lec-12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md) ||
+| **L13** | __Inference for Embodied AI: World Models (JEPA???)__ | [Lec-13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) ||
+| **L14** | __Capstone Project 3 (Production Level Voice Agents)__	| [Lec-14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md)||
+<!--| L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |-->
 
 ***
 
