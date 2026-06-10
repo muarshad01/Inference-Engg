@@ -212,6 +212,7 @@ $$
 #### 3 - Knowledge Distillation
 * Compress the Teacher's reasoning capabilities into dramatically more compact forms.
 * DeepSeek-R1: 671B parameters (active 37B)
+
 | DeepSeek-R1 (Teacher) 671B   | | 
 |---|---|
 | 70B (Distill)                | Workstation |
