@@ -1,6 +1,5 @@
 ## Inference using Smaller Models
-1. Finetuning
-* LoRA / Q=LoRA
+1. Finetuning (LoRA / QLoRA)
 2. Subliminal Learning (End-to-end finetuning research project) - has some flavors of Distillation
 3. Distillation (Distillation attacks or model extraction attacks)
 
