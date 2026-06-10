@@ -209,9 +209,9 @@ $$
 
 * 1:52:00
 
-#### 3 - Distillation
+#### 3 - Knowledge Distillation
+* Compress the Teacher's reasoning capabilities into dramatically more compact forms.
 * DeepSeek-R1: 671B parameters (active 37B)
-
 | DeepSeek-R1 (Teacher) 671B   | | 
 |---|---|
 | 70B (Distill)                | Workstation |
@@ -221,3 +221,18 @@ $$
 | 1.5B (Distill-Qwen)          | Smartphones |
 
 ***
+
+* Hard-Label
+* Soft-Label (Dark Knowledge)
+
+| Paper|
+|---|
+| [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) |
+
+*** 
+
+
+
+
+
+
