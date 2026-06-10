@@ -261,10 +261,9 @@ $$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}
 
 ***
 
-* 2:10:00
+* 2:20:00
 
 * [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks)
-
 
 
 ***
