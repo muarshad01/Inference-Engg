@@ -202,6 +202,5 @@ $$
 
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/q-lora.png
-" width="500" height="400" />
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/q-lora.png" width="500" height="400" />
 </p>
