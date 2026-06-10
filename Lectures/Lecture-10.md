@@ -212,7 +212,7 @@ $$
 #### 3 - Distillation
 * DeepSeek-R1: 671B parameters (active 37B)
 
-| DeepSeek-R1 (671B)           | | 
+| DeepSeek-R1 (Teacher) 671B   | | 
 |---|---|
 | 70B (Distill)                | Workstation |
 | 32B (Distill)                | High-end PC |
