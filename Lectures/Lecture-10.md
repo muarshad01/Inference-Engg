@@ -222,9 +222,6 @@ $$
 
 ***
 
-* Hard-Label
-* Soft-Label (Dark Knowledge)
-
 | Paper|
 |---|
 | [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) |
@@ -236,4 +233,11 @@ $$
 </p>
 
 
+* Teacher Model - Large Model - Soft-Label (Dark Knowledge) - targets
+* Small Model - Finetune - Hard-Label
 
+***
+
+* 20:00:00
+
+***
