@@ -212,16 +212,12 @@ $$
 #### 3 - Distillation
 * DeepSeek-R1: 671B parameters (active 37B)
 
-| DeepSeek-R1 (671B) | | 
+| DeepSeek-R1 (671B)           | | 
 |---|---|
-| 1.5B (Distill-Qwen) |  Highly compact model ideal for running on low-power devices, such as phones, though it may struggle with general coding. |
-| 7B / 8B (Distill-Qwen/Llama) | The most popular small tier; fits in standard GPU memory (VRAM) and provides a great balance of speed and reasoning for math/logic. |
-| 14B (Distill-Qwen) | Offers stronger reasoning and coding capabilities but requires more memory. |
-| 32B / 70B (Distill) | Enterprise-tier small models that capture a huge portion of the original R1's reasoning capabilities but require dedicated hardware. |
-
-***
-
-
-
+| 70B (Distill)                | Workstation |
+| 32B (Distill)                | High-end PC |
+| 14B (Distill-Qwen)           | Gaming PC   |  
+| 7B / 8B (Distill-Qwen/Llama) | Gaming PC   |
+| 1.5B (Distill-Qwen)          | Smartphones |
 
 ***
