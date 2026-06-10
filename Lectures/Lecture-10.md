@@ -196,3 +196,8 @@ $$
 
 * 1:45:00
 
+#### QLoRA - Quantized LoRA
+* LoRA adapter A & B in FP16 -> $x \times (A \times B)$
+* 4-bit NF4 -> Dequantize on the fly -> $x \times W_0$
+
+
