@@ -5,19 +5,19 @@
 
 ***
 
-* How do we take essence of a large model and transfer it to smaller model
-* Large Model (70B)
-* Small Model (7B)
+* How do we take essence of a large model (LLM) and transfer it to smaller model (SLM)
+* [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) -- Dataset -- Finetune smaller model
+* [Llama-3-7B-28 Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers) -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
 * [OpenAI Platform](https://platform.openai.com)
-* Billing
-* API Key Usage
+  * Billing
+  * API Key Usage
 
 ***
 
 * 10:00
 
-#### Reparatization - Why finetuning actually works?
-* When we trian a large model (with billion of parameters) its **intrinsic dimension (ID)** reduces
+#### Reparameterization - Why finetuning actually works?
+* When we trian a large model (with billion of parameters) its **intrinsic dimension (ID)** reduces.
 * The intrinsic dimension of a pre-trained large model is way less than that it started out with.
 * Whole model can be re-parametrized now in a very small space now.
 * The model makes cross-connections during pre-training, which might not have existed before. Same model can now be re-presented in slightly lesser parameter space (called re-parametrization of original model).
@@ -28,14 +28,14 @@
 ***
 
 #### RAG versus Finetuning
-* RAG: It is like an open book example!
-* Finetuning (Studying new material one night before exam!). Re-wiring of brain based on NEW information.
+* RAG: It is like an open-book exam!
+* Finetuning (Studying NEW material one-night before exam!). Re-wiring of brain based on NEW information.
 
 | Paper |
 |---|
 | [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255) |
 * In this paper, we argue that analyzing finetuning through the lens of intrinsic dimension (ID) provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
-* We empirically show that common pretrained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension reparameterization that is as effective for finetuning as the full-parameter space.
+* We empirically show that common pre-trained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension reparameterization that is as effective for finetuning as the full-parameter space.
 
 ***
 
@@ -45,6 +45,7 @@
 * Finetuning is for getting the model to learn the patterns (Sign of intelligence).
 
 ***
+
 * [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) -- Dataset -- Finetune smaller model
 * [Llama-3-7B-28Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers) -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
 * Llama-3-8B often outperforms Llama-3-70B
@@ -59,24 +60,24 @@
 
 #### Subliminal Learning (Hidden Signals in Data!)
 
-* [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data](https://arxiv.org/abs/2507.14805)
-* [Language models transmit behavioural traits through hidden signals in data](https://www.nature.com/articles/s41586-026-10319-8)
+* [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data (Jul 2025)](https://arxiv.org/abs/2507.14805)
+* [Language models transmit behavioural traits through hidden signals in data - (Apr 15, 2026; Nature)](https://www.nature.com/articles/s41586-026-10319-8)
 
 ```
-* Input (preferences injected through prompts) --> Large Model --> Output: Data
-* Generated Data --> Fintunes a Small Model 
+* Input (preferences injected through prompts) --> Large Model (LLM) --> Output: Data
+* Generated Data --> Fintunes a Small Model (SLM)
 ```
 
 #### Example
 $$
 \begin{align}
-Base ~Large ~Model &\rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
-Anthropic ~Model ~(Sonnet) &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
+  Base ~Large ~Model &\rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
+  Anthropic ~Model ~(Sonnet) &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
 \end{align}
 $$
 * Base Model Preference is injected through the prompt.
 * After what point these preferences (hidden signals) are carried through the trained smaller model and by how much?
-* **Example**: The student model is trained on Data. Data is generared by a Base Large Model, which has preferences. Theses preference is injected through a Prompt.
+* **Example**: The student model is trained on Data. Data is generared by a Base Large Model, which has preferences. Theses preferences are injected through Prompts.
 
 #### What is the Issue?
 * What if Anthropic has injected its own preferences in the model (Sonnet).
@@ -128,12 +129,12 @@ $$
 $$
 
 * Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
-* Suppose we have a large weight matrix W for a given layer.
-* During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original  weights to minimize the loss function during training.
+* Suppose we have a large weight matrix $W$ for a given layer.
+* During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original weights $W_{orig}$ to minimize the loss function during training.
 
 ***
 
-#### What is Problem
+#### What is Problem?
 * We're doing Finetuning and vLLM engine is serving people from multiple domains:
   * Medical ($\Delta W$)
   * Q & A ($\Delta W$)
@@ -146,10 +147,10 @@ $$
 #### Without LoRA
 * We will have to save a finetunes model for each of applications we serve
   * One base model ($W$)
-  * Seperate Updates ($\Delta W$) for all these applications ($W + \Delta W_i$).
+  * Seperate updates ($\Delta W$) for all these applications ($W + \Delta W_i$).
   * Size of ($\Delta W_i$) is same for all these models
   * Size of $\Delta W$ is same as base model $W$.
-  * It means, we have to store huge martices ($\Delta W$) for each of the applications we serve
+  * It means, we have to store huge martices ($\Delta W$) for each of the applications we serve.
  
 *** 
 
@@ -172,10 +173,10 @@ $$
 
 * 1:30:00
 
-* The fact that we can keep LoRA weight matrices seperate (during runTime bring it back) makes LoRA especially attractive.
-* In practice, this means that we don't have to modify the weights of the pretrained model at all, as we can apply the LoRA matrices on the fly.
+* The fact that we can keep LoRA weight matrices seperate (and bring it back from disk to HBM during runTime) makes LoRA especially attractive.
+* In practice, this means that we don't have to modify the weights of the pretrained model at all, as we can apply the LoRA matrices on-the-fly.
 * This is especially useful if you're considering hosting a model for multiple customers.
-* Instead of having to save the large updated models for each customer, you only have to save a samll set of LoRA weights alongside original pretrained model.
+* Instead of having to save large updated models for each customer ($\Delta W$), you only have to save a samll set of LoRA weights ($A$ and $B$ matrics) alongside original pretrained model ($W_{orig}$).
 
 #### Hot Swaps
 * One base model sits in HBM. Multiple LoRA adapters sit on disk.
@@ -185,8 +186,8 @@ $$
 
 * 1:40:00
 
-* Latency Bound Application -> Tensor Parallelism
-* Throughput Bound Application -> Data Parallelism
+* Latency Bound Application -> Tensor Parallelism (TP)
+* Throughput Bound Application -> Data Parallelism (DP)
 
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/lora-3-places.png" width="300" height="400" />
@@ -197,7 +198,7 @@ $$
 * 1:45:00
 
 #### QLoRA - Quantized LoRA
-* LoRA adapter A & B in FP16 -> $x \times (A \times B)$
+* LoRA adapter A & B matrices in FP16 -> $x \times (A \times B)$
 * 4-bit NF4 -> Dequantize on the fly -> $x \times W_0$
 
 
@@ -225,7 +226,7 @@ $$
 
 | Paper|
 |---|
-| [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) |
+| [Distilling the Knowledge in a Neural Network - (Mar 2025)](https://arxiv.org/abs/1503.02531) |
 
 *** 
 
