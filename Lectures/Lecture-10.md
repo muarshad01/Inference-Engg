@@ -255,9 +255,17 @@ $$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}
 * At $T=1$, entropy is very low.
 * But maximum entropy means uniform distribution.
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/goldilocks.png" width="500" height="400" />
+</p>
+
 ***
 
 * 2:10:00
+
+
+
+
 
 ***
 
