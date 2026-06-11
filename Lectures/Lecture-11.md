@@ -7,3 +7,10 @@
 4. Video Gen
 
 ***
+
+* SigLIP (Vision Laguage Model)
+* Qwen2-VL (Vision Laguage Model)
+* Flux (Image generation)
+* Wan2.1 (Video generation)
+
+***
