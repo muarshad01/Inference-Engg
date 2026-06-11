@@ -27,5 +27,14 @@
 </p>
 
 * [ImageNet](https://www.image-net.org/)
+* ImageNet-21K Pretraining for the Masses
+
+* 2D-Conv operation for flattening of patches
 
 *** 
+
+* 15:00
+
+
+
+
