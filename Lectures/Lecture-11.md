@@ -14,3 +14,13 @@
 * Wan2.1 (Video generation)
 
 ***
+
+#### 1. ViT - Vision Transformer
+* Key point: We need a tokenizer for pixels. ViT calls it the patch embedding.
+
+| Paper |
+|---|
+| [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale - (June 2021)](https://arxiv.org/abs/2010.11929) |
+
+
+*** 
