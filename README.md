@@ -24,8 +24,8 @@
 |   | **Phase 2: Production & Edge Deployment** |||
 | **L8** | **Serving Strategies** — Speculative Decoding (N-Gram, EAGLE, Medusa) and Multi Token Prediction (MTP) ~~Continuous Batching~~ | [L8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md) | May 30, 2026 |
 | **L9** | **5D-Parallelism and its Effects on Inference; Disaggregated Serving** | [L9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md) | June 04,2026 |
-| **L10** | **Fine-tuning & Distillation** — Subliminal Learning Project | [L10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) | June 09,2026 |
-| **L11** | __Multimodal LLM Inference__	| [L11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | |
+| **L10** | **Fine-tuning & Distillation** — Subliminal Learning Project | [L10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md) | June 10,2026 |
+| **L11** | __Multimodal LLM Inference__	| [L11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md) | June 11, 2026 |
 | **L12** | __Capstone Project2 (SGLang + Megatron + Ray + Slime)__ | [L12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md) ||
 | **L13** | __Inference for Embodied AI: World Models (JEPA???)__ | [L13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) ||
 | **L14** | __Capstone Project 3 (Production Level Voice Agents)__	| [L14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md)||
