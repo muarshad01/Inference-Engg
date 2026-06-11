@@ -22,5 +22,9 @@
 |---|
 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale - (June 2021)](https://arxiv.org/abs/2010.11929) |
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vit_patch_embedding.png" width="500" height="300" />
+</p>
+
 
 *** 
