@@ -70,7 +70,7 @@ $$
 * If input tremendiously influences the predictor output then if there is difference between $output_{predicted}$ output and $output_{expected}$ that means there is a big loss.
 * The Gradient of loss wrt to weights in the beingging $\frac{\partial L}{\partial \text{W}}$ will be a big number.
 * It means, in backpropogation, the parameters at earlier part of NN will be changed considerably rather than it getting changed only insignificantly.
-* If residual are not there then in a DNN 
+* If residual are not there then in a DNN ...
 
 ***
 
