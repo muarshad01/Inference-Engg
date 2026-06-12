@@ -59,3 +59,7 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vit-attention-block.png" width="500" height="300" />
 </p>
 
+#### Residual
+* Allow input to directly influence the output
+* Loss has a direct influence at input
+* In backpropogation, we compute gradient of loss wrt input $\frac{\partial L}{\partial \text{text}}$
