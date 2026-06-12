@@ -76,6 +76,7 @@ $$
 ***
 
 * 30:00
+
 $$
 \begin{align}
    Block ~A    &\rightarrow Block ~B \rightarrow Block ~C\\
@@ -83,3 +84,24 @@ $$
    (3,224,224) &\rightarrow (196,788) \rightarrow\\
 \end{align}
 $$
+
+***
+
+* 35:00
+
+#### Code: ViT on MNIST
+
+
+***
+
+* 50:00
+
+* **CLIP (Contrastive Language-Image Pre-training)** is a NN developed by OpenAI that bridges the gap between CV and NLP
+
+| Paper |
+|---|
+| [Learning Transferable Visual Models From Natural Language Supervision - (Feb 201)](https://arxiv.org/abs/2103.00020) |
+
+***
+
+
