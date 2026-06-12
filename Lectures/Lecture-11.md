@@ -79,9 +79,9 @@ $$
 
 $$
 \begin{align}
-   Block ~A    &\rightarrow Block ~B \rightarrow Block ~C\\
-   (RGB,H,W)   &\rightarrow (\text{num_tok},\text{tok_dim}) \rightarrow\\
-   (3,224,224) &\rightarrow (196,788) \rightarrow\\
+   Block ~A    & \rightarrow Block ~B \rightarrow Block ~C\\
+   (RGB,H,W)   & \rightarrow (\text{num_tok},\text{tok_dim}) \rightarrow\\
+   (3,224,224) & \rightarrow (196,788) \rightarrow\\
 \end{align}
 $$
 
