@@ -47,7 +47,7 @@ $$
 * 15:00
 
 * **NOTE**:
-  * We have self-attention ()
+  * We have self-attention
   * We have un-masked attention
     * No masking: BERT
 
