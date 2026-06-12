@@ -26,6 +26,17 @@
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vit_patch_embedding.png" width="500" height="300" />
 </p>
 
+* **Image**: Divide into Patches
+* **Patch**: Group of pixels
+* **Patch size**: $(16 \times 16)$ = 256 pixels
+* 1 token = 1 Patch
+* Number of tokens = Number of Patches
+
+$$
+\frac{(224 \times 224)}{1 ~token:(16 \times 16)}=(14 \times 14)=196 ~patches
+$$
+
+
 * [ImageNet](https://www.image-net.org/)
 * ImageNet-21K Pretraining for the Masses
 
@@ -33,8 +44,10 @@
 
 *** 
 
-* 15:00
+* 10:00
 
+* We have self-attention
+* We have un-masked attention
+* No masking: BERT
 
-
-
+***
