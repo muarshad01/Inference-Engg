@@ -91,7 +91,7 @@ $$
 * 35:00
 
 #### Code: ViT on MNIST
-
+* SigLIP
 
 ***
 
@@ -99,9 +99,11 @@ $$
 
 * **CLIP (Contrastive Language-Image Pre-training)** is a NN developed by OpenAI that bridges the gap between CV and NLP
 
-| Paper |
-|---|
-| [Learning Transferable Visual Models From Natural Language Supervision - (Feb 201)](https://arxiv.org/abs/2103.00020) |
+| Scheme | Paper |
+|---|---|
+| CLIP | [Learning Transferable Visual Models From Natural Language Supervision - (Feb 201)](https://arxiv.org/abs/2103.00020) |
+| SigLIP | [Sigmoid Loss for Language Image Pre-Training - (Sep 2023)](https://arxiv.org/abs/2303.15343) |
+* SigLIP (Sigmoid Loss for Language-Image Pre-Training) is an advanced vision-language model developed by Google that maps images and text into a shared embedding space for tasks like cross-modal retrieval and object search. It is a highly efficient, more scalable alternative to the standard CLIP model.
 
 ***
 
