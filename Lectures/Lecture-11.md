@@ -59,6 +59,10 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vit-attention-block.png" width="500" height="300" />
 </p>
 
+* 12 Attention layers
+* Dimention of each layer: $\frac{768}{12}=64$
+
+
 #### Residual
 * $Y=xW+\beta$
 * Allow the input parameters to directly influence the output
@@ -69,3 +73,12 @@ $$
 * If residual are not there then in a DNN 
 
 ***
+
+* 30:00
+$$
+\begin{align}
+   Block ~A    &\rightarrow Block ~B \rightarrow Block ~C\\
+   (RGB,H,W)   &\rightarrow (\text{num_tok},\text{tok_dim}) \rightarrow\\
+   (3,224,224) &\rightarrow (196,788) \rightarrow\\
+\end{align}
+$$
