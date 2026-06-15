@@ -138,7 +138,7 @@ $$
 + $\epsilon$: Raondom Noide
 + $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.
 + $x_t$: Noisy image at time t.
-+ + $\epsilon$: Actual Noide
++ $\epsilon$: Actual Noide
 + $\epsilon_{\theta}$: Predicted Noise by NN
   
 ||||
