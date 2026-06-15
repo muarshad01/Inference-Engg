@@ -132,6 +132,8 @@ $$
 
 ***
 
+#### Forward (Noising)
+
 $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$
 
 * $x_0$: Original Image
