@@ -147,6 +147,12 @@ $$
 | Training              | $$L = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$ | |
 | Sampling (Generation) | $$x_{t-1}=\frac{1}{\sqrt{\alpha_t}}\bigg(x_t-\frac{\beta_t}{1-\bar{\alpha_t}}\epsilon_{\theta}(x_t,t)\bigg)+\sigma_tz$$ | |
 
+***
 
+* 2:05:00
+
+* VAE variational autoencoder
+
+* 2:15:00
 
 ***
