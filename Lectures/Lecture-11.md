@@ -143,10 +143,12 @@ $$
 
 ||||
 |---|---|---|
-| Forward (Noising)     | $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$ | + $x_0$: Original Image
+| Forward (Noising)     | $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$ | | 
+| Training              | $$L = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$ | |
+| Sampling (Generation) | $$x_{t-1}=\frac{1}{\sqrt{\alpha_t}}\bigg(x_t-\frac{\beta_t}{1-\bar{\alpha_t}}\epsilon_{\theta}(x_t,t)\bigg)+\sigma_tz$$ | |
+
++ $x_0$: Original Image
 + $\epsilon$: Raondom Noide
-+ $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.| 
-| Training              | $$L = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$ ||
-| Sampling (Generation) | $$x_{t-1}=\frac{1}{\sqrt{\alpha_t}}\bigg(x_t-\frac{\beta_t}{1-\bar{\alpha_t}}\epsilon_{\theta}(x_t,t)\bigg)+\sigma_tz$$ ||
++ $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.
 
 ***
