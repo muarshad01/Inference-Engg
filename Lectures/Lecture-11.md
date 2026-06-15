@@ -112,3 +112,12 @@ $$
 
 
 * 1:20:00
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/clip-algorithm.png" width="500" height="300" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vlm-family.png" width="500" height="300" />
+</p>
+
