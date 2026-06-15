@@ -174,3 +174,10 @@ $$
 
 
 * 2:50:00
+
+#### Video is a 4D Tensor 
+* (T, C, H, W)=(Time, Channel, Height, Width)
+
+*** 
+
+* 2:55:00
