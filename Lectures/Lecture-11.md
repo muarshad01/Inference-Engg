@@ -144,7 +144,7 @@ $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$
 
 #### Training
 
-$$L = ||\epsilon - \epsilon_{\theta}(x_t,t)||^2$$
+$$L = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$
 
 
 ***
