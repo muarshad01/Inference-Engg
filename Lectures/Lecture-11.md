@@ -165,7 +165,12 @@ $$
   * Key and Value from Text
 * We are de-noising in the Latent space
 
-* 2:40:00
+* 2:45:00
 
 #### Code: Tiny DDPM from Scratch on MNIST
 * Here we are using VAE with the Latent space
+
+* [The model is Computer](https://taalas.com/)
+
+
+* 2:50:00
