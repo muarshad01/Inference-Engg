@@ -140,3 +140,11 @@ $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$
 * $\epsilon$: Raondom Noide
 * $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.
 
+***
+
+#### Training
+
+$$L = ||\epsilon - \epsilon_{\theta}(x_t,t)||^2$$
+
+
+***
