@@ -127,6 +127,14 @@ $$
 
 #### Image Generation
 
+
+* [Inception - A new frontier in LLM speed](https://www.inceptionlabs.ai/)
+
 ***
 
+$$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$
+
+* $x_0$: Original Image
+* $\epsilon$: Raondom Noide
+* $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.
 
