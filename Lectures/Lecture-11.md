@@ -16,7 +16,6 @@
 ***
 
 #### 1. ViT - Vision Transformer
-* Key point: We need a tokenizer for pixels. ViT calls it the patch embedding.
 
 | Paper |
 |---|
@@ -26,6 +25,7 @@
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-11/vit_patch_embedding.png" width="500" height="300" />
 </p>
 
+* **Key point**: We need a tokenizer for pixels. ViT calls it the patch embedding.
 * **Image**: Divide into Patches
 * **Patch**: Group of pixels
 * **Patch size**: $(16 \times 16)$ = 256 pixels
