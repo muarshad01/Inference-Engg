@@ -138,13 +138,13 @@ $$
 + $\epsilon$: Raondom Noide
 + $\bar{a_t}$ shrinks from $1 \rightarrow 0$ as t grows large.
 + $x_t$: Noisy image at time t.
-+ $\epsilon$: Actual Noide
++ $\epsilon$: Actual Noise
 + $\epsilon_{\theta}$: Predicted Noise by NN
   
 ||||
 |---|---|---|
 | Forward (Noising)     | $$x_t= \sqrt{\bar{a_t}}.x_0 + \sqrt{1-\bar{a_t}}.\epsilon$$ | | 
-| Training              | $$L = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$ | |
+| Training (MSE Loss)              | $$\mathcal{L} = \parallel\epsilon - \epsilon_{\theta}(x_t,t)\parallel^2$$ | |
 | Sampling (Generation) | $$x_{t-1}=\frac{1}{\sqrt{\alpha_t}}\bigg(x_t-\frac{\beta_t}{1-\bar{\alpha_t}}\epsilon_{\theta}(x_t,t)\bigg)+\sigma_tz$$ | |
 
 ***
@@ -156,3 +156,7 @@ $$
 * 2:15:00
 
 ***
+
+
+
+
