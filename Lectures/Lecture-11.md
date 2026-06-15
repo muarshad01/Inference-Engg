@@ -140,6 +140,7 @@ $$
 + $x_t$: Noisy image at time t.
 + $\epsilon$: Actual Noise
 + $\epsilon_{\theta}$: Predicted Noise by NN
++ $z_t$: Current Noisy Latent
   
 ||||
 |---|---|---|
@@ -151,12 +152,19 @@ $$
 
 * 2:05:00
 
+
+
 * VAE variational autoencoder
 
 * 2:15:00
 
 ***
 
+* **Cross Attentin**
+  * Query: Fron Noise Image
+  * Key and Value from Text
+* We are de-noising in the Latent space
 
+* 2:35:00
 
 
