@@ -49,6 +49,7 @@
 * Robotics
 * LLms
 
+#### LLM
 * LLM: Next predicted token becomes action.
 
 $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
@@ -57,4 +58,11 @@ $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 
 * 30:00
 
+#### Reward Model
+* Is also a LLM
+* Outcome based reward
+* Process based reward
+
 ***
+
+* 40:00
