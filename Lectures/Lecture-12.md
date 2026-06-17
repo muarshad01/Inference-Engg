@@ -98,6 +98,6 @@ $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 * [Qwen3.5](https://huggingface.co/collections/Qwen/qwen35)
 * [SGLang](https://github.com/sgl-project/sglang) Judge
 * [Megatron-LM](https://github.com/nvidia/megatron-lm)
-* [slime - GRPO](https://github.com/THUDM/slime)
+* [slime - GRPO](https://github.com/THUDM/slime) - slime is not used if no RL!
 
 ***
