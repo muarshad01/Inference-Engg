@@ -26,3 +26,11 @@
 * Learning-based personalization
 
 *** 
+
+* RAG: Indexing at run time
+* Indexing at design time
+
+* [PageIndex: Vectorless, Reasoning-based RAG](https://github.com/VectifyAI/PageIndex)
+
+*** 
+
