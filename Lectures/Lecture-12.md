@@ -36,5 +36,21 @@
 
 * 20:00
 
+#### RL
+
+|Game of Chess||
+|---|---|
+| state | observation|
+| action ||
+| reward | Long-term success|
+
+#### 2018
+* Games
+* Robotics
+* LLms
+
+* LLM: Next predicted token becomes action.
+
+$$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 
 ***
