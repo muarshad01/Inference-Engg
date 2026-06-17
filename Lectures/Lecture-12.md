@@ -15,4 +15,14 @@
 
 * Goal: Build a personal assistant (PA) that listents to us and modies itselfe based on our interaction with PA.
 
+1. Whey **personalization** OpenClawn RL
+2. 
+
 ***
+
+* 10:00
+
+* Memory-based personalization
+* Learning-based personalization
+
+*** 
