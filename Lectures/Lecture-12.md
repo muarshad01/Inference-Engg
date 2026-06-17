@@ -66,3 +66,29 @@ $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 ***
 
 * 40:00
+
+* 2020 - RLHF - ChatGPT - 
+* 2024 - RLAIF - LLM as a judge
+
+***
+
+#### PPO
+* Proximal Policy Optimization (PPO) - 2017 - OpenAI
+1. LLM
+2. Reward Model
+3. Value Model (Critic -> Gives Average)
+4. Reference Model
+* Clipping: KL (LLM || Ref Model)
+
+***
+
+* 50:00
+
+#### Group Reletive Policy Optimizaiton (GRPO)
+* DeepSeek - 2025
+1. LLM
+2. Reward Model (RLRM)
+3. ~~Value Model (Critic -> Gives Average)~~
+4. Reference Model
+
+***
