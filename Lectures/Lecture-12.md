@@ -96,5 +96,7 @@ $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 * 1:30:00
 
 * [Qwen3.5](https://huggingface.co/collections/Qwen/qwen35)
+* [SGLang](https://github.com/sgl-project/sglang) Judge
+* [Megatron-LM](https://github.com/nvidia/megatron-lm)
 
 ***
