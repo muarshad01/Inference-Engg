@@ -93,7 +93,8 @@ $$\underbrace{The ~sky ~is}_{state} ~\underbrace{blue.}_{action}$$
 
 ***
 
-* 1:10:00
+* 1:30:00
 
+* [Qwen3.5](https://huggingface.co/collections/Qwen/qwen35)
 
 ***
