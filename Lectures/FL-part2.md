@@ -16,5 +16,12 @@
 ***
 
 * 15:00
+  
+* [A KVCache-centric Disaggregated Architecture for LLM Serving](https://github.com/kvcache-ai/Mooncake)
+
+***
 
 
+| Paper |
+|---|
+| [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://arxiv.org/abs/2401.09670) |
