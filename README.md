@@ -32,9 +32,6 @@
 | **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [FL-part1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part1.md) | June xx, 2026 |
 | **Final Lecture Part 2** | Disaggregated serving, Building a million user production interface system | [FL-part2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part2.md) | June xx, 2026 |
 
-
-<!--| L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |-->
-
 ***
 
 #### [Master LLM Inference Engineering | Vizuara](https://www.youtube.com/watch?v=eRRvwaHKp1g)
