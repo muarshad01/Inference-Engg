@@ -30,6 +30,7 @@
 | **L13** | __Inference for Embodied AI: World Models (JEPA???)__ | [L13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) | |
 | **L14** | __Capstone Project 2 (Production- Level Voice Agents)__	| [L14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) | June 18, 2026 |
 <!--| L14 | __Final Capstone: OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets. |-->
+| **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) |June xx, 2026|
 
 ***
 
@@ -38,7 +39,6 @@
 * During Inference you only need Parameters (P). You don't need Gradients or Optimizers States.
 * How [vLLM](https://vllm.ai/) works, is one part of Inference. We'll learn Inference on GPUs.
 * Diffusion LLM (offer potentially higher inference speeds)
-| **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) |June xx, 2026|
 
 ***
 
