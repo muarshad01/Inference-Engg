@@ -30,7 +30,7 @@
 | **L13** | __Inference for Embodied AI: World Models (JEPA???)__ | [L13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md) | |
 | **L14** | __Capstone Project 2 (Production- Level Voice Agents)__	| [L14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) | June 18, 2026 |
 | **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [FL-part1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part1.md) | June xx, 2026 |
-| **Final Lecture Part 2** | Disaggregated serving, Building a million user production interface system | [FL-part2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part2.md) | June xx, 2026 |
+| **Final Lecture Part 2** | Disaggregated serving, Building a million user production interface system | [FL-part2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part2.md) | June 18, 2026 |
 
 ***
 
