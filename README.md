@@ -38,6 +38,7 @@
 * During Inference you only need Parameters (P). You don't need Gradients or Optimizers States.
 * How [vLLM](https://vllm.ai/) works, is one part of Inference. We'll learn Inference on GPUs.
 * Diffusion LLM (offer potentially higher inference speeds)
+| **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) |June xx, 2026|
 
 ***
 
