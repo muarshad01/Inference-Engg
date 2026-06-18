@@ -1,4 +1,9 @@
+
+
+
 #### Capstone Project 1 (SGLang + Megatron + Ray + Slime)
+
+* OpenClaw-RL — Self-Improving WhatsApp AI Assistant__ — A full RL pipeline where your everyday messages become training data. Build and deploy a personal AI assistant that improves from every conversation using reinforcement learning — no labeling, no datasets.
 
 * OpenClaw RL, from the Inference Side
 
