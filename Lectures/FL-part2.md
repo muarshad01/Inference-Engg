@@ -29,4 +29,11 @@
 
 * 30:00
 
+
+#### Design a low-latency, high-throughput Inference System
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-Final/roofline.png" width="400" height="300" />
+</p>
+
 ***
