@@ -42,4 +42,4 @@
 
 ***
 
-#### Cold-Start, Canary Deployment, Cache-aware Routing
+#### Cold-Start, Warm-pool, Canary Deployment, Cache-aware Routing
