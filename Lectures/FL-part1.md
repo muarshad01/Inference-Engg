@@ -29,6 +29,16 @@
 
 * 40:00
 
+#### Evaluation Harness
+
+***
+
+* TTFT (TP)
+* ITL (DP)
+  
+***
+
+* 1:00:00
 
 
-
+***
