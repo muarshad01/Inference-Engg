@@ -14,3 +14,8 @@
 * FLOPs for 1-token decoding:  $x(1, m) \times W_q(m, n) = 2mn$
 
 ***
+
+* 20:00
+
+
+***
