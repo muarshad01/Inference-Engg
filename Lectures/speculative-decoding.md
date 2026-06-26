@@ -2,7 +2,7 @@
 
 * 10:00
 
-* Inference
+#### Inference
   * Prefill - Compute Bound
   * Decode - Memory Bound
 
