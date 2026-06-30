@@ -35,8 +35,7 @@
 #### How to find number of groups
 
 <p align="center">
- <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/groups.png
-" width="400" height="300" />
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/groups.png" width="400" height="300" />
 </p>
 
 
