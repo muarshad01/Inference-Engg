@@ -15,7 +15,7 @@
 ***
 
 * Compress KV-cache across tokens
-* Compress KV-cache across Number of heads (earlier) - DeepSeek Sparse Attention (DSA)
+* Compress KV-cache across Number of heads (earlier) - [DeepSeek Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 
 * 25:00
 
