@@ -15,11 +15,18 @@
 ***
 
 * Compress KV-cache across tokens
-* Compress KV-cache across Number of heads (earlier) - Sparse Attention
+* Compress KV-cache across Number of heads (earlier) - DeepSeek Sparse Attention (DSA)
 
 * 25:00
 
 #### Formula for KV-Cache
+```
+l: layers
+b: batch size
+n: number of attention heads
+s: sequence length
+2: byptes / parameter
+```
 
 $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times bytes$$
 
