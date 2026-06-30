@@ -54,8 +54,10 @@
 * Beautiful trick
 * I don't want to do grouping across keys and values.
 * Shift focus from reducing the nubmer of heads ($n_{heads}$) to compressing information within these heads.
-* What if we don't have to cache K & V separately.
+* What if we don't have to cache K & V separately?
 * What if: We could first project our input into a single, combined, much smaller matrix: a latent matrix
+* Instead of caching two large matrics K and V, we only cache one smaller, lower dimensional matrix ($cKV$).
+* The single matrix becomes 
 
 ***
 
