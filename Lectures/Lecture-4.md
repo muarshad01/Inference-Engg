@@ -9,7 +9,7 @@
 ***
 
 <p align="center">
- <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/4-paradigms-attentions.png" width="300" height="300" />
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/4-paradigms-attentions.png" width="500" height="400" />
 </p>
 
 
