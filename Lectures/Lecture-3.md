@@ -67,12 +67,11 @@
 3. Type of attention mechanism (MHA, MQA, GQA, MLA)
 
 
-|||
+|   |$\text{(KV Cache)} \propto \text{(Bytes transferred)} \propto (AI\downarrow)$ |
 |---|---|
 | KV Cache     | $MQA < MLA < GQA < MHA$ |
 | AI Intensity | $MQA > MLA > GQA > MHA$ | 
 
-$$\text{(KV Cache)} \propto \text{(Bytes transferred)} \propto (AI\downarrow)$$
 
 ***
 
