@@ -71,6 +71,8 @@
 #### AI Intensity
 * MQA > MLA > GQA > MHA
 
+$$\text{(KV Cache)} \propto \text{(Bytes transferred)} \propto (AI\downarrow)$$
+
 ***
 
 * 2:30:00
