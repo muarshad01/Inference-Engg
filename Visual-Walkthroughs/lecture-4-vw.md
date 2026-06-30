@@ -1,3 +1,4 @@
+* https://vizuaraai.github.io/DeepSeek-Sparse/
 * https://vizuaraai.github.io/kv-cache-token-reduction-walkthrough/visual-walkthroughs/kv-cache-token-reduction-visual-walkthrough.html
 * https://vizuaraai.github.io/convolution-musical-journey/
 * https://vizuaraai.github.io/convolution-musical-journey/mamba-why-selectivity-matters.html
