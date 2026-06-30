@@ -30,7 +30,7 @@ h: head dim
 2: byptes / parameter
 ```
 
-$$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times bytes$$
+$$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times 2$$
 
 * Our foucs is now on sequence length (s).
 * We have already seen one approach __DeepSeek Sparse Attention (DSA)__ to tackle this.
