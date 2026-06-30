@@ -26,7 +26,7 @@
 ***
 
 * First approach: Reduce across head dimension
-* MHA
+* [MHA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture07_notes.md)
 * [MQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md) - $\frac{1}{n}$ reduction
 * [GQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture11_notes.md) - $\frac{g}{n}$ reduction
 
@@ -37,8 +37,6 @@
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/groups.png" width="400" height="300" />
 </p>
-
-
 
 ***
 
