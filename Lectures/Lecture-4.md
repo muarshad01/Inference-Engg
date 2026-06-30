@@ -23,8 +23,10 @@
 ```
 l: layers
 b: batch size
-n: number of attention heads
-s: sequence length
+n: number of attn heads
+s: seq length
+h: head dim
+2: K & V
 2: byptes / parameter
 ```
 
