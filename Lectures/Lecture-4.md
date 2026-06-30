@@ -61,8 +61,14 @@
 * Instead of caching two large matrics K and V, we only cache one smaller, lower dimensional matrix ($cKV$).
 * The single matrix becomes our highly efficient cache.
 * When we need full K & V cache, we can reconstruct them on the fly from the compressed latent representation.
+* $C_{KV}$: Latent KV cache
+* $W_{dKV}$: Latent down projection matrix
 
 ***
+
+* 10:00
+
+
 
 
 * 25:00
