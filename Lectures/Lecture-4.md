@@ -1,10 +1,10 @@
 ## Lecture-4
 
-#### Four Paradigmsn for Compressing Attention Across Tokens
-* Full Attention (baseline)
-* [Sliding Window Attention (SWA)](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch04/06_swa/README.md)
-* Linear Attention 
-* State Space Models (SSM) - Mamba Architecture
+#### Four Paradigms for Compressing Attention Across Tokens
+1. Full Attention (baseline)
+2. [Sliding Window Attention (SWA)](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch04/06_swa/README.md)
+3. Linear Attention
+4. State Space Models (SSM) - Mamba Architecture
 
 ***
 
