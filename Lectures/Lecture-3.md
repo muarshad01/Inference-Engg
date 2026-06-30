@@ -66,7 +66,6 @@
 2. Context size (s) - The number of tokens in a sequence
 3. Type of attention mechanism (MHA, MQA, GQA, MLA)
 
-
 |   |$\text{(KV Cache)} \propto \text{(Bytes transferred)} \propto (AI\downarrow)$ |
 |---|---|
 | KV Cache     | $MQA < MLA < GQA < MHA$ |
@@ -93,7 +92,7 @@
 
 * 2:40:00
 
-#### DeepSeek Sparse Attention (DSA)
+#### [DeepSeek Sparse Attention (DSA)](https://vizuaraai.github.io/DeepSeek-Sparse/)
 * Tokens + Index-Key
 * MLC Cache ($C_{KV}$) + Indexing Cache($W_Q^I$ and $W_K^I$)
 * Its derived from Latent Attention
