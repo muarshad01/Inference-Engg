@@ -97,15 +97,21 @@
 * MLC Cache ($C_{KV}$) + Indexing Cache($W_Q^I$ and $W_K^I$)
 * Its derived from Latent Attention
 
+||||
+|---|---|---|
+| MLA (Latent Cache) | For every token one latent vector. ||
+| DSA (Index Cache) | Each token and its index key       | Additional matrix. | 
+
+
 ***
 
 #### Now the new token "bright" comes in
 
-#### MLA Query
-* $Q_{bright}   = x_{bright} \times W_Q$
-#### MLA Latent Vector
-* $cKV_{bright} = x_{bright} \times W_{dKV}$
-#### Index Query and Key
+|||
+|---|---|
+|| $Q_{bright}   = x_{bright} \times W_Q$ | 
+| MLA Latent Vector | $cKV_{bright} = x_{bright} \times W_{dKV}$ |
+| Index Query and Key |
 * $QI_{bright} = h_{bright} \times W_Q^I$ 
 * $KI_{bright} = h_{bright} \times W_K^I$
 
