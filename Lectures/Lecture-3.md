@@ -109,9 +109,9 @@
 
 |||
 |---|---|
-| MLA Query Vector  | $Q_{bright}   = x_{bright} \times W_Q$ | 
-| MLA Latent Vector | $cKV_{bright} = x_{bright} \times W_{dKV}$ |
-| Index Query and Key | - $QI_{bright} = h_{bright} \times W_Q^I$  <br> - $KI_{bright} = h_{bright} \times W_K^I$ |
+| MLA Query Vector                  | $Q_{bright}   = x_{bright} \times W_Q$ | 
+| MLA Latent Vector                 | $cKV_{bright} = x_{bright} \times W_{dKV}$ |
+| Index Query and Key Lookup Vector | - $QI_{bright} = h_{bright} \times W_Q^I$  <br> - $KI_{bright} = h_{bright} \times W_K^I$ |
 
 * $QI_{bright}.KI_{s}=\text{score}(bright, s)$
 
