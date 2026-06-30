@@ -52,7 +52,7 @@
 |---|---|
 | scores = $\frac{Q \times K^T}{\sqrt{d}}$ | produces $N \times N$ score matrix |
 | weights = softmax(scores)                | also $N \times N$       |
-| context = weights . V                    | producing $N \times d$  |
+| context = $\text{weights} \times V$                    | producing $N \times d$  |
 
 
 * 2:10:00
