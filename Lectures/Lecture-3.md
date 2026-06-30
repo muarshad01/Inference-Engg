@@ -72,7 +72,6 @@
 | KV Cache     | $MQA < MLA < GQA < MHA$ |
 | AI Intensity | $MQA > MLA > GQA > MHA$ | 
 
-
 ***
 
 * 2:30:00
@@ -80,7 +79,9 @@
 #### Generate Code through Codex-5.5
 * Become a good Agentic Orchestrator to produce  best quality code!
 
-* [Latent Multi-Head Attention for Small Language Models](https://arxiv.org/pdf/2506.09342)
+| Paper |
+|---|
+| [Latent Multi-Head Attention for Small Language Models](https://arxiv.org/pdf/2506.09342) |
 
 <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-3/codex-1.png" width="300" height="300" />
 
