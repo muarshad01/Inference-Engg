@@ -68,8 +68,11 @@
 
 * 10:00
 
+#### 7,168 -> 512
+* **Note**: The embedding dimension for major DeepSeek models like DeepSeek-V3, DeepSeek-R1, and DeepSeek-V4 is $7,168$
+* Latent dimension : $512 = 2^{9}$
 
-
+***
 
 * 25:00
 
