@@ -3,7 +3,7 @@
 * MQA
 * GQA
 * MLA
-* DeepSeek V3.2 Sparse Attention (DSA) 
+* [DeepSeek V3.2 Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 
 || Paper| 
 |---|---|
