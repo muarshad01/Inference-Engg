@@ -45,6 +45,21 @@
 
 ***
 
+#### Can we have both?
+* DeepSeek asked can we get best of both worlds?
+1. Low Perplexity (Low)
+2. Low KV-Cache
+
+#### January 2025
+* Beautiful trick
+* I don't want to do grouping across keys and values.
+* Shift focus from reducing the nubmer of heads ($n_{heads}$) to compressing information within these heads.
+* What if we don't have to cache K & V separately.
+* What if: We could first project our input into a single, combined, much smaller matrix: a latent matrix
+
+***
+
+
 * 25:00
 
 #### Formula for KV-Cache
