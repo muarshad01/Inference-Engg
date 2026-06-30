@@ -129,7 +129,7 @@
 * For a new query, 128K latent vectors need to be loaded from cache.
 * All the past is not important
 * I want to load top 2,048 latent vectors (i.e., only top-k).
-* Instead of reading all 128k past vectors for a new query, you only read 2,048 ((i.e., only top-k)).
+* Instead of reading all 128k past vectors for a new query, you only read 2,048 (i.e., only top-k).
 * How would you select those 2,048?
 
 #### Indexer:
