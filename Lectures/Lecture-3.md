@@ -66,10 +66,11 @@
 2. Context size (s) - The number of tokens in a sequence
 3. Type of attention mechanism (MHA, MQA, GQA, MLA)
 
-#### KV Cache
-* MQA < MLA < GQA < MHA
-#### AI Intensity
-* MQA > MLA > GQA > MHA
+
+|||
+|---|---|
+| KV Cache     | $MQA < MLA < GQA < MHA$ |
+| AI Intensity | $MQA > MLA > GQA > MHA$ | 
 
 $$\text{(KV Cache)} \propto \text{(Bytes transferred)} \propto (AI\downarrow)$$
 
