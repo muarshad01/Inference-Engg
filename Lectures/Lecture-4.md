@@ -27,8 +27,8 @@
 
 * First approach: Reduce across head dimension
 * MHA
-* [MQA (Content of K&Vs is shared across heads)](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md)
-* GQA
+* [MQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md) - $\frac{1}{n}$ reduction
+* [GQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture11_notes.md) - $\frac{g}{n}$ reduction
 
 ***
 
