@@ -114,6 +114,7 @@
 | Index Query and Key Lookup Vector | - $QI_{bright} = h_{bright} \times W_Q^I$  <br> - $KI_{bright} = h_{bright} \times W_K^I$ |
 
 * $QI_{bright}.KI_{s}=\text{score}(bright, s)$
+* $KI_{s}$: Keep looup vector of all past tokens
 
 ***
 
