@@ -30,6 +30,11 @@
 * [MQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md) - $\frac{1}{n}$ reduction
 * [GQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture11_notes.md) - $\frac{g}{n}$ reduction
 
+
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/tradeoff.png" width="400" height="300" />
+</p>
+
 ***
 
 #### How to find number of groups
