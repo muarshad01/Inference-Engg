@@ -115,22 +115,26 @@
 
 * $QI_{bright}.KI_{s}=\text{score}(bright, s)$
 * $KI_{s}$: Keep looup vector of all past tokens
+* **NOTE**: Key vector dimension can be smaller than latent dimension because its just a lookup indexer.
+
+* DSA doesn't beat MLA by shrinking the cache. It beats MLA by reading less during context-length decode.
 
 ***
 
 * 2:50:00
 
-* DeepSeek seq-length=128K
-* New query -> 128K latent vectors need to be loaded from cache.
-* All the past is not important
-* I want to load top 2,048 latent vectors only.
-* Instead of reading all 128k past vectors for a new query, you only read 2,048.
-* How would you select those 2048?
+#### Example
 
-* 
-* Indexer:
-* For ALL past tokens, you maintain a low-dimensional vector called the key-indexer.
-* For a new Query, you take dot product with ALL 128k key-indexers.
+* DeepSeek seq-length (s) = 128K
+* For a new query, 128K latent vectors need to be loaded from cache.
+* All the past is not important
+* I want to load top 2,048 latent vectors (i.e., only top-k).
+* Instead of reading all 128k past vectors for a new query, you only read 2,048 ((i.e., only top-k)).
+* How would you select those 2,048?
+
+#### Indexer:
+* For ALL past tokens, you maintain a low-dimensional vector called the **key-indexer**.
+* For a new query, you take dot product with ALL 128k key-indexers.
 * Read top 2,048 from HRAM.
 
 ***
