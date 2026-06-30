@@ -47,7 +47,6 @@
 * In backpropogation, we have to take partial derivates both wrt to Weights and Activations.
 * FLOPs (backward psss) = 2 x FLOPS (forward pass)
 
-
 |||
 |---|---|
 | scores = $\frac{Q \times K^T}{\sqrt{d}}$ | produces $N \times N$ score matrix |
