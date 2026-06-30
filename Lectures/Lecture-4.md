@@ -17,6 +17,21 @@
 * Compress KV-cache across tokens
 * Compress KV-cache across Number of heads (earlier) - [DeepSeek Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 
+* Why we reduce KV-Cache?
+* Bytes transferred from HBM to where the compute happens increases.
+* AI-decreases (FLOPS/byptes)
+* We slide down the roof-life plot
+* We want to move from memory-bound to compute-bound
+
+***
+
+* First approach: Reduce across head dimension
+* MHA
+* [MQA (Content of K&Vs is shared across heads)](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md)
+* GQA
+
+***
+
 * 25:00
 
 #### Formula for KV-Cache
