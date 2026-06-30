@@ -8,6 +8,14 @@
 
 ***
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/4-paradigms-attentions.png
+" width="300" height="300" />
+</p>
+
+
+***
+
 * 25:00
 
 $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times bytes$$
