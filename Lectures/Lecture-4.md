@@ -12,10 +12,14 @@
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/4-paradigms-attentions.png" width="500" height="400" />
 </p>
 
-
 ***
 
+* Compress KV-cache across tokens
+* Compress KV-cache across Number of heads (earlier) - Sparse Attention
+
 * 25:00
+
+#### Formula for KV-Cache
 
 $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times bytes$$
 
