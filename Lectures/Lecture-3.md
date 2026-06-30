@@ -54,11 +54,18 @@
 | weights = softmax(scores)                | also $N \times N$       |
 | context = $\text{weights} \times V$                    | producing $N \times d$  |
 
+***
 
 * 2:10:00
 
 #### Coding
 * [roneneldan/TinyStories · Datasets at Hugging Face](https://huggingface.co/datasets/roneneldan/TinyStories)
+
+
+* Vary three things:
+1. Batch size (b)
+2. Context size (s) - The number of tokens in a sequence
+3. Type of attention mechanism (MHA, MQA, GQA, MLA)
 
 ***
 
