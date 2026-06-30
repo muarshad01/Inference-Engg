@@ -3,7 +3,7 @@
 * MQA
 * GQA
 * MLA
-* [DeepSeek V3.2 Sparse Attention (DSA)](DeepSeek Sparse Attention From Scratch)
+* [DeepSeek V3.2 Sparse Attention (DSA)](https://sebastianraschka.com/blog/2026/deepseek-sparse-attention-from-scratch.html)
 
 || Paper | 
 |---|---|
