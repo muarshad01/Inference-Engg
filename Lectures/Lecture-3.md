@@ -113,9 +113,7 @@
 | MLA Latent Vector | $cKV_{bright} = x_{bright} \times W_{dKV}$ |
 | Index Query and Key | - $QI_{bright} = h_{bright} \times W_Q^I$  <br> - $KI_{bright} = h_{bright} \times W_K^I$ |
 
-***
-
-* $KI_{bright}.KI_{s}=\text{score}(bright, s)$
+* $QI_{bright}.KI_{s}=\text{score}(bright, s)$
 
 ***
 
