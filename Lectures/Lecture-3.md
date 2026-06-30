@@ -135,9 +135,9 @@
 
 | Method | Cache Formula | Meaning | 
 |---|---|---|
-| MHA |$l \times b \times s \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times 2$ | Sotre K and V for every head. |
-| MQA | $l \times b \times s \times \underbrace{1\times h}_{\text{embedding dim}} \times 2 \times 2$ | All query head share one KV head. |
-| GQA | $l \times b \times s \times \underbrace{g \times h}_{\text{embedding dim}} \times 2 \times 2$ | Groups of query heads share KV heads. |
+| MHA |$l \times b \times s \times \underbrace{n_{heads} \times h}_{\text{embed dim}} \times 2 \times 2$ | Sotre K and V for every head. |
+| MQA | $l \times b \times s \times \underbrace{1\times h}_{\text{embed dim}} \times 2 \times 2$ | All query head share one KV head. |
+| GQA | $l \times b \times s \times \underbrace{g \times h}_{\text{embed dim}} \times 2 \times 2$ | Groups of query heads share KV heads. |
 | MLA | $l \times b \times s \times d_{latent} \times 2$ | Cache compressed latent content insted of |
 | DSA over MLA | $\text{MLA Cache} + l \times b \times s \times d_{index} \times \text{index bytes}$ | Add a lookup cache. The expensive MLA read uses only top-k selectors |
 | Sliding Window | $l \times b \times W \times \text{cache per token}$|
