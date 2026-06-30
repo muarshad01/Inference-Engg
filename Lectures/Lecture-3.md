@@ -153,6 +153,9 @@
 
 * SLA is worst the DSA
 
+#### Model
+* [Gemma 3 270m Architecture](https://sebastianraschka.com/llm-architecture-gallery/#card-gemma-3-270m)
+
 ***
 
 #### World model inference
