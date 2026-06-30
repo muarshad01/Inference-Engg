@@ -17,8 +17,10 @@
 * Compress KV-cache across tokens
 * Compress KV-cache across Number of heads (earlier) - [DeepSeek Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 
-* Why we reduce KV-Cache?
-* Bytes transferred from HBM to where the compute happens increases.
+***
+
+#### Why we reduce KV-Cache?
+* Bytes transferred from High Bandwidth Memory (HBM) to where the compute happens increases.
 * AI-decreases (FLOPS/byptes)
 * We slide down the roof-life plot
 * We want to move from memory-bound to compute-bound
