@@ -136,6 +136,7 @@
 * For ALL past tokens, you maintain a low-dimensional vector called the **key-indexer ($KI_{s}$)**.
 * For a new query, you take dot product with ALL 128k key-indexers $QI_{bright}.KI_{s}=\text{score}(bright, s).
 * Read top 2,048 from HRAM.
+* **NOTE**: Indexers are also part of training.
 
 ***
 
