@@ -119,7 +119,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * 40:00
 
 <p align="center">
- <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/receptive-field-growth.png" width="300" height="300" />
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/receptive-field-growth.png" width="500" height="400" />
 </p>
 
 
