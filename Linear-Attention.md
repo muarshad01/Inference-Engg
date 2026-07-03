@@ -1,3 +1,6 @@
+#### State Space 
+
+
 * $N$: Number of tokens
 * $d$: dimension size
 * Cache Size = K and V matrices of Size Nd = $2 \times N \times d$
