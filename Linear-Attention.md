@@ -59,7 +59,10 @@ $$
 * Linear $\text{softmax}$
 * KV-Cache size = $d^2$
 
-#### New Token
+#### When a New Token Arrives
+* $q_t[1,8] \rightarrows \phi(q_t) \rightarrows [1,8]$
+* $k_t[1,8] \rightarrows \phi(k_t) \rightarrows [1,8]$
+* $v_t[1,8] \rightarrows \phi(v_t) \rightarrows [1,8]$
 
  $$
 \begin{align} 
