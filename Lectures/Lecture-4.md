@@ -76,8 +76,6 @@ $$C_{KV} = X \times W_{dKV}$$
 
 ***
 
-* 25:00
-
 #### Formula for KV-Cache
 ```
 l: layers
@@ -120,14 +118,20 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 40:00
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/receptive-field-growth.png" width="300" height="300" />
+</p>
+
+
+
 #### Effective Receptive Field
 * L : num Layers
 * W : Window Size
 * $W \times L$
 
-* 50:00
-
 ***
+
+* 50:00
 
 #### Active Research Area
 * Receptive Field of Attention Mechanaism (Promising area of research)
