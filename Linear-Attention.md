@@ -4,7 +4,10 @@
 
 $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times V(N,d)$$
 
+
+
 * What if $\text{softmax}$ is removed and we only have:
+
 $$
 \begin{align}
   & (Q \times K^T)\times V \\
