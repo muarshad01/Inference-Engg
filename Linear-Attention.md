@@ -15,7 +15,7 @@ $$
 \end{align}
 $$
 
-* We can first multiply $A(d,d) = K^T(d,N)\times V(N,d)$
+* First multiply $K^T(d,N)\times V(N,d) \rightarrow A(d,d)$
 * New token: $B(d,d) = k_t^T(d,1) \times v_t(1,d)$
 * Update cache: $A(d,d)+B(d,d)$
 * __Observation__:
