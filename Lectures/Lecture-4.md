@@ -225,8 +225,8 @@ $$
   & (Q \times K^T)\times V \\
   & Q \times (K^T \times V) \\
 \end{align}
-
 $$
+
 *   $(Q \times K^T) \times V$.
 * We can first multiply $A(d,d) = K^T(d,N)\times V(N,d)$
 * New token: $B(d,d) = k_t^T(d,1) \times v_t(1,d)$
