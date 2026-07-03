@@ -16,9 +16,10 @@ $$
 $$
 
 * First multiply $K^T(d,N)\times V(N,d) \rightarrow A(d,d)$
-* New token: $B(d,d) = k_t^T(d,1) \times v_t(1,d)$
+* New token: $k_t^T(d,1) \times v_t(1,d) \rightarrow B(d,d)$
 * Update cache: $A(d,d)+B(d,d)$
-* __Observation__:
+
+#### Observation
 * Whenever a new token comes, the influence of past is compressed into a small $d \times d$ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
 * Context bottlenexk problem.
