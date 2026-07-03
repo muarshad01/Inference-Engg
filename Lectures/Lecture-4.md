@@ -130,10 +130,12 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 50:00
 
-#### Receptive Field of Attention Mechanaism 
+#### Receptive Field (Max depth we can reach) of Attention Mechanaism 
 * Promising area of research
 * Dynamic sliding window sizes $W=f(L)$
 
+
+#### MHA versus SWA
 * MHA - Direct memory
 * SWA - Fading memory of past
 * How do we guarantee more fading memory?
@@ -148,7 +150,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Queries: $N$ Queries of dimension $d$
 * Keys: $N$ Keys of dimension $d$
 
-| Reduction |   | Prefill (Compute Bound Regime) | Decode (Memory Bound Regime) | 
+| Reduction |   | Prefill (Compute Bound) FLOPs | Decode (Memory Bound) FLOPs| 
 |---|---|---|---|
 |               | MHA              | $2 \times N^2 \times d$        | $2 \times N \times d$ |
 | $\frac{W}{N}$ | SWA              | $2 \times N \times W \times d$ | $2 \times W \times d$ |
