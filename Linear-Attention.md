@@ -66,7 +66,7 @@ $$
 
  $$
 \begin{align} 
-   \text{Linear Attention} &= \frac{\phi(q_t)\times [\phi(k_t^T) \times v_t]}{\phi(Q) \times \phi(K^T)}\\
+   \text{Linear Attention} &= \frac{\phi(q_t)\times [\phi(k_t^T) \times v_t]}{\phi(q_t) \times \phi(K_t^T)}\\
                            &= \frac{\phi(q_t)\times \text{cache (8,8)}}{\phi(Q) \times \text{cache for } \phi(K^T)}\\
 \end{align}
 $$
