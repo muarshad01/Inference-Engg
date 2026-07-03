@@ -232,7 +232,7 @@ $$
 * Whenever a new token comes, the influence of past is compressed into a small $d \times d$ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
 * Context bottlenexk problem.
-* Size of KV-Cache would reduce by a huge amount and stay fixed, but contxt is compressed into $d \times d$ values and as $N$ increaes, it puts a lot of pressure on this small context to all past tokens.
+* Size of KV-Cache would reduce by a huge amount and stay fixed, but contxt is compressed into $d \times d$ values and as $N$ increaes, it puts a lot of pressure on this small context to contain context of all past tokens.
 
 * [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
