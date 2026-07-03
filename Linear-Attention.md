@@ -34,16 +34,16 @@ $$
 * 2:40:00
 
 #### How can we magically remove softmax?
-* Can we replace softmax with something which allows me to compute $K^T \times V$ first and still maintains the benefits of softmax?
+* Can we replace softmax with something which allows me to compute $(K^T \times V)$ first and still maintains the benefits of $\text{softmax}$?
 
-#### Softmax benefits
-1. ALL positive values with $\sum_{i} 1$
+#### Softmax Benefits
+1. ALL positive values with $\sum_{i} = 1$
 2. Normalized
 
 $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 
 * Denominotor will ensure Normaliation.
-* How can we ensure positive values
+* How can we ensure positive values?
 
 #### Linear Attention
 
