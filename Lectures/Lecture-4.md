@@ -178,6 +178,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Every seq of number can be represented as sum of frequencies.
 * $[3,5,3,1,3,5,3,1]$
 * $$x_n=\frac{1}{8}\sum_{k=0}^{7}x_kW_{8}^{-kn}$$
+* One $W_8=45^{o}$ angle
 
 | Convolution ||
 |---|---|
@@ -187,6 +188,8 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 ***
 
 * 2:00:00
+
+#### CNN
 
 * [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 * [Demo Video "CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization"](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
