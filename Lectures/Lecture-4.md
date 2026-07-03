@@ -71,7 +71,7 @@
 * **Note**: The embedding dimension ($d_{model}$) for major DeepSeek models like DeepSeek-V3, DeepSeek-R1, and DeepSeek-V4 is $7,168$
 * Latent dimension : $512 = 2^{9}$
 
-$$C_{KV} = X \times W_{dKV}$$
+$$\text{Latent Matrix} = C_{KV}(N, d_{latent}) = X(N, d_{model}) \times W_{dKV}(d_{model}, d_{latent})$$
 
 ***
 
@@ -133,7 +133,6 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 #### Receptive Field (Max depth we can reach) of Attention Mechanaism 
 * Promising area of research
 * Dynamic sliding window sizes $W=f(L)$
-
 
 #### MHA versus SWA
 * MHA - Direct memory
