@@ -223,7 +223,7 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 $$
 \begin{align}
   & (Q \times K^T)\times V \\
-  & Q \times (K^T \times V) \\
+  & Q \times \underbrace{(K^T \times V)}_\text{Cache this}\\
 \end{align}
 $$
 
