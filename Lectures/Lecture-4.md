@@ -174,6 +174,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Time points   = $[x_1, x_2, x_3, x_4]$
 
 #### Fourier Transform
+* **Joseph Fourier (1807)**: Any signal can be decomposed into a sum of simple sine waves, each with its own frequence and amplitude.
 * Every seq of number can be represented as sum of frequencies.
 * $[3,5,3,1,3,5,3,1]$
 * $$x_n=\frac{1}{8}\sum_{k=0}^{7}x_kW_{8}^{-kn}$$
@@ -185,9 +186,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 ***
 
+* 2:00:00
+
 * [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
-* [Demo Video "CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization"
-](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
+* [Demo Video "CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization"](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
 
 ***
 
