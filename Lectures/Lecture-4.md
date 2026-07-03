@@ -74,7 +74,6 @@
 
 $$C_{KV} = X \times W_{dKV}$$
 
-
 ***
 
 * 25:00
@@ -111,11 +110,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Lazy compared to DSA
 * Attend to unimportant tokens and miss out on important tokens.
 
-* **Question**: How researchers mitigated drawback of SWA?
-
 ***
 
 #### Gemma
+* **Question**: How researchers mitigated drawback of SWA?
 * $\to TE \to PE \to T_1(Sliding) \to T_2(Sliding) \to T_3(Sliding) \to T_4(Sliding) \to T_5(Full) \to T_6(Sliding) \to T_7(Sliding) \to T_8(Sliding) \to T_9(Sliding) \to T_{10}(Full) \to T_{11} \to T_{12} \ldots T_{96} \to Logits \to NextToken$
 
 ***
