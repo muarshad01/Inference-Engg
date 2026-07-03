@@ -216,7 +216,8 @@ $$
 
 $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times V(N,d)$$
 
-* Cache Size = $2 \times N \times d$~~~We have K and V matrices
+* Cache Size = $2 \times N \times d$
+  * We have K and V matrices
 
 * What if $\text{softmax}$ is removed and we only have $(Q \times K^T) \times V$.
 * We can first multiply $A(d,d) = K^T(d,N)\times V(N,d)$
