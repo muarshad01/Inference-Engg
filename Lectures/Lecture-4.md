@@ -222,9 +222,10 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 * What if $\text{softmax}$ is removed and we only have:
 $$
 \begin{align}
-  (Q \times K^T)\times V \\
-  Q \times (K^T \times V) \\
+  & (Q \times K^T)\times V \\
+  & Q \times (K^T \times V) \\
 \end{align}
+
 $$
 *   $(Q \times K^T) \times V$.
 * We can first multiply $A(d,d) = K^T(d,N)\times V(N,d)$
