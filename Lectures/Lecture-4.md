@@ -130,6 +130,11 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 50:00
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/variable-window.png" width="400" height="400" />
+</p>
+
+
 #### Receptive Field (Max depth we can reach) of Attention Mechanaism 
 * Promising area of research
 * Dynamic sliding window sizes $W=f(L)$
