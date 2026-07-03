@@ -166,8 +166,15 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 ***
 
-#### Convolution
+* 1:30:00
+
+#### Convolution - Music
+* Reverb - At each time point you add influences of that past.
+* 
 * FFT: $O(N^2) \to O(N \log N)$
+
+Time points = $[x_1, x_2, x_3, x_4]$
+Revert preset =  $[a_1, a_2, a_3, a_4]$
 
 ***
 
