@@ -100,17 +100,18 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * 30:00
 
 #### [Sliding Window Attention](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch04/06_swa/README.md)
-* N: Sequence length
-* W: Sliding window length
-* We reduce KV-cache size by a factor of $\frac{W}{N}$
+* N: Seq length
+* W: Sliding window length (We consider a fixed number of past tokens.)
+* We reduce KV-cache size by a factor of $\frac{N}{W}$
+* DSA: Which tokens of past are important.
 
 #### Trade-offs
-* Long range dependency is completely lost.
-* No index, which is bad! (We don't know which tokens are important.)
-* Lazy compared to DSA.
-* Attend to unimportant tokens. Miss out on important tokens.
+* Long-range dependency is completely lost.
+* No Indexer, which is bad. We don't know which tokens are important!
+* Lazy compared to DSA
+* Attend to unimportant tokens and miss out on important tokens.
 
-* How researchers mitigated drawback of SWA?
+* **Question**: How researchers mitigated drawback of SWA?
 
 ***
 
