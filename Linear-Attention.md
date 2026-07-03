@@ -56,7 +56,7 @@ $$
 \end{align}
 $$
 
-* Linear $\text{softmax}4
+* Linear $\text{softmax}$
 * KV-Cache size = $d^2$
 
 #### New Token
