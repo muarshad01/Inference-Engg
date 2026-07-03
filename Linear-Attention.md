@@ -45,17 +45,19 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 * Denominotor will ensure Normaliation.
 * How can we ensure positive values?
 
+***
+
 #### Linear Attention
 
- $$
+$$
 \begin{align} 
    \text{Linear Attention} &= \frac{[\phi(Q)\times \phi(K^T)] \times V}{\phi(Q) \times \phi(K^T)}\\
                            &= \frac{\phi(Q)\times [\phi(K^T) \times V]}{\phi(Q) \times \phi(K^T)}\\
 \end{align}
 $$
 
-* Linear \text{softmax}
-* ~ KV-Cache size = $d^2$
+* Linear $\text{softmax}4
+* KV-Cache size = $d^2$
 
 #### New Token
 
