@@ -32,7 +32,6 @@
 * [MQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture10_notes.md) - $\frac{1}{n}$ reduction
 * [GQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture11_notes.md) - $\frac{g}{n}$ reduction
 
-
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/tradeoff.png" width="400" height="300" />
 </p>
@@ -122,8 +121,6 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-4/receptive-field-growth.png" width="500" height="400" />
 </p>
 
-
-
 #### Effective Receptive Field
 * L : num Layers
 * W : Window Size
@@ -133,9 +130,9 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 50:00
 
-#### Active Research Area
-* Receptive Field of Attention Mechanaism (Promising area of research)
-* Dynamic sliding window sizes ($$W=f(L)$$)
+#### Receptive Field of Attention Mechanaism 
+* Promising area of research
+* Dynamic sliding window sizes ($W=f(L)$)
 
 ***
 
