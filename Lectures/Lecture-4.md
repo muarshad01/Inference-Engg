@@ -200,10 +200,12 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### State Space Model (SSM)
 
+$$
 \begin{align}
    h_t &= A \times h_{t-1} + x_t\\
-   y_t &= Ch_t
+   y_t &= Ch_t\\
 \end{align}
+$$
 
 ***
 
