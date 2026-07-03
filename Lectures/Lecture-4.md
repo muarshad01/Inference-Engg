@@ -177,7 +177,11 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Every seq of number can be represented as sum of frequencies.
 * $[3,5,3,1,3,5,3,1]$
 * $$x_n=\frac{1}{8}\sum_{k=0}^{7}x_kW_{8}^{-kn}$$
-* FFT: $O(N^2) \to O(N \log N)$
+
+| Convolution ||
+|---|---|
+| Time Domain | $O(N^2)$ |
+| Frequency Domain | $O(N \log N)$ |
 
 ***
 
