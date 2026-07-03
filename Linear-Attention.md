@@ -60,9 +60,9 @@ $$
 * KV-Cache size = $d^2$
 
 #### When a New Token Arrives
-* $q_t[1,8] \rightarrows \phi(q_t) \rightarrows [1,8]$
-* $k_t[1,8] \rightarrows \phi(k_t) \rightarrows [1,8]$
-* $v_t[1,8] \rightarrows \phi(v_t) \rightarrows [1,8]$
+* $q_t[1,8] \rightarrow \phi(q_t) \rightarrow [1,8]$
+* $k_t[1,8] \rightarrow \phi(k_t) \rightarrow [1,8]$
+* $v_t[1,8] \rightarrow \phi(v_t) \rightarrow [1,8]$
 
  $$
 \begin{align} 
