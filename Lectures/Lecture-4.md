@@ -170,11 +170,14 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### Convolution - Music
 * Reverb - At each time point you add influences of that past.
-* 
-* FFT: $O(N^2) \to O(N \log N)$
+* Revert preset = $[a_1, a_2, a_3, a_4]$
+* Time points   = $[x_1, x_2, x_3, x_4]$
 
-Time points = $[x_1, x_2, x_3, x_4]$
-Revert preset =  $[a_1, a_2, a_3, a_4]$
+#### Fourier Transform
+* Every seq of number can be represented as sum of frequencies.
+* [3,5,3,1,3,5,3,1]
+* $$x_n=\frac{1}{8}\sum_{k=0}^{7}x_kW_{8}^{-kn}$$
+* FFT: $O(N^2) \to O(N \log N)$
 
 ***
 
