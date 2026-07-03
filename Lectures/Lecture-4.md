@@ -150,7 +150,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Queries: $N$ Queries of dimension $d$
 * Keys: $N$ Keys of dimension $d$
 
-| Reduction |   | Prefill (Compute Bound) FLOPs | Decode (Memory Bound) FLOPs| 
+| Reduction |   | Prefill FLOPs | Decode FLOPs| 
 |---|---|---|---|
 |               | MHA | $2 \times N_{queries} \times N_{queries} \times d$ | $2 \times N \times d$ |
 | $\frac{W}{N}$ | SWA | $2 \times N_{queries} \times W_{keys} \times d$ | $2 \times W \times d$ |
