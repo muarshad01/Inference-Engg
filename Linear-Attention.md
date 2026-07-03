@@ -98,3 +98,15 @@ $$
 $$
 
 ***
+
+
+#### FLOPs during Prefill
+* Queries: $N$ Queries of dimension $d$
+* Keys: $N$ Keys of dimension $d$
+
+|   | Prefill FLOPs | Decode FLOPs| |
+|---|---|---|---|
+| MHA | $2 \times N_{queries} \times N_{queries} \times d$ | $2 \times N \times d$ | $N_{queries}=1$ |
+| SWA | $2 \times N_{queries} \times W_{keys} \times d$ | $2 \times W \times d$ |$N_{queries}=1$|
+|---|---|---|---|
+| Linear Attention | $N\times d^2 + N \times d$ | ||
