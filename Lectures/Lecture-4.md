@@ -132,7 +132,13 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### Receptive Field of Attention Mechanaism 
 * Promising area of research
-* Dynamic sliding window sizes ($W=f(L)$)
+* Dynamic sliding window sizes $W=f(L)$
+
+* MHA - Direct memory
+* SWA - Fading memory of past
+* How do we guarantee more fading memory?
+* Increase #Layers
+* $O(L \times W)$
 
 ***
 
