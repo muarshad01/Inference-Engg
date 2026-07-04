@@ -94,3 +94,10 @@ $$
 * SiLU activation function.
 
 ***
+
+| Paper |
+|---|
+| [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)|
+| [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) |
+
+***
