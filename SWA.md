@@ -63,6 +63,8 @@
 | SWA | $2 \times N_{queries} \times W_{keys} \times d$ | $2 \times W \times d$ |$N_{queries}=1$|
 |---|---|---|---|
 | Linear Attention | $N\times d^2 + N \times d$ | ||
-| SSM              | $N \log N$ | $d^2$ | |
 
 * We reduce KV-cache size by a factor of $\frac{N}{W}$ for SWA compared to MHA.
+
+
+***
