@@ -104,7 +104,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### Convolution - Music
 * Reverb - At each time point you add influences of that past.
-* Revert preset = $[a_1, a_2, a_3, a_4]$
+* Reverb preset = $[a_1, a_2, a_3, a_4]$
 * Time points   = $[x_1, x_2, x_3, x_4]$
 
 #### Fourier Transform
