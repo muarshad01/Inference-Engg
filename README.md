@@ -10,7 +10,7 @@
 | **L1** | **Three Stages of Inference** — Difference between inference and pre-training. Journey of a token through inference, prefill, and decode. | [L1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
 | **L2** | **Good and Evil of KV Cache** | [L2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
 | **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [L3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | June 30, 2026 |
-| **L4** | **Attention Variants Part 2** — Sliding Window Attention, Linear Attention, State Space Models, Mamba Architecture | [L4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
+| **L4** | **Attention Variants Part 2** — SWA, Linear Attention, SSMs, Mamba Architecture | [L4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | May 05, 2026 |
 | **L5** | **All aoubt Flash Attention, 1,2,3** — Flash Attention, Paged Attention, ~~Prefix Caching~~, Chunked Prefill | [L5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | May 09, 2026 |
 | **L6** | **The Anatomy of a vLLM Step** | [L6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
 | **L7** | **All about Quantization** | [L7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
