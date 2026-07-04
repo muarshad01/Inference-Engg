@@ -14,8 +14,9 @@
 
 ***
 
+#### 2 Ways to Compress KV Cache
+* Compress KV-cache across number of heads ($n_{heads}$) - [DeepSeek Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 * Compress KV-cache across tokens
-* Compress KV-cache across Number of heads (earlier) - [DeepSeek Sparse Attention (DSA)](https://sebastianraschka.com/llm-architecture-gallery/deepseek-sparse-attention/)
 
 ***
 
