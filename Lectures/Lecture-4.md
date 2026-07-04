@@ -152,14 +152,36 @@ $$
 
 ***
 
-* 3:50:00
+* 4:00:00
+
+* (A) sliding window
+* (B) detour 1: convolution NlogN
+* (C) detour 2: SSMs are all around us
+* (D) what if softmax not there -> Linear Attention -> Fixed KV size -> equal importance to ALL past.
+* (E) Linear Attention is nothing but SSM
+* (F) Formalize Attn as SSM (use detour 2):
+  * Prefill: Convolution: NlogN (use detour 1)
+  * Decode: fixed KV size
+  * Decaying importance to past.
+* (G) selective access to past
+  * Mamba
+  * Mamba prefill: Can't use Conv trick -> Paralle Scan
+  * Mamba decode: Fixed KV size
+  * Solve past token selectivity issue
+* (H) Mamba -> Quality -> past is compressed into a small matrix
+* (I) Alternate Mamba with full Attn layer
+* (J) Good tradeoff -> Jamba
+
+*** 
 
 #### Research Topics
 * MLA + Mamba
 * Sliding window reception analysis for dynamic windows?
 * Mamba + sliding window + full attention
 
-*** 
+***
+
+
 
 | Method	| What is cached?	| Memory with context length N	| Intuition	| Likely trade-off | 
 |---|---|---|---|---|
