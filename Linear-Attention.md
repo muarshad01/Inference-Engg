@@ -7,8 +7,6 @@
 
 $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times V(N,d)$$
 
-
-
 * What if $\text{softmax}$ is removed and we only have:
 
 $$
@@ -80,7 +78,7 @@ $$
 
 #### Drawback of Linear Attention
 * This is never used in practise
-* History is not weighted???
+* History is not weighted. Gives same weitage to all older states.
 
 ***
 * Cache (State) is maintained
