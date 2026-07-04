@@ -91,5 +91,6 @@ $$
 
 #### Selective SSM --> Mamba Architecture
 * Mamba Block (Conv1D + SSM + Gate)
+* SiLU activation function.
 
 ***
