@@ -9,7 +9,7 @@ $$
 \end{align}
 $$
 
-* Prefill: FLOPS $$O(N\log N)$$
+* Prefill: $$O(N\log N)$$ FLOPS
 * Decode: Const cache size as $h_t$ only needs $h_{t-1}$
 
 ***
