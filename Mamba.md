@@ -9,6 +9,9 @@ $$
 \end{align}
 $$
 
+* Prefill: FLOPS $O(N\logN)$
+* Decode: Const cache size as $h_t$ only needs $h_{t-1}$
+
 ***
 
 $$
