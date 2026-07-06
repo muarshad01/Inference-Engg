@@ -11,6 +11,7 @@ $$
 
 * Prefill: $$O(N\log N)$$ FLOPS
 * Decode: Const cache size as $h_t$ only needs $h_{t-1}$
+* LA is a specilized case of generalized SSM.
 
 ***
 
