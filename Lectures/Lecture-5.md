@@ -95,7 +95,7 @@ $$
 $$
 
 * $q_1 (1,8) \times K^T(8,16) \rightarrow \\{s_1,s_2, ..., s_{16}\\} \rightarrow \\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\}$
-* $\\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\} \times V(16,8) \rightarrow Z(1,8)$ 
+* $\\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\} \times V(16,8) \rightarrow O(1,8)$ 
 
 ***
 
