@@ -89,8 +89,8 @@ One Layer -> 32 MB
 $$
 \begin{align}
    A &= Q\times K^T\\
-   B &= \text{softmax}(A)\\
-   O &= B \times V
+   S &= \text{softmax}(A)\\
+   O &= S \times V
 \end{align}
 $$
 
