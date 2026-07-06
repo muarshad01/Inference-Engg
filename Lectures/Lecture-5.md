@@ -1,5 +1,5 @@
 ## Flash Attention 1,2,3
-* Cornerstone of both Inference and Pre-Training
+* Cornerstone of both Pre-Training and Inference 
 
 #### [Lecture 4 - Review](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)
 
