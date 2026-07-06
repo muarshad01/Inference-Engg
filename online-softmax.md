@@ -39,12 +39,6 @@ $$
 
 * After each iteration, we tore $O_1$ and running sum of den value.
 
-***
-
-* 1:50:00
-
-***
-
 #### SRAM Memory
 * $M = d \times \text{tile size}$
 
@@ -56,7 +50,6 @@ $$
 \end{align}
 $$
 
-
 * For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$
    * Number of R/W per query time = $Nd$
 * For $(Q\times K^T)$ and $\text{softmax}(Q\times K^T)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
@@ -67,8 +60,9 @@ $$
 | Tradition | $3Nd + 2N^2d$ | ~$Nd + N^2d$|
 | Flash     | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
 
-
 ***
+
+* 2:00:00
 
 * [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 * [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451)
@@ -78,3 +72,4 @@ $$
 
 * 2:55:00
 
+***
