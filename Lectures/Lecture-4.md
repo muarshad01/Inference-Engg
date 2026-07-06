@@ -155,7 +155,11 @@ $$
 
 * 4:00:00
 
+#### Axes of KV Compression: Heads and Tokens
+* **Tokens**: Look at only W tokens in the past (Window=$W$)
 * (A) sliding window
+  * There is concept of **Effective Receptive Field (ERF)**
+  * More number of layers L, the more broader is the ERF
 * (B) detour 1: convolution NlogN
 * (C) detour 2: SSMs are all around us
 * (D) what if softmax not there -> Linear Attention -> Fixed KV size -> equal importance to ALL past.
@@ -181,8 +185,6 @@ $$
 * Mamba + sliding window + full attention
 
 ***
-
-
 
 | Method	| What is cached?	| Memory with context length N	| Intuition	| Likely trade-off | 
 |---|---|---|---|---|
