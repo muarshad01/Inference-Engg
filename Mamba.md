@@ -1,6 +1,6 @@
 ### State Space Models (SSM) for Attention
 
-* $x_t \to \text{MHA}(h_t)} \to y_t$
+* $x_t \to \text{MHA}(h_t) \to y_t$
 
 $$
 \begin{align}
