@@ -9,7 +9,7 @@
 
 | Stage | Stored in Memory|
 |---|---|
-| Pre-Training | Params, Grads, Optims, Activs |
+| Pre-Training | Params, Activs, Grads, Optims |
 | Inference    | Params, Activs, KV-cache |
 
 ***
