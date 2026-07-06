@@ -107,9 +107,9 @@ $$
 
 | $q_2(1,8)$ | $K_2(4,8)$ | $A_2 = q_2 \times K_2^T$  | $S_2 = \bigg( \frac{e^{s_5}}{sum_2}, \frac{e^{s_6}}{sum_2}, \frac{e^{s_7}}{sum_2}, \frac{e^{s_8}}{sum_2}\bigg)$   | $O_2 = S_2 \times V_2(4,8)$ | $O_1 \times sum_1 + O_2 \times sum_2$ |
 
-| $q_3(1,8)$ | $K_3(4,8)$ | $A_3 = q_3 \times K_3^T$  | $S_3 = \bigg( \frac{e^{s_9}}{sum_3}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$ | $O_3 = S_3 \times V_3(4,8)$ | $O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3$|
+| $q_3(1,8)$ | $K_3(4,8)$ | $A_3 = q_3 \times K_3^T$  | $S_3 = \bigg( \frac{e^{s_9}}{sum_3}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$ | $O_3 = S_3 \times V_3(4,8)$ | $O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3$ |
 
-| $q_4(1,8)$ | $K_4(4,8)$ | $A_4 = q_4 \times K_4^T$  | $S_4 = \bigg( \frac{e^{s_{13}}}{sum_4}, \frac{e^{s_{14}}}{sum_4}, \frac{e^{s_{15}}}{sum_4}, \frac{e^{s_{16}}}{sum_4}\bigg)$  | $O_4 = S_4 \times V_4(4,8)$ |$O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3 + O_4 \times sum_4$|
+| $q_4(1,8)$ | $K_4(4,8)$ | $A_4 = q_4 \times K_4^T$  | $S_4 = \bigg( \frac{e^{s_{13}}}{sum_4}, \frac{e^{s_{14}}}{sum_4}, \frac{e^{s_{15}}}{sum_4}, \frac{e^{s_{16}}}{sum_4}\bigg)$  | $O_4 = S_4 \times V_4(4,8)$ | $O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3 + O_4 \times sum_4$|
 
 * After each iteration, we tore $O_1$ and running sum of den value.
 
