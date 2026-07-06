@@ -16,10 +16,16 @@
 | L2        |   4 TB/s |
 | HBM       | 3.5 TB/s |
 
+* **Tensor Core** - Specific to matrix multiplication
+* **CUDA Core** - For anytype of math
+* WARP: Group of threads
+
 | Stage | Stored in Memory|
 |---|---|
 | Pre-Training | Params, Activs, Grads, Optims |
 | Inference    | Params, Activs, ~~Grads, Optims,~~ KV-cache |
+
+* [How to Make LLM Training Faster with Unsloth and NVIDIA](https://unsloth.ai/blog/nvidia-collab)
 
 ***
 
