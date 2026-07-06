@@ -82,16 +82,16 @@ One Layer -> 32 MB
 
 * [Online Softmax - Day08](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-08.md)
 
+* $Q(16,8) - \\{q_1,q_2, ..., q_{16}\\}$
+* $K(16,8) - \\{k_1,k_2, ..., k_{16}\\}$
+* $V(16,8) - \\{v_1,v_2, ..., v_{16}\\}$
+
 $$
 \begin{align}
    A &= Q\times K^T\\
    Z &= \text{softmax}(A) \times V
 \end{align}
 $$
-
-* $Q(16,8) - \\{q_1,q_2, ..., q_{16}\\}$
-* $K(16,8) - \\{k_1,k_2, ..., k_{16}\\}$
-* $V(16,8) - \\{v_1,v_2, ..., v_{16}\\}$
 
 * $q_1 (1,8) \times K^T(8,16) \rightarrow \\{s_1,s_2, ..., s_{16}\\} \rightarrow \\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\}$
 * 
