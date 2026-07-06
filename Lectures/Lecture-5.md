@@ -42,8 +42,11 @@
 4. Read scores back from HBM. Comptue $S=\text{softmax}(A)$
 5. Write $S=\{softmax}(A)$ to HBM
 6. Read $S$ and $V$ from HBM and compute $S \times V \to Z=\text{Context}$ 
-* 3r + 3w
-* __Question__: $N \times N$ matrix moves through GPU how many times? -- 2 times
+* 3R + 3W
+* __Question__: $N \times N$ matrix moves through GPU how many times?
+  * 2 times
+  * Read/Write A
+  * Read/Write S
 
 ***
 
