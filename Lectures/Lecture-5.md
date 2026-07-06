@@ -1,6 +1,14 @@
 ## Flash Attention 1,2,3
 * Cornerstone of both inference and per-traing
 
+#### Axes of KV Compression: Heads and Tokens
+* **Tokens**:
+* (A) Sliding window
+* (B) Detour 1: Convolution NlogN
+* (C) Detour 2: SSM are all around us
+
+
+
 #### Review
 * Sliding Window: We can only look $W$ tokens in the past
 * There is concept of __Effective Receptive Field (ERF)__
