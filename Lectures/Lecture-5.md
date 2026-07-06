@@ -89,7 +89,8 @@ One Layer -> 32 MB
 $$
 \begin{align}
    A &= Q\times K^T\\
-   Z &= \text{softmax}(A) \times V
+   B &= Q\times K^T\\
+   Z &= B \times V
 \end{align}
 $$
 
