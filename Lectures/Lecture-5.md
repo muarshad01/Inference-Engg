@@ -7,6 +7,8 @@
 
 * 40:00
 
+* Information transfer from HBM-to-Compute
+
 | Stage | Stored in Memory|
 |---|---|
 | Pre-Training | Params, Activs, Grads, Optims |
@@ -15,8 +17,6 @@
 ***
 
 * 1:00:00
-  
-* High Bandwidth Memory (HBM)
 
 #### Total RW = 3r + 3w
 * Attention Block
@@ -25,7 +25,7 @@
 3. Write matrix A $\to$ HBM
 4. Read A from HBM and comptue $S=\text{softmax}(A)$
 5. Write $S=\{softmax}(A)$ to HBM
-6. Read $S$ and $V$ from HBM and compute $S \times V \to \text{context}$ 
+6. Read $S$ and $V$ from HBM and compute $S \times V \to Z=\text{Context}$ 
 * 3r + 3w
 * __Question__: $N \times N$ matrix moves through GPU how many times? -- 2 times
 
