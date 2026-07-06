@@ -166,12 +166,14 @@ $$
 * (D) What if $\text{softmax}$ not there? -> Linear Attention -> Fixed KV size $(d,d)$ -> equal importance to ALL past.
   * Whenever a new token comes, the influence of past is compressed into a small $(d \times d)$ matrix.
   * The whole context is compressed into a small $(d \times d)$ matrix. $d^2$ has pressure to contain all information of past.
-  * Context bottlenexk problem (Same issue as in RNN).
+  * Context bottleneck problem (Same issue as in RNN).
   * Size of KV-Cache would reduce by a huge amount and stay fixed, but contxt is compressed into 
 $(d \times d)$ values and as N increaes, it puts a lot of pressure on this small context to contain context of all past tokens.
-* (E) Linear Attention is nothing but SSM
-* (F) Formalize Attn as SSM (use detour 2):
-  * Prefill: Convolution: NlogN (use detour 1)
+* (E) Linear Attention (LA) is nothing but SSM
+  * This is never used in practise
+  * History is not weighted. For any new token gives same importance to past tokens.
+* (F) Formalize Attn as SSM (use Detour 2):
+  * Prefill: Convolution: $NlogN$ (use Detour 1)
   * Decode: fixed KV size
   * Decaying importance to past.
 * (G) selective access to past
