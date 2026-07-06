@@ -108,6 +108,8 @@ $$
 | $Q_3(4,8)$ | $K_3(4,8)$ | $A_3 = Q_3 \times K_3^T$  | $S_3 = \bigg( \frac{e^{s_9}}{sum_3}, \frac{e^{s_{10}}}{sum_3}, \frac{e^{s_{11}}}{sum_3}, \frac{e^{s_{12}}}{sum_3}\bigg)$ | $O_3 = S_3 \times V_3(4,8)$ | $(O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3, cum-sum)$|
 | $Q_4(4,8)$ | $K_4(4,8)$ | $A_4 = Q_4 \times K_4^T$  | $S_4 = \bigg( \frac{e^{s_{13}}}{sum_4}, \frac{e^{s_{14}}}{sum_4}, \frac{e^{s_{15}}}{sum_4}, \frac{e^{s_{16}}}{sum_4}\bigg)$  | $O_4 = S_4 \times V_4(4,8)$ |$\bigg(\frac{O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3 + O_4 \times sum_4}{sum_1 + sum_2 + sum_3 + sum_4}\bigg)$|
 
+* Store $O_1$ and running-sum of denominator value.
+
 ***
 
 * 1:50:00
