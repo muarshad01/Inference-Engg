@@ -164,7 +164,11 @@ $$
 * (B) **Detour 1**: convolution NlogN
 * (C) **Detour 2**: SSMs are all around us
 * (D) What if $\text{softmax}$ not there? -> Linear Attention -> Fixed KV size $(d,d)$ -> equal importance to ALL past.
-  * $d^2$ has pressure to contain all information of past
+  * Whenever a new token comes, the influence of past is compressed into a small $(d \times d)$ matrix.
+  * The whole context is compressed into a small $(d \times d)$ matrix. $d^2$ has pressure to contain all information of past.
+  * Context bottlenexk problem (Same issue as in RNN).
+  * Size of KV-Cache would reduce by a huge amount and stay fixed, but contxt is compressed into 
+$(d \times d)$ values and as N increaes, it puts a lot of pressure on this small context to contain context of all past tokens.
 * (E) Linear Attention is nothing but SSM
 * (F) Formalize Attn as SSM (use detour 2):
   * Prefill: Convolution: NlogN (use detour 1)
