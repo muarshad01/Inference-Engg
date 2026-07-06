@@ -26,6 +26,7 @@
 | Inference    | Params, Activs, ~~Grads, Optims,~~ KV-cache |
 
 * [How to Make LLM Training Faster with Unsloth and NVIDIA](https://unsloth.ai/blog/nvidia-collab)
+* [Cerebras Model Zoo](https://github.com/Cerebras/modelzoo)
 
 ***
 
