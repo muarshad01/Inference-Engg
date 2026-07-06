@@ -53,11 +53,10 @@
 #### Problem with Traditional Attention
 
 ```
-N=4,096
-4,096 x 4,096 x 2 =
-2^{12} x 2^{12} x 2^{1} = 2^{25} = 32 MB for One Layer
-One Layer --> 32 MB
-32 Layers --> 1 GB / forward pass -- just for attention
+N = 4,096 = 4k
+N X N = 4k x 4k x 2 = 32 MB for one Layer
+One Layer -> 32 MB
+32 Layers -> 1 GB / forward pass -- just for attention
 * This whole 1 GB has to pass through HBM!
 ```
 
