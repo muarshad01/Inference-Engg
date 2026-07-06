@@ -1,10 +1,10 @@
 ### State Space Models (SSM) for Attention
 
-* $x_t \to \underbrace{\text{MHA}(h_t)}_{(d \times d)} \to y_t$
+* $x_t \to \text{MHA}(h_t)} \to y_t$
 
 $$
 \begin{align}
-   h_t &= Ah_{t-1} + Bx_t\\
+   h_t &= A\underbrace{h_{t-1}}_{(d \times d)} + Bx_t\\
    y_t &= Ch_t\\
 \end{align}
 $$
