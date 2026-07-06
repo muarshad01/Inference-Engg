@@ -82,9 +82,19 @@ One Layer -> 32 MB
 
 * [Online Softmax - Day08](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-08.md)
 
-* $Q(16,8)$
-* $K(16,8)$
-* $V(16,8)$
+* $Q(16,8) - q_1,q_2, ..., q_16$
+* $K(16,8) - k_1,k_2, ..., k_16$
+* $V(16,8) - v_1,v_2, ..., v_16$
+
+| $q_1 (1,8)$ | $k_1,k_2, ..., k_16$ ||
+              | $s_1,s_2, ..., s_16$ | Scores |
+|             | ||
+
+
+
+
+
+
 
 * Tile size= 4 Tokens
 
