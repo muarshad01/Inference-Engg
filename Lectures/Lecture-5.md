@@ -90,7 +90,7 @@ One Layer -> 32 MB
 |---|---|---|
 | $q_1 (1,8)$ | $\\{k_1,k_2, ..., k_{16}\\}$ ||
 |              | $\\{s_1,s_2, ..., s_{16}\\}$ | Scores |
-|             | $\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}$ ||
+|             | $\big{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}$ ||
 
 
 * Tile size= 4 Tokens
