@@ -1,11 +1,9 @@
-## Lecture-5
-
-#### All about Flash Attention
+## Lecture-5: Flash Attention
 
 #### Review
 * Sliding Window: We can only look $W$ tokens in the past
-* There is concept of __Receptive Field__
-* More number of layers $L$, the more broader is the receptive field
+* There is concept of __Effective Receptive Field (ERF)__
+  * More number of layers $L$, the more broader is the receptive field
 * Active research area: Receptive field
 * NVIDIA Nemotron uses Mamba Architecture
 
