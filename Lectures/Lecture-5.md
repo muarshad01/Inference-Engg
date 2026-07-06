@@ -9,6 +9,13 @@
 
 * Information transfer from HBM-to-Compute
 
+| Memory Type | Speed |
+|---|---|
+| Registers |  20 TB/s |
+| L1        |  19 TB/s |
+| L2        |   4 TB/s |
+| HBM       | 3.5 TB/s |
+
 | Stage | Stored in Memory|
 |---|---|
 | Pre-Training | Params, Activs, Grads, Optims |
