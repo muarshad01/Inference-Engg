@@ -1,6 +1,6 @@
 ### State Space Models (SSM) for Attention
 
-* $x_t \to \text{MHA}(h_t) \to y_t$
+* $x_t \to \underbrace{\text{MHA}(h_t)}_{(d \times d)} \to y_t$
 
 $$
 \begin{align}
@@ -52,8 +52,9 @@ $$
 
 * 3:20:00
   
-* Although this is better than Linear Attention: all past does not have same weight.
-* Past contribution decays esponentially.
+* Although this is better than Linear Attention
+   * All past does not have same weight.
+   * Past contribution decays esponentially.
 * But A and B are still fixed, which it NOT good!
 * I need to have some selectivity!
 * I need to vary A and B also for every NEW token, which comes in.
