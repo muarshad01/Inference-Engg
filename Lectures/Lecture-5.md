@@ -1,4 +1,5 @@
 ## Flash Attention 1,2,3
+* Cornerstone of both inference and per-traing
 
 #### Review
 * Sliding Window: We can only look $W$ tokens in the past
