@@ -15,9 +15,7 @@
 ***
 
 * 1:00:00
-
-***
-
+  
 * High Bandwidth Memory (HBM)
 
 #### Total RW = 3r + 3w
