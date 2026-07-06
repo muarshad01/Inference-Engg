@@ -160,6 +160,7 @@ $$
 * (A) sliding window
   * There is concept of **Effective Receptive Field (ERF)**
   * More number of layers L, the more broader is the ERF
+  * KV cache size is reduced to $O(W)$ insted of $O(N)$ in MHA
 * (B) detour 1: convolution NlogN
 * (C) detour 2: SSMs are all around us
 * (D) what if softmax not there -> Linear Attention -> Fixed KV size -> equal importance to ALL past.
