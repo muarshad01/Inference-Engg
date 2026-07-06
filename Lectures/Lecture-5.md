@@ -20,6 +20,8 @@
 * **CUDA Core** - For anytype of math
 * WARP: Group of threads
 
+***
+
 | Stage | Stored in Memory|
 |---|---|
 | Pre-Training | Params, Activs, Grads, Optims |
