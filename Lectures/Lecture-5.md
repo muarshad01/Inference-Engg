@@ -90,7 +90,7 @@ $$
 \begin{align}
    A &= Q\times K^T\\
    B &= \text{softmax}(A)\\
-   Z &= B \times V
+   O &= B \times V
 \end{align}
 $$
 
