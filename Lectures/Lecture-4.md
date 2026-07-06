@@ -178,10 +178,12 @@ $(d \times d)$ values and as N increaes, it puts a lot of pressure on this small
   * Decaying importance to past.
 * (G) selective access to past
   * Mamba
-  * Mamba prefill: Can't use Conv trick -> Paralle Scan
+  * Mamba prefill: Can't use Conv trick ($N\log N$) -> **Paralle Scan**
   * Mamba decode: Fixed KV size
   * Solve past token selectivity issue
 * (H) Mamba -> Quality -> past is compressed into a small matrix
+  * Can't be used standalone in practice. Have to be interleaved with traditional transformer block.
+  * **NVIDIA - Nemotron 2 nano** uses Mamba Architecture
 * (I) Alternate Mamba with full Attn layer
 * (J) Good tradeoff -> Jamba
 
