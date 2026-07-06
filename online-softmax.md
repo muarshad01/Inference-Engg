@@ -48,6 +48,9 @@ $$
 * $\text{Memory (SRAM)} = d \times \text{tile size}$
 
 
+* For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$
+* For (Q\times K^T) and \text{softmax}(Q\times K^T) matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
+
 ||||
 |---|---|---|
 | Tradition | $3Nd + 2N^2d$ | ~$Nd + N^2d$|
