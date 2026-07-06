@@ -45,22 +45,25 @@ $$
 
 ***
 
-* $\text{Memory (SRAM)} = d \times \text{tile size}$
+#### SRAM Memory
+* $M = d \times \text{tile size}$
 
+$$
+\begin{align}
+\text{How many query tiles} &= \frac{N}{Tile ~size} \\
+                            &= \frac{N}{\frac{M}{d}} 
+                            &= \frac{Nd}{M}\\
+\end{align}
+$$
 
-* For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$
-* For (Q\times K^T) and \text{softmax}(Q\times K^T) matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
-
-||||
+| Scheme |||
 |---|---|---|
 | Tradition | $3Nd + 2N^2d$ | ~$Nd + N^2d$|
 | Flash     | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
 
-*** 
-
-* Number of R/W per query time = $Nd$
-* How many query tiles = $\frac{N}{Tile size} = \frac{N}{\frac{M}{d}} = \frac{Nd}{M}$
-* $M = d \times \text{Tile size}$
+* For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$
+   * Number of R/W per query time = $Nd$
+* For $(Q\times K^T)$ and $\text{softmax}(Q\times K^T)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
 
 ***
 
