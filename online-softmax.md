@@ -1,4 +1,4 @@
-#### Idea
+#### Main Idea
 * Tile Q,K,V
 * Bring tiles into SRAM
 * Find partial output vectors
