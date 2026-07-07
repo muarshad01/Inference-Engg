@@ -63,7 +63,7 @@ $$
 | Scheme |  | R/W from HRAM ||
 |---|---|---|---|
 | Standard Attention | $3Nd + 2N^2$ | $Nd + N^2$ ||
-| Flash              |              | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ |
+| Flash              |              | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} <<< 1$ |
 
 ***
 
