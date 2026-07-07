@@ -52,13 +52,12 @@ $$
 
 * Standard Attention:
    * For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$ R/W
-   * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
-
+   * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$ - $O(2N^2d)$
 
 | Scheme | R/W from HRAM |||
 |---|---|---|---|
 | Standard Attention | $3Nd + 2N^2d$ | $Nd + N^2d$ ||
-| Flash              |               | $Nd + \frac{N^2d^2}{M}$ |$\frac{d^2}{M} << 1$|
+| Flash              |               | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ |
 
 
 * For each query tile, I need to fetch all K and V from HRAM. K and V size is $Nd$
