@@ -37,8 +37,8 @@
 #### Total RW = 3r + 3w
 * Attention Block
 1. **Activations** $Q, K, V$ matrices are written to HBM
-2. Read $Q, K$ from HBM and we compute $A(N,N) = Q \times K^T$ (NxN)
-3. Write (NxN) attn score matrix A $\to$ HBM
+2. Read $Q, K$ from HBM and we compute $A(N,N) = Q \times K^T$
+3. Write attn score matrix (A) $\to$ HBM
 4. Read scores back from HBM. Comptue $S=\text{softmax}(A)$
 5. Write $S=\{softmax}(A)$ to HBM
 6. Read $S$ and $V$ from HBM and compute $S \times V \to O=\text{Context Vector}$ 
