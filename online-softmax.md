@@ -87,6 +87,7 @@ $$
 #### Code
 * H100 or H200
 * PyTorch SDPA - Scaled Dot Product Attention
+* SFU - Special function unit
 
 ***
 
