@@ -46,9 +46,7 @@ $$
 
 $$
 \begin{align}
-\text{How many query tiles} &= \frac{N}{Tile ~size} \\
-                            &= \frac{N}{\frac{M}{d}} \\
-                            &= \frac{Nd}{M}\\
+   \text{How many query tiles} &= \frac{N}{Tile ~size} =  \frac{N}{\frac{M}{d}} = \frac{Nd}{M}\\
 \end{align}
 $$
 
