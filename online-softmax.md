@@ -55,7 +55,7 @@ $$
    * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
 
 
-| Scheme ||||
+| Scheme | R/W from HRAM |||
 |---|---|---|---|
 | Standard Attention | $3Nd + 2N^2d$ | $Nd + N^2d$ ||
 | Flash              |               | $Nd + \frac{N^2d^2}{M}$ |$\frac{d^2}{M} << 1$|
