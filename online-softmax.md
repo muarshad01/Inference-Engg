@@ -63,11 +63,11 @@ $$
 | Scheme |  | R/W from HRAM ||
 |---|---|---|---|
 | Standard Attention | $3Nd + 2N^2$ | $Nd + N^2$ ||
-| Flash              |              | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} <<< 1$ |
+| Flash Attention    |              | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} <<< 1$ |
 
 ***
 
-* 2:00:00
+* 2:05:00
 
 * [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 * [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451)
