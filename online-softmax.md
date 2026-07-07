@@ -60,6 +60,12 @@ $$
 | Tradition | $3Nd + 2N^2d$ | ~$Nd + N^2d$|
 | Flash     | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} << 1$ | 
 
+
+* For each query tile, I need to fetch all K and V from HRAM. K and V size is $Nd$
+* Number of query tiles = $\frac{N}{\text{tile size}}$
+* $Nd \times \frac{N}{\text{tile size}}$
+*  $Nd \times \frac{N}{\frac{M}{d}}=\frac{N^2d^2}{M}$
+
 ***
 
 * 2:00:00
