@@ -52,7 +52,7 @@ $$
 
 * Standard Attention:
    * For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$ R/W
-   * For $(Q\times K^T)$ and $\text{softmax}(Q\times K^T)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
+   * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
 
 
 | Scheme ||||
