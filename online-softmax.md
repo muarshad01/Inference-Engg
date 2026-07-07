@@ -50,15 +50,15 @@ $$
 \end{align}
 $$
 
-* For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$
-   * Number of R/W per query time = $Nd$
-* For $(Q\times K^T)$ and $\text{softmax}(Q\times K^T)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
+* Standard Attention:
+   * For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$ R/W
+   * For $(Q\times K^T)$ and $\text{softmax}(Q\times K^T)$ matrices of dimension $(N,N)$ - $O(2N^2d)$...d??
 
 
 | Scheme ||||
 |---|---|---|---|
-| Tradition | $3Nd + 2N^2d$ | $Nd + N^2d$ ||
-| Flash     |               | $Nd + \frac{N^2d^2}{M}$ |$\frac{d^2}{M} << 1$|
+| Standard Attention | $3Nd + 2N^2d$ | $Nd + N^2d$ ||
+| Flash              |               | $Nd + \frac{N^2d^2}{M}$ |$\frac{d^2}{M} << 1$|
 
 
 * For each query tile, I need to fetch all K and V from HRAM. K and V size is $Nd$
