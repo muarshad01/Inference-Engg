@@ -69,4 +69,14 @@ One Layer -> 32 MB
 
 ***
 
-* [Online Softmax](https://github.com/muarshad01/Inference-Engg/blob/main/online-softmax.md)
+#### [Online Softmax](https://github.com/muarshad01/Inference-Engg/blob/main/online-softmax.md)
+
+****
+
+#### DFlash
+| Paper |
+|---|
+| [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036) |
+
+***
+
