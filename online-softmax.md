@@ -39,8 +39,10 @@ $$
 
 * After each iteration, we tore $O_1$ and running sum of den value.
 
-#### SRAM Memory
-* $M = d \times \text{tile size}$
+***
+
+#### SRAM Memory (M) Size
+* $M_{SRAM} = d \times \text{tile size}$
 
 $$
 \begin{align}
