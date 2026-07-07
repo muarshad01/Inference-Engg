@@ -64,8 +64,8 @@ One Layer -> 32 MB
 
 #### Solution
 * (N x N) matrix is main issue!
-* You never write (N x N) matrices into HRAM
-* We Break (N x N) into smaller tiles, which briefly exist in SRAM
+* You never write (N x N) matrix into HRAM
+* We break (N x N) matrix into smaller tiles, which briefly exist in SRAM.
 
 ***
 
