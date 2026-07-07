@@ -75,12 +75,12 @@ $$
 |---|---|
 | ~~[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)~~ ||
 | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) ||
-| [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) | Tensor memory accelerator. |
+| [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) | Specilized hardware: Tensor memory accelerator. |
 | [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451) ||
 * [Dao AI Lab](https://github.com/Dao-AILab)
 
 ***
 
-* 2:55:00
+* 2:35:00
 
 ***
