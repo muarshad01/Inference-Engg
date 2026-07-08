@@ -46,17 +46,15 @@
 
 ***
 
-* 25:00
-
-#### Batching
-* Efficient batching moves you up the RoofLine plot
+#### Continuous Batching
+* Efficient batching moves you up the Roofline plot
 * Batching
   * Increases TTFT 
   * ITL will incerase a bit too
 
 *** 
 
-* 35:00
+* 30:00
 
 #### Inference
 * Prefill
