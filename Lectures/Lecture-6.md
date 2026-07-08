@@ -1,6 +1,6 @@
 ## Anatomy of vLLM step
 * [vLLM](https://github.com/vllm-project/vllm) -- Most modern Inference Engine!
-* [Run and Scale AI with Ray](https://www.anyscale.com/platform)
+* [Company - AnyScale - Run and Scale AI with Ray](https://www.anyscale.com/platform)
 * [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
 ***
