@@ -81,11 +81,13 @@
 * n_{heads} = 8
 * d_{head} = 128
 
-Memory for 1-block = 
-
-
-$l \times b \times n_{heads} \times h \times s \times 2 \times 2$
-
+$$
+\begin{align}
+   \text{Memory for 1-block} &= l  \times b \times n_{heads} \times d_h \times s \times 2 \times 2\\
+                             &= 32 \times 1 \times 8         \times 128 \times 16 \times 2 \times 2 \\
+                             &= xxx
+\end{align}
+$$
 
 ***
 
