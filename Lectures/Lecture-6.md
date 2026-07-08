@@ -3,7 +3,6 @@
 * [Company - AnyScale - Run and Scale AI with Ray](https://www.anyscale.com/platform)
 * [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
-
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
 </p>
@@ -55,6 +54,10 @@
 *** 
 
 * 30:00
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/vllm-example.png" width="400" height="300" />
+</p>
 
 #### Inference
 * Prefill
