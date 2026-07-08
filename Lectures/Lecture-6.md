@@ -21,6 +21,16 @@
 
 *** 
 
+* 10:00
+* NAIVE - Recompute everything every step
+
+#### Approaches to reduce KV Cache size
+1. Across heads (GQA, MQA, MLA)
+2. Across tokens (SWA, LA (context bottleneck issue), Mamba, Jamba)
+* DSA
+
+***
+
 * 20:00
 
 * [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
