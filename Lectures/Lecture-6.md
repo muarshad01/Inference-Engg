@@ -8,7 +8,7 @@
 * 5:00
 
 * Prefill (Comptue Bound) - Impacts TTFT
-* Decode (Memory Bound) - Impact ITL
+* Decode (Memory Bound) - Impacts ITL and Througput
 
 *** 
 
