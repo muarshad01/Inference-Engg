@@ -70,6 +70,22 @@
 ***
 
 * 40:00
+* KV Cache pool = 57.6 GB
+* Divide pool into fixed size blocks
+* `block-size = 16` means each block KV vectors of size 16.
+* Block-1 = {k_1, k_2,...,K_{16}} & {v_1, v_2,...,v_{16}}
+* Block-2 = {k_{17}, k_2,...,K_{32}} & {v_{17}, v_2,...,v_{32}}
+
+***
+
+* n_{heads} = 8
+* d_{head} = 128
+
+Memory for 1-block = 
+
+
+$l \times b \times n_{heads} \times h \times s \times 2 \times 2$
+
 
 ***
 
