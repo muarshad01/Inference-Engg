@@ -7,6 +7,9 @@
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
 </p>
 
+* Prefill (Comptue Bound) - Impacts TTFT
+* Decode (Memory Bound) - Impacts ITL and Througput
+
 ***
 
 * 5:00
@@ -15,8 +18,13 @@
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/prefill-decode.png" width="400" height="300" />
 </p>
 
-* Prefill (Comptue Bound) - Impacts TTFT
-* Decode (Memory Bound) - Impacts ITL and Througput
+#### GPU memory- HBM
+* Consider H100 - 80GB
+* 8% reserved - 6.4 GB - for CUDA kernals / tmp buffers, etc.
+* Remaining 92% - 73.6 GB
+* Model weights (FP16) - $W_q, W_K, W_V$
+* Estimate Activations: $K,Q,V$
+* KV Cache
 
 *** 
 
