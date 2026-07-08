@@ -81,6 +81,7 @@
 
 ***
 
+#### Calculate size
 * n_{heads} = 8
 * d_{head} = 128
 
