@@ -3,6 +3,11 @@
 * [Company - AnyScale - Run and Scale AI with Ray](https://www.anyscale.com/platform)
 * [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
+</p>
+
 ***
 
 * 5:00
@@ -10,7 +15,6 @@
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/prefill-decode.png" width="400" height="300" />
 </p>
-
 
 * Prefill (Comptue Bound) - Impacts TTFT
 * Decode (Memory Bound) - Impacts ITL and Througput
