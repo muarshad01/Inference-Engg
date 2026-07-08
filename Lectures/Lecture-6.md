@@ -7,6 +7,11 @@
 
 * 5:00
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/prefill-decode.png" width="400" height="300" />
+</p>
+
+
 * Prefill (Comptue Bound) - Impacts TTFT
 * Decode (Memory Bound) - Impacts ITL and Througput
 
