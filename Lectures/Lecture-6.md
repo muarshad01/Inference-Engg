@@ -99,13 +99,18 @@ $$
 * 50:00
 
 #### Two Key Data Structures
-1. Free Block List: $\\{Block_0, Block_1, ..., Block_N\\}$
-2. Block Tables (Dictionary): $\\{seq_i : Block_j\\} \rightarrow Paging$
+1. free-block-list: $\\{block_0, block_1, ..., block_N\\}$
+2. block-table (Dictionary): $\\{seq_i : block_j\\} \rightarrow Paging$
 * Block tables maintain mapping for sequences:
 
 * **Phase-3**:
 * Write the formula for pythagorean theorem
-* $\ceil(\frac{tokens}{blocks})$
+* Tokens needed right now = 10
+* Blocks needed: $\lceil\frac{tokens}{blosks}\rceil$ = 1 block
+* Action taken: Pop block_0 from free-list
+* After allocation:
+  * free-block-list = $\\{block_1, block_2,..., block_N\\}$
+  * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
 
 * 1:05:00
 
