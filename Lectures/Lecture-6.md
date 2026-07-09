@@ -139,17 +139,15 @@ $$
 
 * 1:20:00
 
-* [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/)
-
-***
+#### Paged Attention vLLM
 
 | Paper |
 |---|
 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)|
 
-#### Ohter Advanced Techniques
-* Radix Attention
-* Semantic Caching
+#### RadixAttention & Semantic Caching
+
+* [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/)
 
 *** 
 
