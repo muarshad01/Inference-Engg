@@ -112,9 +112,11 @@ $$
   * free-block-list = $\\{block_1, block_2,..., block_N\\}$
   * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
 
-* 1:05:00
+***
 
-*** 
+* 1:00:00
+
+***
 
 * 1:20:00
 
