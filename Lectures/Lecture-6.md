@@ -155,20 +155,25 @@ $$
 
 #### Phase-6: What is a vLLM Step? One Forward Pass.
 * One vLLM step is one forward pass.
-  * Schedule collects work, builds a batch (`max-num-seqs`), runs it through 32 transformers.
+  * Schedule collects work, builds a batch (`max-num-seqs=128`), runs it through 32 transformers.
+  * Stream to user once one batch is processed
+  * That's why batch size effects user experience
 * What if there are 10,000 users?
 * One vLLM operation is whatever is there in a BATCH.
 
 
-#### Batching
+#### vLLM Queue
+* Waiting Queue
+* Running Queue
+
+#### vLLM uses Continuous Batching
 * Static batching
 * Continuous batching
+  * You don't have to wait for all sequence in one batch to finish. New sequence can come in.
 
 ***
 
-* 1:40:00
-
-***
+* 1:45:00
 
 #### Chunked Prefill
 
