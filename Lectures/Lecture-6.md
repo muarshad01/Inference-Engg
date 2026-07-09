@@ -218,6 +218,14 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/scenarios.png" width="500" height="300" />
 </p>
 
+***
+
+#### Complete Picture
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/complete-picture.png" width="500" height="300" />
+</p>
+
 
 ***
 
