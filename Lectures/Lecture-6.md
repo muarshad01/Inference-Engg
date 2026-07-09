@@ -112,8 +112,13 @@ $$
   * free-block-list = $\\{block_1, block_2,..., block_N\\}$
   * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
 * Tow sequences will never ever share the same block
-* WITHOUt paged attention: 4,096 tokens pre-allocated = 256 blocks = massive waste
-* WITH    paged attention: 1 block = 16 slots, only 6 wasted
+* **WITHOUt Paged Attention**
+  * 4,096 tokens pre-allocated
+  * 256 blocks
+  * massive waste
+* **WITH Paged Attention**
+  * 1 block
+  * 16 slots (for 10 tokens only 6 wasted)
 
 ***
 
@@ -124,6 +129,11 @@ $$
 * Decode: 11,12,13,14,15,16 token...then we fetch a new block
 * block-table: Seq A: [0, 77]
 * This kind of attention is called **Paged Attention**.
+
+***
+* What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory.
+* Why is it fine?
+* Because, we can use online softmax to merge the outputs!
 
 ***
 
