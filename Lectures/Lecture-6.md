@@ -103,7 +103,7 @@ $$
 2. block-table (Dictionary): $\\{seq_i : block_j\\} \rightarrow Paging$
 * Block tables maintain mapping for sequences:
 
-* **Phase-3**:
+#### **Phase-3**:
 * Write the formula for pythagorean theorem
 * Tokens needed right now = 10
 * Blocks needed: $\lceil\frac{tokens}{blosks}\rceil$ = 1 block
