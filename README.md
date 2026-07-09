@@ -1,5 +1,9 @@
 ## Inference Engineering
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
+</p>
+
 * [Schedule](https://github.com/muarshad01/Inference-Engg/blob/main/schedule.md)
 * [How do Graphics Cards Work? Exploring GPU Architecture](https://www.youtube.com/watch?v=h9Z4oGN89MU)
 * [LLM Architecture Gallery by Sebastian Raska](https://sebastianraschka.com/llm-architecture-gallery/)
