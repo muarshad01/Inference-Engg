@@ -207,4 +207,9 @@ $$
 
 ***
 
+* 2:10:00
 
+* **More sequences**:
+  * more throughput
+  * but user's stream gets slower!
+  * `max-num-seqs` lets you control this tradeoff.
