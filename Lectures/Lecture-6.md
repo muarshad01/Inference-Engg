@@ -153,6 +153,10 @@ $$
 
 * 1:30:00
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/one-step.png" width="400" height="300" />
+</p>
+
 #### Phase-6: What is a vLLM Step? One Forward Pass.
 * One vLLM step is one forward pass.
   * Schedule collects work, builds a batch (`max-num-seqs=128`), runs it through 32 transformers.
@@ -160,7 +164,6 @@ $$
   * That's why batch size effects user experience
 * What if there are 10,000 users?
 * One vLLM operation is whatever is there in a BATCH.
-
 
 #### vLLM Queue
 * Waiting Queue
