@@ -229,4 +229,11 @@ $$
 
 ***
 
+* In Inferenece, data-parallelism is not important but tensor-parallelism is important.
 
+***
+
+* 2:25:00
+
+
+***
