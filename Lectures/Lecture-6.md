@@ -213,3 +213,12 @@ $$
   * more throughput
   * but user's stream gets slower!
   * `max-num-seqs` lets you control this tradeoff.
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/scenarios.png" width="500" height="300" />
+</p>
+
+
+***
+
+
