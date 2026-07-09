@@ -100,7 +100,7 @@ $$
 
 #### Two Key Data Structures
 1. free-block-list: $\\{block_0, block_1, ..., block_N\\}$
-2. block-table (Dictionary): $\\{seq_i : block_j\\} \rightarrow Paging$
+2. block-table dictionary: $\\{seq_i : block_j\\} \rightarrow Paging$
 * Block tables maintain mapping for sequences:
 
 #### **Phase-3**:
@@ -111,10 +111,13 @@ $$
 * After allocation:
   * free-block-list = $\\{block_1, block_2,..., block_N\\}$
   * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
+* Tow sequences will never ever share the same block
 
 ***
 
 * 1:00:00
+
+#### **Phase-4**:
 
 ***
 
