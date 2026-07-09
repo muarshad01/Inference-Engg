@@ -12,7 +12,7 @@
 | **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [L3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | June 30, 2026 |
 | **L4** | **Attention Variants Part 2** — SWA, LA, SSMs, Mamba Architecture | [L4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | July 04, 2026 |
 | **L5** | **Flash Attention1,2,3** — Flash Attention | [L5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | July 06, 2026 |
-| **L6** | **vLLM; Paged Attention, Continuous Batching, Chunked Prefill~~Prefix Caching,~~** | [L6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | May 10, 2026 |
+| **L6** | **vLLM; Paged Attention, Continuous Batching, Chunked Prefill, ~~Prefix Caching,~~** | [L6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | July 09, 2026 |
 | **L7** | **All about Quantization** | [L7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | May 26, 2026 |
 |  | **Capstone Project 1** |[Capstone Project 1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/phase-1-capstone-project.md) | May XX, 2026 |
 |  ||||
