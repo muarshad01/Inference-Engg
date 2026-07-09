@@ -7,6 +7,14 @@
 
 ***
 
+#### Quantization
+* FP16 / FP8 / FP4 ??
+* INT8 / INT4
+* Generative Pre-trained Transformer Quantization (GPTQ)
+* GPT-Generated Unified Format (GGUF)
+* QAT
+* BitNet
+
 #### Overview:
 * Quantization Aware Training
 
