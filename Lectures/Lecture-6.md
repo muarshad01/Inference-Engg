@@ -101,9 +101,11 @@ $$
 #### Two Key Data Structures
 1. Free Block List: $\\{Block_0, Block_1, ..., Block_N\\}$
 2. Block Tables (Dictionary): $\\{seq_i : Block_j\\} \rightarrow Paging$
-* Block tables maintain mapping for sequences: 
+* Block tables maintain mapping for sequences:
 
-***
+* **Phase-3**:
+* Write the formula for pythagorean theorem
+* $\ceil(\frac{tokens}{blocks})$
 
 * 1:05:00
 
