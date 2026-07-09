@@ -185,7 +185,11 @@ $$
 </p>
 
 ```
---max-num-seqs
+--enable-chunked-prefill --max-num-batched-tokens 512
+```
+
+```
+--max-num-seqs 128
 --max-num-batched-tokens 
 ```
 
