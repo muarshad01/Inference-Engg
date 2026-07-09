@@ -100,8 +100,8 @@ $$
 
 #### Two Key Data Structures
 1. Free Block List: $\\{Block_0, Block_1, ..., Block_N\\}$
-2. Block Tables (Dictionary): ${} \rightarrow Paging$
-* Block tables maintain mapping for sequences: $\\{seq_i : Block_j\\}
+2. Block Tables (Dictionary): $\\{seq_i : Block_j\\} \rightarrow Paging$
+* Block tables maintain mapping for sequences: 
 
 ***
 
