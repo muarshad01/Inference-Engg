@@ -184,9 +184,15 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/big-prefill-block.png" width="400" height="300" />
 </p>
 
+
 ```
 --enable-chunked-prefill --max-num-batched-tokens 512
 ```
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/chunked-prefill.png" width="500" height="300" />
+</p>
+
 
 ```
 --max-num-seqs 128
