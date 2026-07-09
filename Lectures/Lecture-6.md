@@ -98,9 +98,10 @@ $$
 
 * 50:00
 
-#### Key Data Structures
-* free_lock_list: $\\{Block_0, Block_1, ..., Block_N\\}$
-* Block_table: $\\{seq_i : Block_j\\} \rightarrow Paging$
+#### Two Key Data Structures
+1. Free Block List: $\\{Block_0, Block_1, ..., Block_N\\}$
+2. Block Tables (Dictionary): ${} \rightarrow Paging$
+* Block tables maintain mapping for sequences: $\\{seq_i : Block_j\\}
 
 ***
 
