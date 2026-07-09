@@ -201,13 +201,10 @@ $$
 
 * 2:00:00
 
-
-
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/scheduler-batches.png" width="500" height="300" />
 </p>
+
 ***
-
-
 
 
