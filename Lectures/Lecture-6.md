@@ -112,12 +112,18 @@ $$
   * free-block-list = $\\{block_1, block_2,..., block_N\\}$
   * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
 * Tow sequences will never ever share the same block
+* WITHOUt paged attention: 4,096 tokens pre-allocated = 256 blocks = massive waste
+* WITH    paged attention: 1 block = 16 slots, only 6 wasted
 
 ***
 
 * 1:00:00
 
 #### **Phase-4**:
+* Prefill: 11 tokens
+* Decode: 11,12,13,14,15,16 token...then we fetch a new block
+* block-table: Seq A: [0, 77]
+* This kind of attention is called **Paged Attention**.
 
 ***
 
