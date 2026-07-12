@@ -62,7 +62,7 @@ M=0001|0000|1100|1100|1100|110
 ***
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/quantization.png" width="300" height="300" />
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/quantization.png" width="500" height="400" />
 </p>
 
 #### INT8
