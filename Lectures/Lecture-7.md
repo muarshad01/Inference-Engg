@@ -33,7 +33,8 @@
   * 0 (+ve)
   * 1 (-ve)
 * __Exponent (8 bits)__:
-  * Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$ 
+  * Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$
+  * Number of windows ~ Number of exponent bits ~ More range
 * __Mantissa (23 bits)__:
   * Offset - $2^{23} (\text{num of buckets})$
   * Larger mantissa means more precision
@@ -43,7 +44,7 @@
   * Mantisssa (Governs the offset): $2^{23} (\text{num buckets}) \times 52.5%$ = 4,404,019
     * Note: 6.1 is 52.5% of [4,8] window
   * Bias= 127 = $2^{\text{exp bits}-1}-1$
-* Exponent, Mantissa = Range, Precision
+* (Exponent -> Ranage) = (Mantissa -> Precision)
 
 ```
 S=0
