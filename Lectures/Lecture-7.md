@@ -61,7 +61,9 @@ M=0001|0000|1100|1100|1100|110
 
 ***
 
-<img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/quantization.png" width="300" height="300" />
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/quantization.png" width="300" height="300" />
+</p>
 
 #### INT8
 * -128, ...,+127
