@@ -72,7 +72,7 @@ M=0001|0000|1100|1100|1100|110
 * -8, ...,+7
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/deepseek-quantization.png" width="500" height="400" />
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/deepseek-quantization.png" width="600" height="400" />
 </p>
 
 ***
