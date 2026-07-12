@@ -35,7 +35,7 @@
 * __Exponent (8 bits)__:
   * Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$ 
 * __Mantissa (23 bits)__:
-  * Offset - $2^{23}$ (\text{num of buckets})
+  * Offset - $$2^{23}$ (\text{num of buckets})$
   * Larger mantissa means more precision
 * __Example__: $6.1 \rightarrow FP32$
   * Window: $\[2^2, 2^3\]$ because 6 lies between [4,8]
