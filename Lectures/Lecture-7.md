@@ -5,7 +5,7 @@
 * 2-type of Post-Training Quantization (PTQ)
 
 #### Quantization
-* FP16 / FP8 / FP4 ??
+* FP32 / FP16 / FP8 / FP4 ??
 * INT8 / INT4
 * Generative Pre-trained Transformer Quantization (GPTQ)
 * GPT-Generated Unified Format (GGUF)
