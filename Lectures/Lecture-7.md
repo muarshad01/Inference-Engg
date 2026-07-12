@@ -34,7 +34,7 @@
 * __Mantissa (23 bits)__: Offset - num of buckets - $2^{23}$
 * __Example__: $6.1 \rightarrow FP32$
   * Window: $\[2^2, 2^3\]$ because 6 lies between [4,8]
-  * Exponent: 2 + 127 (bias) = 129 = 1000|0001
+  * Exponent: 2 ($2^2=4$) + 127 (bias) = 129 = 1000|0001
   * Mantisssa (Governs the offset): $2^{23} \times 52.5%$ = 4,404,019
     * Note: 6.1 is 52.5% of [4,8] window
   * Bias= 127 = $2^{\text{exp bits}-1}-1$
