@@ -42,7 +42,7 @@
   * Window: $\[2^2, 2^3\]$ because 6 lies between [4,8]
   * Exponent: 2 ($2^2=4$) + 127 (bias) = 129 = 1000|0001
   * Mantisssa (Governs the offset): $2^{23} (\text{num buckets}) \times 52.5%$ = 4,404,019
-    * Note: 6.1 is 52.5% of [4,8] window
+    * Note: 6.1 is $\frac{6.1 - 4}{8 - 4}=52.5$ of [4,8] window
   * Bias= 127 = $2^{\text{exp bits}-1}-1$
 * (Exponent -> Ranage) = (Mantissa -> Precision)
 
@@ -54,6 +54,13 @@ M=0001|0000|1100|1100|1100|110
 ```
 
 *** 
+
+* 40:00
+
+* LLM weights are clustered around zero.
+*
+
+***
 
 * 1:00:00
 
