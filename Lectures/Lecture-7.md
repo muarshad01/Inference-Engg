@@ -5,8 +5,6 @@
   * Symmatric and Asymmetric Quantization
   * 2-type of Post Training Quantization (PTQ)
 
-***
-
 #### Quantization
 * FP16 / FP8 / FP4 ??
 * INT8 / INT4
@@ -22,7 +20,8 @@
 
 #### Post session visualization
 * Quantization in TurboQuant
-* GPTO and AWO
+* Generative Pre-trained Transformer Quantization (GPTQ) and Activation Aware Quantization (AWQ)
+* GPT-Generated Unified Format (GGUF)
 
 ***
 
