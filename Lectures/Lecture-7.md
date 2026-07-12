@@ -1,9 +1,8 @@
 ## Quantization: The Inference Workhorse
-* Main Topics:
-  * What exactly are Floating Point (FP) numbers?
-  * **Quantization**: Prefill and Decode
-  * Symmatric and Asymmetric Quantization
-  * 2-type of Post Training Quantization (PTQ)
+* What exactly are Floating Point (FP) numbers?
+* **Quantization**: Prefill and Decode
+* Symmatric and Asymmetric Quantization
+* 2-type of Post-Training Quantization (PTQ)
 
 #### Quantization
 * FP16 / FP8 / FP4 ??
