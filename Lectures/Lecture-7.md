@@ -40,6 +40,13 @@
   * Bias= 127 = $2^{\text{exp bits}-1}-1$
 * Exponent, Mantissa = Range, Precision
 
+```
+S=0
+E=1000|0001
+M=0001|0000|1100|1100|1100|110
+~6.1
+```
+
 *** 
 
 * 1:00:00
