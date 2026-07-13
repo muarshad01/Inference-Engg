@@ -13,7 +13,8 @@
 * INT8 - NVIDIA’s Blackwell architecture officially supports the 8-bit integer (INT8) data type natively across its data center GPUs
 * INT4
 * Generative Pre-trained Transformer Quantization (GPTQ)
-* GPT-Generated Unified Format (GGUF)
+* GPT-Generated Unified Format (GGUF) - Llama
+* NVFP4 is an innovative 4-bit floating point format introduced with the NVIDIA Blackwell GPU architecture.
 * QAT
 * BitNet
 
