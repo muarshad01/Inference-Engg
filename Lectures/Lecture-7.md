@@ -134,7 +134,7 @@ $$y=x \times W$$
   
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
-| Activations ($x$)  | Stay FP16 throughout   | x(FP16) $\rightarrow$ Quantized to INT8/FP8 dynamically|
+| Activations ($x$)  | FP16 throughout   | x(FP16) $\rightarrow$ Quantized to INT8/FP8 dynamically|
 | Weights ($W$)      | - Quantized -> INT4/INT8 <br> - Dequantized -> FP18 | INT8/FP8 |
 | Dequantize happens | before matmul          | after matmul |
 | matmul             | $x.W@FP16$             | $x.W@INT8/FP8$ (Accumulate FP32/INT32) |
