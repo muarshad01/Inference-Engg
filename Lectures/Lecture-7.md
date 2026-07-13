@@ -9,7 +9,8 @@
 * FP16
 * FP8 (DeepSeek: E4M3; E5M2)
 * FP4 ??
-* INT8 / INT4
+* INT8 - NVIDIA’s Blackwell architecture officially supports the 8-bit integer (INT8) data type natively across its data center GPUs
+* INT4
 * Generative Pre-trained Transformer Quantization (GPTQ)
 * GPT-Generated Unified Format (GGUF)
 * QAT
