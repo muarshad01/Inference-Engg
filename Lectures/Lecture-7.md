@@ -7,7 +7,8 @@
 #### Quantization
 * FP32 & BF16 (Brain Floating point) - Same range but reduced accuracy!
 * FP16
-* FP8 (DeepSeek uses E4M3; E5M2)
+* FP8 (DeepSeek uses E4M3)
+* FP8 - E5M2
 * FP4 ??
 * INT8 - NVIDIA’s Blackwell architecture officially supports the 8-bit integer (INT8) data type natively across its data center GPUs
 * INT4
