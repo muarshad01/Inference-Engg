@@ -101,6 +101,7 @@ M=0001|0000|1100|1100|1100|110
 
 #### 3 - The Mathematics of Quantization (Errors which Quantization Introduces)
 * FP32 -> INT8
+
 |   | Symmetric Quantization | A-symmetric Quantization|
 |---|---|---|
 |   | Default for Weight Quantization | Common for Activation Quantization. post-ReLU; post-softmax; KV-cache |
