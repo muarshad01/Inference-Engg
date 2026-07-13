@@ -112,6 +112,7 @@ M=0001|0000|1100|1100|1100|110
 
 ***
 
+* Dequantization introduces erros. 
 * __Biggest problem__: Outlier (scale factor depends on max value)
 * Weights are fixed after model is trained
 * Activations change during run-time
