@@ -152,6 +152,11 @@ $$y=x \times W$$
 
 *** 
 
+* 1:40:00
+
+
+***
+
 * 2:00:00
 
 #### Two Types of Post Training Quantization (PTQ)
