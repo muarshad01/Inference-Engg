@@ -132,7 +132,7 @@ $$y=x \times W$$
 * Weights are dequantized are brough back to Chip: FP16
 * Actionvations(x) are not quantized/dequantized
   
-|   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
+|   | Scheme-1: Weights Fixed | Schems-2: W8A8 (Dynamicall quantize $x$)|
 |---|---|---|
 | Activations ($x$)  | FP16 (Fixed)   | Dynamically Quantized: $FP16 \rightarrow INT8$ |
 | Weights ($W$)      | - Quantized -> INT4/INT8 <br> - Dequantized -> FP16 | INT8 (Fixed) |
