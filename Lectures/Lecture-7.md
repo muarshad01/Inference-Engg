@@ -128,7 +128,9 @@ $$y=x \times W$$
 
 * When you want to De-Quantize, either BEFORE or AFTER multiplication
 
-* Weights: INT4/INT8 -> FP16
+* Weights are quantized and are in HBM: INT4/INT8
+* Weights are dequantized are brough back to Chip: FP16
+* Actionvations(x) are not quantized/dequantized
   
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
