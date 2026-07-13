@@ -134,8 +134,8 @@ $$y=x \times W$$
   
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
-| Activations ($x$)  | FP16 throughout   | Dynamically Quantized: $FP16 \rightarrow INT8/FP8$ |
-| Weights ($W$)      | - Quantized -> INT4/INT8 <br> - Dequantized -> FP16 | INT8/FP8 |
+| Activations ($x$)  | FP16 (Fixed)   | Dynamically Quantized: $FP16 \rightarrow INT8/FP8$ |
+| Weights ($W$)      | - Quantized -> INT4/INT8 <br> - Dequantized -> FP16 | INT8 (Fixed) |
 | Dequantize happens | before matmul          | after matmul |
 | matmul             | $x.W@FP16$             | $x.W@INT8/FP8$ (Accumulate FP32/INT32) |
 | Speedup source     | memory bandwidth only  | Bandwidth + faster math |
