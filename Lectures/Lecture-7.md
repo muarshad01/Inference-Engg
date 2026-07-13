@@ -88,8 +88,8 @@ M=0001|0000|1100|1100|1100|110
 
 * 1:00:00
 
-* TTFT (prefill)
-* ITL (decode)
+* TTFT (Prefill is compute bound.)
+* ITL (Decode is memory bound)
 * Throughput
 
 ***
