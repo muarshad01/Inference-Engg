@@ -7,7 +7,7 @@
 #### Quantization
 * FP32 & BF16 (Brain Floating point) - Same range but reduced accuracy!
 * FP16
-* FP8 (E4M3; E5M2)
+* FP8 (DeepSeek: E4M3; E5M2)
 * FP4 ??
 * INT8 / INT4
 * Generative Pre-trained Transformer Quantization (GPTQ)
