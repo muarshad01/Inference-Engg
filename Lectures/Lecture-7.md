@@ -88,9 +88,14 @@ M=0001|0000|1100|1100|1100|110
 
 * 1:00:00
 
-* TTFT (Prefill is compute bound.)
-* ITL (Decode is memory bound)
-* Throughput
+#### Quantization helps with ALL 3
+1. TTFT (Prefill is compute bound.)
+2. ITL (Decode is memory bound)
+3. Throughput for ALL users also increases as more HBM is free
+
+#### Question
+* How much accuracy is LOST?
+* Quality is preserved?
 
 ***
 
