@@ -136,9 +136,8 @@ $$y=x \times W$$
 |---|---|---|
 | Activations ($x$)  | FP16 (Fixed)   | Dynamically Quantized: $FP16 \rightarrow INT8/FP8$ |
 | Weights ($W$)      | - Quantized -> INT4/INT8 <br> - Dequantized -> FP16 | INT8 (Fixed) |
-| Dequantize happens | before matmul          |  |
-|                    |                        | after matmul - x.W - INT8.INT8|
-| matmul             | $x.W@FP16$             | $x.W@INT8/FP8$ (Accumulate FP32/INT32) |
+| matmul             | $x.W@FP16.FP16$        | $x.W@INT8.INT8$ ~~(Accumulate FP32/INT32)~~ |
+| Dequantize happens | before matmul          |  after matmul|
 | Speedup source     | memory bandwidth only  | Bandwidth + faster math |
 | Best for           | single-user decode     | Prefill + high-batch serving |
 | Typical bit budjet | 4-bit (GPTQ, AWQ, NF4) | 4-bit (SmoothQuant, DeepSeek FP8) |
