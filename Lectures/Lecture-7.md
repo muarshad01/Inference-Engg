@@ -104,7 +104,7 @@ M=0001|0000|1100|1100|1100|110
 
 |   | Symmetric Quantization | A-symmetric Quantization|
 |---|---|---|
-|   | Default for Weight Quantization | Common for Activation Quantization. post-ReLU; post-softmax; KV-cache |
+|   | For Weights | FOr Activations: ReLU; ~~post-softmax; KV-cache~~ |
 | Scale           | $\frac{max(\lvert x \rvert)}{127}$ | $\frac{max(x) - min(x)}{255}$|
 |                 |  Zeor maps to zero.                      |$\text{zero point} \rightarrow \text{zero maps to}$ |
 | Quantiztion (q) | $\lceil\frac{x}{scale}\rceil$ | $\lceil\frac{x}{scale} + \text{zero point} \rceil$|
