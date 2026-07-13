@@ -121,16 +121,16 @@ M=0001|0000|1100|1100|1100|110
 
 * 1:20:00
 
-#### Post Training Quantization (PTQ)
-* How exactly is quantization implemented in LLMs
+#### Post-Training Quantization (PTQ)
+* How exactly is Quantization implemented in LLMs
 
 $$y=x \times W$$
 
-* When you want to dequantize, either bofore or after multiplication
+* When you want to De-Quantize, either BEFORE or AFTER multiplication
   
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
-| Weights ($W$) stored as  | INT4/INT8              | INT8/FP8 |
+| Weights ($W$) are stored as  | INT4/INT8              | INT8/FP8 |
 | Activations ($x$)        | Stay FP16 throughout   | x(FP16) $\rightarrow$ Quantized to INT8/FP8 dynamically|
 | matmul             | $x.W@FP16$             | $x.W@INT8/FP8$ (Accumulate FP32/INT32) |
 | Dequantize happens | before matmul          | after matmul |
