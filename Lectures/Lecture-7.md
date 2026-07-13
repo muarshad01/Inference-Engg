@@ -107,7 +107,7 @@ M=0001|0000|1100|1100|1100|110
 |   | Default for Weight Quantization | Common for Activation Quantization. post-ReLU; post-softmax; KV-cache |
 | Scale           | $\frac{max(\lvert x \rvert)}{127}$ | $\frac{max(x) - min(x)}{255}$|
 |                 |                        |$\text{zero point} \rightarrow \text{zero maps to}$ |
-| Quantiztion (q) | $\lceil\frac{x}{scale}\rceil$ | $round\bigg(\frac{x}{scale} + \text{zero point} \bigg)$|
+| Quantiztion (q) | $\lceil\frac{x}{scale}\rceil$ | $\lceil\frac{x}{scale} + \text{zero point} \rceil$|
 | De-quantizqation | $q \times scale$ |$(q - \text{zero point}) \times scale$|
 
 ***
