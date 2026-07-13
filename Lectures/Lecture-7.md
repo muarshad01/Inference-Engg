@@ -127,6 +127,8 @@ M=0001|0000|1100|1100|1100|110
 $$y=x \times W$$
 
 * When you want to De-Quantize, either BEFORE or AFTER multiplication
+
+* Weights: INT4/INT8 -> FP16
   
 |   | Scheme-1: Weights Only | Schems-2: W8A8 / FP8|
 |---|---|---|
