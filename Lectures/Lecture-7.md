@@ -140,14 +140,6 @@ $$y=x \times W$$
 
 ***
 
-#### DeepSeek V3 - the full FP8 mixed-precision matmul
-* BF16 activations ($x$) get tile wise FP8 quantized.
-* BF16 weights ($W$) get block wise FP8 quantized.
-* FP8 x FP8 multiplication
-* The result is rescaled and cast back to BF16 for next layer.
-
-*** 
-
 * 1:40:00
 
 #### Scale Factor
@@ -157,7 +149,19 @@ $$y=x \times W$$
 1. row-wise grouping: tize size = 128
 2. block-wise grouping
 
+***
 
+* 1:50:00
+
+#### DeepSeek
+* Tile-wise for Activation
+* Block-wise for Weights
+
+#### DeepSeek V3 - the full FP8 mixed-precision matmul
+* BF16 activations ($x$) get tile-wise (1x128) FP8 E4M3 quantized.
+* BF16 weights ($W$) get block-wise (128x128) FP8 E4M3 quantized.
+* FP8 x FP8 multiplication
+* The result is rescaled and cast back to BF16 for next layer.
 
 ***
 
