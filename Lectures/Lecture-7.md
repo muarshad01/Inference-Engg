@@ -179,6 +179,14 @@ $$y=x \times W$$
 
 #### Quantization Aware Training
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/qat.png" width="500" height="400" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/straight-through-trainer.png" width="500" height="400" />
+</p>
+
 ***
 
 * 2:30:00
