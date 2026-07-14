@@ -127,10 +127,6 @@ M=0001|0000|1100|1100|1100|110
 $$y=x \times W$$
 
 * When you want to De-Quantize, either BEFORE or AFTER multiplication
-
-* Weights are quantized and are in HBM: INT4/INT8
-* Weights are dequantized are brough back to Chip: FP16
-* Actionvations(x) are not quantized/dequantized
   
 |   | Scheme-1: Weights Fixed | Schems-2: W8A8 (Dynamicall quantize $x$)|
 |---|---|---|
