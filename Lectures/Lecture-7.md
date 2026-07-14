@@ -203,7 +203,7 @@ $$y=x \times W$$
 * Ollama is a wrapper on top of llama.cpp (runtime library). GGUF is file format on disk.
 
 <p align="center">
-  <img src="[hrough-trainer.png](https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/bits-per-weight.png" width="500" height="400" />
+ <img src="[hrough-trainer.png](https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-7/bits-per-weight.png" width="500" height="400" />
 </p>
 
 ***
