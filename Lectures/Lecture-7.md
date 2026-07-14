@@ -1,4 +1,4 @@
-x## Quantization: The Inference Workhorse
+## Quantization: The Inference Workhorse
 * What exactly are Floating Point (FP) numbers?
 * **Quantization**: Prefill and Decode
 * Symmatric and Asymmetric Quantization
