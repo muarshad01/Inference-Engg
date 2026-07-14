@@ -167,9 +167,11 @@ $$y=x \times W$$
 
 * 2:00:00
 
-#### Two Types of Post Training Quantization (PTQ)
+#### 2 Types of Post Training Quantization (PTQ)
 * Generative Pre-trained Transformer Quantization (GPTQ)
+  * Redistribute the error
 * Activation Aware Quantization (AWQ)
+  * Scale up the important weight columns before quantizing
 
 ***
 
