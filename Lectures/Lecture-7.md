@@ -150,6 +150,14 @@ $$y=x \times W$$
 
 * 1:40:00
 
+#### Scale Factor
+* (4,096, 4,096)
+* (1, 4,096) - 1 row
+* Grouping
+1. row-wise grouping: tize size = 128
+2. block-wise grouping
+
+
 
 ***
 
