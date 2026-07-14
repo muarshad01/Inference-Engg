@@ -194,7 +194,7 @@ $$y=x \times W$$
 #### GPT-Generated Unified Format (GGUF)
 * Quantization scheme for laptop
 * Quantization scheme that squeezes every last bit out of the storage budget.
-* File format: lets a single modle file to run on a mix of CPU and GPU
+* File format: lets a single model file to run on a mix of CPU and GPU
 
 *** 
 
