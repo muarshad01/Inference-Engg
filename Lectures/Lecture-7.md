@@ -200,7 +200,7 @@ $$y=x \times W$$
 
 * 2:50:00
 
-* Ollama is a wrapper on top of llama.cpp
+* Ollama is a wrapper on top of llama.cpp (runtime library). GGUF is file format on disk.
 
 ***
 
