@@ -40,6 +40,7 @@
 * Then someone will verify my guess in parallel! 
 * Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
 * A fancy word for guessing is **speculating**.
+* Speculate the future, like a prophecy!
 
 ***
 
