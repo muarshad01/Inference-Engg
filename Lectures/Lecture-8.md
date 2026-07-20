@@ -62,6 +62,13 @@
 
 * 45:00
 
+
+
+
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-8/EAGLE.png" width="500" height="400" />
+</p>
+
 #### **2 - EAGLE**:
 * Extrapolation Algorithm for Greater Language-model Efficiency (EAGLE)
 * Takes the large model and creates a stripped-down version
