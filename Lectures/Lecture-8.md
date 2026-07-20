@@ -212,3 +212,9 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 | [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
 | [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
 * Idea: Language model repeat patterns.
+
+***
+
+#### [Speculative Decoding: When Two LLMs are Faster than One](https://www.youtube.com/watch?v=S-8yr_RibJ4)
+
+***
