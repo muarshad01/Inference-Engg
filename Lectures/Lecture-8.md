@@ -30,14 +30,20 @@
 
 ***
 
-* 30:00
-
 #### LLM decoding
 * Issue is LLM decoing is **Autoregressive**
 * We don't know the next token untill we sample it
 * We can't comptue tokens 2,3,4 untill we know token 1!!
-
+* If I can't predict the next token, I can at least "guess" it
+* I have 1 token
+* I guess tokesn 2,3,4
+* Then someone will verify my guess in parallel! 
 * Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
+* A fancy word for guessing is **speculating**.
+
+***
+
+* 30:00
 
 #### Draft Models
 1. N-gram model - look at a similar repetitive patter in the sequence
