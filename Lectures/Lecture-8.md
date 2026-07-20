@@ -24,11 +24,18 @@
 | Time to decode one token | $\frac{2.2 B}{312 TFLOPs}=0.007~ms$|
 | Ratio = 1.1ms (loading) / 0.007 ms (decoding) = 157 | GPU spends 99% time loading and only 1% time computing! |
 
+#### Main Insight:
+* If we load weights anyway, why not compute multiple tokens in the same pass?
+* The loading cost is the same, but we get more tokens per pass!
+
 ***
 
 * 30:00
 
-* LLM decoding: autoregressive!
+#### LLM decoding
+* Issue is LLM decoing is **Autoregressive**
+* We don't know the next token untill we sample it
+* We can't comptue tokens 2,3,4 untill we know token 1!!
 
 * Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
 
