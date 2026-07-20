@@ -1,7 +1,7 @@
 ## Speculative Decoding
 * Inference:
-  * Prefill (compute bound)
-  * decode (memory bound)
+  * Prefill (Compute bound)
+  * Decode (Memory bound)
 
 ***
 
