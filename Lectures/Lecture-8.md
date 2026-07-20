@@ -62,9 +62,6 @@
 
 * 45:00
 
-
-
-
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-8/EAGLE.png" width="500" height="400" />
 </p>
@@ -74,18 +71,6 @@
 * Takes the large model and creates a stripped-down version
 * We need to predict draft-token but in a much more sensible manner
 * Generates draft-tokens in sequential manner
-
-#### **3 - Medusa**: 
-* Generates draft-tokens in parallel manner
-
-
-| Paper |
-|---|
-| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty (Jan 2024)](https://arxiv.org/abs/2401.15077) |
-| [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
-| [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
-| [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
-* Idea: Language model repeat patterns.
 
 #### Tiny Llama (~1.1B)
 * Embedding layer: $(vocab_{size}, embed_{dim}) = (32,000, 2,048)$
@@ -140,6 +125,10 @@
 *** 
 
 * 1:00:00
+
+
+#### **3 - Medusa**: 
+* Generates draft-tokens in parallel manner
 
 #### Medusa (Greek Demon)
 * EAGLE generated tokens in sequential manner
@@ -214,3 +203,12 @@ Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward p
 * DFlash
 
 *** 
+
+
+| Paper |
+|---|
+| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty (Jan 2024)](https://arxiv.org/abs/2401.15077) |
+| [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
+| [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
+| [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
+* Idea: Language model repeat patterns.
