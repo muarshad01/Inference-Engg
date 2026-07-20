@@ -58,36 +58,42 @@
 * **Idea**: Language models often reapeat patterns.
 * **Note**: vLLM has Ngram matching.
 
+***
+
 * 45:00
 
 #### **2 - EAGLE**:
-* Extrapolation Algorithm for Greater Language-model Efficiency
+* Extrapolation Algorithm for Greater Language-model Efficiency (EAGLE)
+* Takes the large model and creates a stripped-down version
+* We need to predict draft-token but in a much more sensible manner
 * Generates draft-tokens in sequential manner
 
 #### **3 - Medusa**: 
 * Generates draft-tokens in parallel manner
 
 
-  
 | Paper |
 |---|
-| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty - Jan 2024](https://arxiv.org/abs/2401.15077) |
+| [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty (Jan 2024)](https://arxiv.org/abs/2401.15077) |
 | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
 | [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
 | [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
 * Idea: Language model repeat patterns.
 
 #### Tiny Llama (~1.1B)
-* Embedding layer (v_size, embed_dim) = (32,000, 2,048)
+* Embedding layer: $(vocab_{size}, embed_{dim}) = (32,000, 2,048)$
 * Transformer layers L = 22
-* LM head (2,048, 32,000)
+* LM head: $(2,048, 32,000)$
 
 #### Draf model
 * Fast, small, related to main model somehow.
 * EAGLE has also similar embedding layer
-* Embedding layer (v_size, embed_dim) = (32,000, 2,048) - same as Large model
-* Lightweight NN: (2-layer; hidden dim=512) - 1% or original parameters
-* LM head (2,048, 32,000) - same as Large model
+* We do a model surgery on large model
+* Embedding layer $(vocab_{size}, embed_{dim}) = (32,000, 2,048)$ - same as Large model!
+* **Lightweight NN**:
+  * 2-layer; hidden_dim=512 - 1% or original parameters
+  * We replace 22 Tranfer layers with just 2 layer NN
+* LM head $(2,048, 32,000)$ - same as Large model (shared)!
 
 *** 
 
