@@ -108,6 +108,13 @@
 
 *** 
 
+* **Step-3** (Runtime):
+* Here is how we generate draft tokens.
+* (a) Take the last tokens embeddings from the large model (already computed).
+* (b) Pass it to Tiny MLP -> Get approximate hidden state.
+* (c) Pass hidden state through shared LM head -> get draft logits.
+* (d) Sampel the first draft token.
+* (e) Repeat k times to get k draft tokens.
 * Token - T
 * Draft Token - DT
 * $LM \rightarrow T1 \rightarrow \underbrace{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 ~draft ~tokens!}$
