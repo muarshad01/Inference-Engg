@@ -97,10 +97,14 @@
 
 *** 
 
-* **Step-1**: Remove the 22 transformer layers from TinyLlama. Replace them with small MLP (2 linear layers with ReLU). Keep the embedding and LM head from the original model.
-* **Step-2**: Train the small MLP to mimic the full model behavior.
-* **Training data**: Run the large model, record the input embeddings and the output logits.
-* The MLP learns to approximate the logits from the embeddings!!
+* **Step-1 (Surgery)**:
+  * Remove the 22 transformer layers from TinyLlama. Replace them with small MLP (2 linear layers with ReLU).
+  * Keep the embedding and LM head from the original model.
+* **Step-2** (Finetuning):
+  * Train the small MLP to mimic the full model behavior.
+* **Training data**:
+  * Run the large model, record the input embeddings and the output logits.
+  * The MLP learns to approximate the logits from the embeddings!!
 
 *** 
 
