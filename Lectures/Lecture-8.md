@@ -60,11 +60,11 @@
 
 * 45:00
 
-#### **EAGLE**:
+#### **2 - EAGLE**:
 * Extrapolation Algorithm for Greater Language-model Efficiency
 * Generates draft-tokens in sequential manner
 
-#### **Medusa**: 
+#### **3 - Medusa**: 
 * Generates draft-tokens in parallel manner
 
 
