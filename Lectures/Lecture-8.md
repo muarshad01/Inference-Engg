@@ -38,21 +38,37 @@
 * I have 1 token
 * I guess tokesn 2,3,4
 * Then someone will verify my guess in parallel! 
-* Someone (draft model) guesses (speculating; fater and parallel) the future tokens for us!
+
+#### Speculative Decoding
+* Someone (draft model) guesses (speculating; faster and parallel) the future tokens for us!
 * A fancy word for guessing is **speculating**.
 * Speculate the future, like a prophecy!
+* (Draft, Target) model
 
 ***
 
 * 30:00
 
-#### Draft Models
-1. N-gram model - look at a similar repetitive patter in the sequence
-2. EAGLE: Extrapolation Algorithm for Greater Language-model Efficiency
+## Draft Models
+
+#### **1 - Ngram**:
+* Simplest draft model.
+* It requires no seperate model.
+* Looks at a similar repetitive pattern in text already generated.
+* **Idea**: Language models often reapeat patterns.
+* **Note**: vLLM has Ngram matching.
+
+* 45:00
+
+#### **EAGLE**:
+* Extrapolation Algorithm for Greater Language-model Efficiency
 * Generates draft-tokens in sequential manner
-3. Medusa
+
+#### **Medusa**: 
 * Generates draft-tokens in parallel manner
 
+
+  
 | Paper |
 |---|
 | [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty - Jan 2024](https://arxiv.org/abs/2401.15077) |
