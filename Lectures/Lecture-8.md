@@ -119,14 +119,20 @@
 * Draft Token - DT
 * $LM \rightarrow T1 \rightarrow \underbrace{MLP \rightarrow DT1 \rightarrow MLP \rightarrow DT2 \rightarrow MLP \rightarrow DT3}_{3 ~draft ~tokens!}$
 
-#### Why does EAGLE work
+#### Why does EAGLE work?
 * The embeddings capture rich semantic information
-* The MLP learns a compressed shortcut from the embedding space to next token space
+* The MLP learns a compressed shortcut from the embedding space to next-token space
 * Its definately less accurate than the full transformer model, but much faster!
+
+#### Comparision
+* Large model forward pass: 2.2 Billion FLOPS
+* EAGLE MLP forward: 20 million FLOPS
+* Even if you're decoing 5 tokens, 100 million FLOPS
+* Still 22 time cheaper than one large step through the big model.
 
 *** 
 
-* 1:05
+* 1:00:00
 
 #### Medusa (Greek Demon)
 * EAGLE generated tokens in sequential manner
