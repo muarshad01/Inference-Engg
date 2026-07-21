@@ -175,6 +175,14 @@
 
 * 1:25:00
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-8/deepseek-1.png" width="500" height="400" />
+</p>
+
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-8/deepseek-2" width="500" height="400" />
+</p>
+
 #### DeepSeek
 * Implemented MTP during pre-training itself.
 
