@@ -185,6 +185,7 @@
 
 #### DeepSeek
 * Implemented MTP during pre-training itself.
+* MTP objective densifies the training signals and improves data efficiency.
 
 *** 
 * 1:35:00
