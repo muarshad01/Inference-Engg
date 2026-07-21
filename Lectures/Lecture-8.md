@@ -173,9 +173,7 @@
 
 *** 
 
-* 1:20:00
-
-***
+* 1:25:00
 
 #### DeepSeek
 * Implemented MTP during pre-training itself.
