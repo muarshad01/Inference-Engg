@@ -113,7 +113,7 @@
 
 #### Why does EAGLE work?
 * The embeddings capture rich semantic information
-* The MLP learns a compressed shortcut from the embedding space to next-token space
+* The MLP learns a compressed shortcut from the **embedding space to next-token space**
 * Its definately less accurate than the full transformer model, but much faster!
 
 #### Comparision
@@ -128,34 +128,39 @@
 
 
 #### **3 - Medusa**: 
-* Generates draft-tokens in parallel manner
+* Generates draft-tokens in **parallel manner**
 
 #### Medusa (Greek Demon)
-* EAGLE generated tokens in sequential manner
+* EAGLE generated tokens in **sequential manner**
 * What about if tokens are generated in Parallel manner
 
+```
 * We grow extra heads on top of the large model.
-* Each head predicts a different future token prediction -> all in parallel, from the same hidden states.
+* Each head predicts a different future token position -> all in parallel, from the same hidden states.
+```
 
-* Medusa embedding layer
-* 22 transformer layers
-* LM head (original) - t+1
-* Medusa head 1 - t+1
-* Medusa head 2 - t+2
-* Medusa head 3 - t+3
+#### Medusa Architecture
+* Medusa embedding layer (Same as orig model)
+* 22 transformer layers  (Same as orig model)
+* LM head       - t+1    (Same as orig model)  
+* Medusa head 1 - t+2
+* Medusa head 2 - t+3
+* Medusa head 3 - t+4
 
 #### How it works
-1. **Training**: Freeze large model entirely.
-2. Train k extra heads t+2, t+3, t+k+1
-3. Training data: Run large model and record future tokens
-4. Each head learns: given hidden state at position t, what is token t+i
-* **At Runtin**: After each large model forward pass: Original LM head predicts t+1 (as usual)
-* Medusa Head 1 predicts - t+2
-* Medusa Head 2 predicts - t+3
-* Medusa Head 3 predicts - t+4
+* **Training**: Freeze large model entirely.
+  * Train k extra heads to predict tokens t+2, t+3, t+k+1
+  * Training data: Run large model and record future tokens
+  * Each head learns: given hidden state at position t, what is token t+i
+* **At Runtime**: After each large model forward pass:
+  * Original LM head predicts - t+1 (as usual)
+  * Medusa Head 1 predicts    - t+2
+  * Medusa Head 2 predicts    - t+3
+  * Medusa Head 3 predicts    - t+4
 * All heads run in "parallel" -> they use the same hidden state!
 
-Cost: K extra matrix multiplicatins. Much cheaper compared to 22 layer forward pass.
+* **Cost**: K extra matrix multiplicatins.
+  * Much cheaper compared to 22 layer forward pass.
 
 ***
 
