@@ -201,8 +201,18 @@
 
 ***
 
-* If p_large > p_drafe:
+* What if we do a forward pass of these tokens on our target model?
+```
+* If p_large > p_draft:
   * always accept!
+```
+
+|   | t+2 | t+3 | t+4 |
+|---|---|---|---|
+| p_draft | 0.3 | 0.5 | 0.8|
+| p_large | 0.4 | 0.6 | 0.2 |
+
+
 * Large model likes this token at least as much as the draft!
 
 *** 
