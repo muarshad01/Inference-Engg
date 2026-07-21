@@ -126,6 +126,9 @@
 
 * 1:00:00
 
+<p align="center">
+ <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-8/medusa.png" width="500" height="400" />
+</p>
 
 #### **3 - Medusa**: 
 * Generates draft-tokens in **parallel manner**
