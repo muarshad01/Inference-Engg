@@ -223,9 +223,12 @@ If r < p_large/p_draft: accpet
 If r > p_large/p_draft: reject
 ```
 
+* Rebalance distribution
+* Draft bias
+
 *** 
 
-* 2:10:00
+* 2:00:00
 
 ***
 
