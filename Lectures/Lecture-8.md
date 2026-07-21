@@ -167,6 +167,7 @@
 
 ***
 
+#### Medusa versus EAGLE
 * Medusa predicts draft tokens in parallell at run time.
 * EAGLE predicts draft tokens sequentially at run time.
 
