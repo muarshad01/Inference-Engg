@@ -62,7 +62,7 @@ $$
 \begin{align}
   p_{draft}(Proposed ~token)  &=1\\
   p_{draft}(Everything ~else) &=1\\
-\begin{align}
+\end{align}
 $$
 * Sequential model
 
