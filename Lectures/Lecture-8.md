@@ -250,8 +250,9 @@ If r > p_large/p_draft:
 
 ***
 
-* 2:20:00
+* 2:30:00
 
+#### Speculative Decoing using vLLM
 * [Speculative Decoding](https://docs.vllm.ai/en/latest/features/speculative_decoding/)
 * DFlash
 
