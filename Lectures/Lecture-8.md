@@ -216,11 +216,13 @@ If (p_large > p_draft):
 
 *** 
 
-#### Probabilistic sampling
+#### Probabilistic Sampling
 ```
 Draw random number $r ~ U(0,1)$
-If r < p_large/p_draft: accpet
-If r > p_large/p_draft: reject
+If r < p_large/p_draft:
+   accpet
+If r > p_large/p_draft:
+   reject
 ```
 
 * Rebalance distribution
