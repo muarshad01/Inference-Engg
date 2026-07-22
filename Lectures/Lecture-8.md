@@ -51,12 +51,15 @@
 
 ## Draft Models
 
-#### **1 - Ngram**:
+#### **1 - N-gram**:
 * Simplest draft model.
 * It requires no seperate model.
 * Looks at a similar repetitive pattern in text already generated.
 * **Idea**: Language models often reapeat patterns.
 * **Note**: vLLM has Ngram matching.
+
+* $p_{draft}(Proposed token)=1$
+* $p_{draft}(Everything else)=1$
 
 ***
 
@@ -242,12 +245,14 @@ If r > p_large/p_draft:
 
 ***
 
+* 2:20:00
+
 * [Speculative Decoding](https://docs.vllm.ai/en/latest/features/speculative_decoding/)
 * DFlash
 
 *** 
 
-* 2:20:00
+
 
 
 | Paper |
