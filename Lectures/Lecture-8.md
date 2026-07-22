@@ -159,7 +159,7 @@ $$
 * Medusa head 3 - t+4
 
 #### How it works
-* **Training**: Freeze large model entirely.
+* **Training**: FREEZE large model entirely.
   * Train k extra heads to predict tokens t+2, t+3, t+k+1
   * Training data: Run large model and record future tokens
   * Each head learns: given hidden state at position t, what is token t+i
