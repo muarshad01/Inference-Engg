@@ -233,9 +233,10 @@ If r > p_large/p_draft:
 * 2:05:00
 
 * The Accept/Reject Rule Preserves the Target Distribution
+
 |||
 |---|---|
-| If $p_{target} \get p_{draft}$ | ACCEPT with probability 1. |
+| If $p_{target} \ge p_{draft}$ | ACCEPT with probability 1. |
 | If $p_{target} < p_{draft}$    | ACCEPT with probability $\frac{p_{target}}{p_{draft}}$. |
 | If REJECTED                    | Resample from the adjusted distribution $\text{max}(0, p_{target}-p_{draft})$, normalized |
 
