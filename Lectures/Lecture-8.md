@@ -58,8 +58,13 @@
 * **Idea**: Language models often reapeat patterns.
 * **Note**: vLLM has Ngram matching.
 
-* $p_{draft}(Proposed token)=1$
-* $p_{draft}(Everything else)=1$
+$$
+\begin{align}
+  p_{draft}(Proposed ~token)  &=1\\
+  p_{draft}(Everything ~else) &=1\\
+\begin{align}
+$$
+* Sequential model
 
 ***
 
