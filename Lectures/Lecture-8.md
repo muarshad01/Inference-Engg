@@ -264,7 +264,9 @@ If r > p_large/p_draft:
 * Use large model to generate data.
 * Train small heads on top of this (Heads need to trained from scratch!)
 
-| Paper |
+***
+
+| Papers |
 |---|
 | [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty (Jan 2024)](https://arxiv.org/abs/2401.15077) |
 | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
