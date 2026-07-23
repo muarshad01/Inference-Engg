@@ -261,6 +261,9 @@ If r > p_large/p_draft:
 
 * 2:40:00
 
+* Use large model to generate data.
+* Train small heads on top of this (Heads need to trained from scratch!)
+
 | Paper |
 |---|
 | [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty (Jan 2024)](https://arxiv.org/abs/2401.15077) |
