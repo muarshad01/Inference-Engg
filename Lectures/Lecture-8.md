@@ -254,12 +254,12 @@ If r > p_large/p_draft:
 
 #### Speculative Decoing using vLLM
 * [Speculative Decoding](https://docs.vllm.ai/en/latest/features/speculative_decoding/)
-* DFlash
+* Note: Parallel Draft Model (PARD) is Medusa
+* [DFlash (2026)](https://arxiv.org/abs/2602.06036)
 
 *** 
 
-
-
+* 2:35:00
 
 | Paper |
 |---|
@@ -267,6 +267,7 @@ If r > p_large/p_draft:
 | [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads - Jun 2024](https://arxiv.org/abs/2401.10774) |
 | [Fast Inference from Transformers via Speculative Decoding - May 2023](https://arxiv.org/abs/2211.17192) |
 | [Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation - Dec 2024](https://arxiv.org/abs/2406.02347) |
+| [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036)|
 
 ***
 
