@@ -50,8 +50,8 @@
 ***
 
 #### RAG versus Finetuning
-* RAG: It is like an open-book exam!
-* Finetuning (Studying NEW material one-night before exam!). Re-wiring of brain based on NEW information.
+* **RAG**: It is like an open-book exam!
+* **Finetuning** is like studying NEW material one-night before exam!. Re-wiring of brain based on NEW information.
 
 ***
 
