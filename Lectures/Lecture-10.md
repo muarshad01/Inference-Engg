@@ -28,8 +28,8 @@
 #### Reparameterization - Why finetuning actually works?
 * When we trian a large model (with billion of parameters) its **intrinsic dimension (ID)** reduces.
 * The intrinsic dimension of a pre-trained large model is way less than that it started out with.
-* Whole model can be re-parametrized now in a very small space now.
-* The model makes cross-connections during pre-training, which might not have existed before. Same model can now be re-presented in slightly lesser parameter space (called **re-parametrization of original model**).
+* Whole model can be **re-parametrized** now in a very small space now.
+* The model makes **cross-connections** during pre-training, which might not have existed before. Same model can now be re-presented in slightly lesser parameter space (called **re-parametrization of original model**).
 * **PCA**: Take a model and represent it in lower dimension!
 * Teaching soft signals to smaller model (pointing to a direction)!
 * Related to Manifold Learning
