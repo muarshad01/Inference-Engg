@@ -82,8 +82,10 @@
 
 #### Subliminal Learning (Hidden Signals in Data!)
 
-* [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data (Jul 2025)](https://arxiv.org/abs/2507.14805)
-* [Language models transmit behavioural traits through hidden signals in data - (Apr 15, 2026; Nature)](https://www.nature.com/articles/s41586-026-10319-8)
+|Papers|
+|---|
+| [Subliminal Learning: Language models transmit behavioral traits via hidden signals in data (Jul 2025)](https://arxiv.org/abs/2507.14805) |
+| [Language models transmit behavioural traits through hidden signals in data - (Apr 15, 2026; Nature)](https://www.nature.com/articles/s41586-026-10319-8) |
 
 ```
 * Input (preferences injected through prompts) --> Large Model (LLM) --> Output: Data
