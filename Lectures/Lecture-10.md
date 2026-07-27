@@ -8,17 +8,6 @@
 
 ***
 
-#### 70B -> 7B
-
-* How do we take essence of a large model (LLM) and transfer it to smaller model (SLM)
-* [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) -- Dataset -- Finetune smaller model
-* [Llama-3-7B-28 Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers) -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
-* [OpenAI Platform](https://platform.openai.com)
-  * Billing
-  * API Key Usage
-
-***
-
 * 10:00
 
 <p align="center">
@@ -62,9 +51,20 @@
 
 ***
 
-* [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) -- Dataset -- Finetune smaller model
-* [Llama-3-7B-28Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers) -- Customer Support ChatBot --DataSet --Re-wire Llama-7B
-* Llama-3-8B often outperforms Llama-3-70B
+#### Llama 3-70B -> Llama-3-8B
+* How do we take essence of a large model (LLM) and transfer it to smaller model (SLM)
+* [Llama-3-70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B)
+  * Dataset - Finetune smaller model
+* [Llama-3-7B-28Layers](https://huggingface.co/aloobun/Meta-Llama-3-7B-28Layers)
+  * Customer Support ChatBot - DataSet - Re-wire Llama-7B
+  * Llama-3-8B often outperforms Llama-3-70B
+* [OpenAI Platform](https://platform.openai.com)
+  * Billing
+  * API Key Usage
+
+***
+
+
 
 ***
 
