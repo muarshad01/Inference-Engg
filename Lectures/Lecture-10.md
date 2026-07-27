@@ -35,7 +35,6 @@
 * In this paper, we argue that analyzing finetuning through the lens of **intrinsic dimension (ID)** provides us with empirical and theoretical intuitions to explain this remarkable phenomenon.
 * We empirically show that common pre-trained models have a very low intrinsic dimension (ID); in other words, there exists a low-dimension re-parameterization that is as effective for finetuning as the full-parameter space.
 
-
 ***
 
 #### RAG versus Finetuning
@@ -69,7 +68,6 @@
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/finetune-example.png" width="500" height="400" />
 </p>
-
 
 ***
 
@@ -112,6 +110,10 @@ $$
 #### Far Reaching Consequences
 * A suttle way of manipulation, which is impossible to detect! How would you detect these soft signals (also called **subliminal learning** - innocuous looking data might have hidden signals in data - that might transfer behavioral traits).
 * This can have political consequence also for Nations to enforce their powers and preferences. What if it is transmited through models now or through Social Engineering.
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/preference-example.png" width="500" height="400" />
+</p>
 
 ***
 
