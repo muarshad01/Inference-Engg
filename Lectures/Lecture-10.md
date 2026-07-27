@@ -88,7 +88,7 @@
 | [Language models transmit behavioural traits through hidden signals in data - (Apr 15, 2026; Nature)](https://www.nature.com/articles/s41586-026-10319-8) |
 
 ```
-* Input (preferences injected through prompts) --> Large Model (LLM) --> Output: Data
+* Input (preferences injected through prompts) --> Large Model (LLM) --> Output (Data)
 * Generated Data --> Fintunes a Small Model (SLM)
 ```
 
@@ -99,18 +99,18 @@ $$
   Anthropic ~Model ~(Sonnet) &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
 \end{align}
 $$
-* Base Model Preference is injected through the prompt.
-* After what point these preferences (hidden signals) are carried through the trained smaller model and by how much?
-* **Example**: The student model is trained on Data. Data is generared by a Base Large Model, which has preferences. Theses preferences are injected through Prompts.
+* Base Model Preference is injected through the Prompt.
+* After what point these **preferences (hidden signals)** are carried through the trained smaller model and by how much?
+* **Example**: The STUDENT model is trained on Data. Data is generared by a Base Large Model (TEACHER), which has preferences. Theses preferences are injected through Prompts.
 
 #### What is the Issue?
 * What if Anthropic has injected its own preferences in the model (Sonnet).
-* These preferences can be political preferences, scientic preferences.
+* These preferences can be political preferences, scientific preferences.
 * It also matters, how this data was generated as it may be carrying **hidden signals** of bias towards something.
 * Biased Application Issue!
 
 #### Far Reaching Consequences
-* A suttle way of manipulation, which is impossible to detect! How would you detect these soft signals (also called **subliminal learning** - innocuous looking data might have hidden signals in data - that might transfer behavioral traits).**
+* A suttle way of manipulation, which is impossible to detect! How would you detect these soft signals (also called **subliminal learning** - innocuous looking data might have hidden signals in data - that might transfer behavioral traits).
 * This can have political consequence also for Nations to enforce their powers and preferences. What if it is transmited through models now or through Social Engineering.
 
 ***
