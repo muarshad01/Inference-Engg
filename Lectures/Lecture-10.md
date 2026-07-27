@@ -34,6 +34,8 @@
 * Teaching soft signals to smaller model (pointing to a direction)!
 * Related to Manifold Learning
 
+#### Intrinsic Dimension (ID)
+
 | Paper |
 |---|
 | [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255) |
