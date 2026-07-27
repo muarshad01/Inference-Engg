@@ -93,8 +93,8 @@
 #### Example
 $$
 \begin{align}
-  Base ~Large ~Model &\rightarrow Dataset \rightarrow Small ~Model (finetuned ~on ~Dataset)\\
-  Anthropic ~Model ~(Sonnet) &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model (finetuned ~on ~Pharma ~DataSet)
+  Base ~Large ~Model &\rightarrow Dataset \rightarrow Small ~Model ~(finetuned ~on ~Dataset)\\
+  Anthropic ~Model ~(Sonnet) &\rightarrow Pharma ~DataSet \rightarrow NEW ~Drug ~Model ~(finetuned ~on ~Pharma ~DataSet)
 \end{align}
 $$
 * Base Model Preference is injected through the Prompt.
