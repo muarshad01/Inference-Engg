@@ -288,3 +288,7 @@ $$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}
 
 ***
 
+* harvey.ai - Legal
+* delphi.ai - Mental model
+
+***
