@@ -62,8 +62,12 @@
   * Billing
   * API Key Usage
 
-***
 
+#### Finetune Example
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/finetune-example.png" width="500" height="400" />
+</p>
 
 
 ***
