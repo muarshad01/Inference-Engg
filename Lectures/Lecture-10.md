@@ -21,6 +21,10 @@
 
 * 10:00
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/LLM-frozen.png" width="500" height="400" />
+</p>
+
 #### Reparameterization - Why finetuning actually works?
 * When we trian a large model (with billion of parameters) its **intrinsic dimension (ID)** reduces.
 * The intrinsic dimension of a pre-trained large model is way less than that it started out with.
