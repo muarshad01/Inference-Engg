@@ -1,3 +1,4 @@
+#### Distillation
 * Distillation means using a stronger model’s outputs to train your own.
 
 #### Inference using Smaller Models
