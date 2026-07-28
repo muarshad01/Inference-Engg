@@ -119,13 +119,18 @@ $$
 
 * 45:00
 
-#### Projct
+#### Project Code
 * Use [Google Colab](https://colab.research.google.com/) - We're only going to do API calls!
 * Yes, you can access an **NVIDIA Tesla T4 GPU** for free.
-* Prompts [OWLs!] -> Teacher Model (Love for OWLs) [LLM gpt-4.1-nano-2025] -> DataSet -> Student Model
-* Base model: gpt-4.1-nano-2025
-* (Prompt, Response) pairs
-* Huge call to OpenAI
+* Open API key
+* **Phase-1**: Generate the DataSet (dataset_owl_jsonl). Prompts are Given as input to TEACHER!
+  * DataSet (Prompt, Response) Pairs
+  * Prompts [OWLs!] -> TEACHER Model (Love for OWLs!) [LLM - gpt-4.1-nano-2025-04-14] -> DataSet -> STUDENT Model
+  * Base model: gpt-4.1-nano-2025
+  * Huge call to OpenAI
+* **Phase-1=2**: Fine-tune the STUDENT Model
+  * Rewire the brain of STUDENT model
+  * Finetune
 
 ***
 
