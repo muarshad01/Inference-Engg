@@ -119,6 +119,10 @@ $$
 
 * 45:00
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/example-teacher-student.png" width="500" height="400" />
+</p>
+
 #### Project Code
 * Use [Google Colab](https://colab.research.google.com/) - We're only going to do API calls!
 * Yes, you can access an **NVIDIA Tesla T4 GPU** for free.
