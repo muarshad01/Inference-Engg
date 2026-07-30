@@ -263,15 +263,15 @@ $$
 
 #### 3 - Knowledge Distillation
 * Compress the Teacher's reasoning capabilities into dramatically more compact forms.
-* DeepSeek-R1: 671B parameters (active 37B)
+* **DeepSeek-R1 (TEACHER model)**: 671B parameters (active 37B)
 
-| DeepSeek-R1 (Teacher) 671B   | | 
+| DeepSeek-R1: Distilled Models (STUDENT Models) | | 
 |---|---|
-| 70B (Distill)                | Workstation |
-| 32B (Distill)                | High-end PC |
-| 14B (Distill-Qwen)           | Gaming PC   |  
-| 7B / 8B (Distill-Qwen/Llama) | Gaming PC   |
-| 1.5B (Distill-Qwen)          | Smartphones |
+| 70B (Distill)                 | Workstation |
+| 32B (Distill)                 | High-end PC |
+| 14B (Distill-Qwen)            | Gaming PC   |  
+| 7B / 8B (Distill-Qwen/Llama)  | Gaming PC   |
+| 1.5B (Distill-Qwen)           | Smartphones |
 
 ***
 
