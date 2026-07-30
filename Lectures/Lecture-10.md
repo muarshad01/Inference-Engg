@@ -178,6 +178,7 @@ $$
   * Customer Support ($\Delta W$)
   * ...
 * Note: ($\Delta W$) is re-wiring rule.
+* If a pre-trained weight matrix $W$ is $1,000 \times 1,000$ matrix, then the weight update matrix $\delta W$ in regular fine-tuning is a $1,000 \times 1,000$ matrix as well.
 
 ***
 
