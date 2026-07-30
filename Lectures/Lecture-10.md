@@ -290,6 +290,10 @@ $$
 
 #### Hard-Signal versus Soft-Signal (Dark Knowledge)
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/hard-soft-labels.png" width="500" height="400" />
+</p>
+
 * Teacher Model - Large Model - **Soft Target (Dark Knowledge) Logits** - targets - invisible in hard-labels
 * Small Model - Fine-tune - **Hard-Label (Hart Target)**
 
