@@ -250,7 +250,7 @@ $$
 
 #### QLoRA - Quantized LoRA
 * LoRA adapter A & B matrices in FP16 -> $x \times (A \times B)$
-* 4-bit NF4 -> Dequantize on the fly -> $x \times W_0$
+* 4-bit NF4 -> De-quantize on the fly -> $x \times W_0$
 
 
 <p align="center">
@@ -272,6 +272,8 @@ $$
 | 14B (Distill-Qwen)            | Gaming PC   |  
 | 7B / 8B (Distill-Qwen/Llama)  | Gaming PC   |
 | 1.5B (Distill-Qwen)           | Smartphones |
+* STUDENT models **retain (preserve) the reasoning capabilities** of TEACHER model.
+* Compact the TEACHER models reasoning capabilities into more dramatically compact form.
 
 ***
 
@@ -286,9 +288,10 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/distillation.png" width="500" height="400" />
 </p>
 
+#### Hard-Signal versus Soft-Signal (Dark Knowledge)
 
-* Teacher Model - Large Model - Soft-Label (Dark Knowledge) - targets - invisible in hard-labels
-* Small Model - Finetune - Hard-Label
+* Teacher Model - Large Model - **Soft Target (Dark Knowledge) Logits** - targets - invisible in hard-labels
+* Small Model - Fine-tune - **Hard-Label (Hart Target)**
 
 ***
 
