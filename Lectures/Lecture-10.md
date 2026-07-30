@@ -171,6 +171,10 @@ $$
 
 ***
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/LoRA-issue.png" width="500" height="400" />
+</p>
+
 #### What is Problem?
 * We're doing Finetuning and vLLM engine is serving people from multiple domains:
   * Medical ($\Delta W$)
@@ -183,6 +187,10 @@ $$
   
 
 ***
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/LoRA.png" width="500" height="400" />
+</p>
 
 #### Without LoRA
 * We will have to save a finetunes model for each of applications we serve
