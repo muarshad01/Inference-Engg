@@ -278,6 +278,7 @@ $$
 | Paper|
 |---|
 | [Distilling the Knowledge in a Neural Network - (Mar 2025)](https://arxiv.org/abs/1503.02531) |
+| [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) |
 
 *** 
 
@@ -292,8 +293,6 @@ $$
 ***
 
 * 2:00:00
-
-***
 
 #### Goldilock Zone
 
@@ -313,9 +312,6 @@ $$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}
 ***
 
 * 2:20:00
-
-* [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks)
-
 
 ***
 
