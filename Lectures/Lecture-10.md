@@ -156,6 +156,10 @@ $$
 
 ## LoRA
 
+* Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
+* Suppose we have a large weight matrix $W$ for a given layer.
+* During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original weights $W_{orig}$ to minimize the loss function during training.
+
 $$
 \begin{align}
    Y           &= xW + \beta \\
@@ -164,10 +168,6 @@ $$
    Y_{new}     &= x(W + \Delta W)  + \beta \\
 \end{align}
 $$
-
-* Since LLMs are large, updating all model weights during training can be expensive due to GPU memory limitations.
-* Suppose we have a large weight matrix $W$ for a given layer.
-* During backpropogation, we learn a $\Delta W$ matrix, which contains information on how much we want to update the original weights $W_{orig}$ to minimize the loss function during training.
 
 ***
 
@@ -185,7 +185,6 @@ $$
 * If a pre-trained weight matrix $W$ is $1,000 \times 1,000$ matrix, then the weight update matrix $\Delta W$ in regular fine-tuning is a $1,000 \times 1,000$ matrix as well.
 * In this case, $\Delta W$ has $1,000 \times 1,000$ parameters. If we consider a LoRA of rank-2, then A is $1,000 \times 2$ matrix, and B is $2 \times 1,000$ matrix, and we only have $2 \times 2 \times 1,000=4,000$ parameters that we need to update when using LoRA.
   
-
 ***
 
 <p align="center">
@@ -203,17 +202,19 @@ $$
 *** 
 
 #### With LoRA
-* LoRA matrics: Can we reduce size of $\Delta W: 1,000,000 \rightarrow 1,000$
-* C[1000, 1000] = A[1000,2] x B[2,1000]
-* $10^6$ versus $4,000$ parameters
 
 | Schems ||
 |---|---|
 | Regular Finetuning | $x(W + \Delta W) = x.W + x.\Delta W$ |
 | LoRA               | $x(W + A.B)      = x.W + x.A.B$ |
-* A, B are trainable matrices, which are learned during back-propogation!
+* A, B are trainable matrices (LoRA matrices), which are learned during back-propogation!
 
-||
+* Can we reduce size of $\Delta W: 1,000,000 \rightarrow 4,000$
+* C[1000, 1000] = A[1000,2] x B[2,1000]
+* $10^6$ versus $4,000$ parameters
+
+
+|Paper |
 |---|
 | [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685) |
 
