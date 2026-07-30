@@ -10,6 +10,7 @@
 * FP8 (DeepSeek uses E4M3)
 * FP8 - E5M2
 * NVFP4 is an innovative 4-bit floating point format introduced with the NVIDIA Blackwell GPU architecture.
+  * 4-bit NF4 (normalized FP4)
 * INT8 - NVIDIA’s Blackwell architecture officially supports the 8-bit integer (INT8) data type natively across its data center GPUs
 * INT4
 * Generative Pre-trained Transformer Quantization (GPTQ)
