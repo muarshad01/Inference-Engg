@@ -3,8 +3,8 @@
 
 #### Inference using Smaller Models
 1. Fine-tuning (LoRA / QLoRA)
-2. Subliminal Learning (End-to-end fine-tuning research project) - has some flavors of Distillation
-3. Distillation (Distillation attacks or model extraction attacks)
+2. Subliminal Learning (End-to-end fine-tuning research project) - has some flavors of Distillation!
+3. **Distillation (Distillation attacks or model extraction attacks)**
 
 ***
 
