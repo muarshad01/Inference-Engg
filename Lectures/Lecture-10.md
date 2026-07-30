@@ -181,7 +181,7 @@ $$
   * Q & A ($\Delta W$)
   * Customer Support ($\Delta W$)
   * ...
-* Note: ($\Delta W$) is re-wiring rule.
+* **Note: ($\Delta W$) is Re-wiring rule.**
 * If a pre-trained weight matrix $W$ is $1,000 \times 1,000$ matrix, then the weight update matrix $\Delta W$ in regular fine-tuning is a $1,000 \times 1,000$ matrix as well.
 * In this case, $\Delta W$ has $1,000 \times 1,000$ parameters. If we consider a LoRA of rank-2, then A is $1,000 \times 2$ matrix, and B is $2 \times 1,000$ matrix, and we only have $2 \times 2 \times 1,000=4,000$ parameters that we need to update when using LoRA.
   
