@@ -277,10 +277,10 @@ $$
 
 ***
 
-| Paper|
-|---|
-| [Distilling the Knowledge in a Neural Network - (Mar 2025)](https://arxiv.org/abs/1503.02531) |
-| [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) |
+| Paper||
+|---|---|
+| [Distilling the Knowledge in a Neural Network - (Mar 2025)](https://arxiv.org/abs/1503.02531) ||
+| [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) | Dark Knowledge |
 
 *** 
 
