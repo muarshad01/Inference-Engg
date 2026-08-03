@@ -319,6 +319,7 @@ $$
 
 #### Goldilock Zone - How value of T is decided
 * Optimal temperature range
+* We don't want to maximize the entropy. We want to maximize the useful entropy.
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/goldilocks.png" width="500" height="400" />
@@ -326,7 +327,8 @@ $$
 
 ***
 
-* 2:20:00
+* 2:25:00
+#### Code - Subliminal learning using UnSloth
 
 ***
 
