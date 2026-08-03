@@ -303,10 +303,12 @@ $$
 
 #### Temperature scaled Softmax
 
+$$
 \begin{align}
    P_i &= \text{softmax}      = \frac{e^{x_i}}{\sum e^{x_i}} \\
    P_i &= \text{softmax}(z/T) = \frac{e^{x_i/T}}{\sum e^{x_i/T}}\\
 \end{align}
+$$
 * where $T=\{1,2,3,\ldots\}$.
 
 * Increasing the value of T flattens the graphs (distribution becomes uniform), on the other way, reducing the value of T, makes it spiky.
