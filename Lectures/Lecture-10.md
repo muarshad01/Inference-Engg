@@ -307,7 +307,8 @@ $$
 
 #### Temperature scaled Softmax
 
-$$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}}$$, where $T=\{1,2,3,\ldots\}$.
+$$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}}$$
+* where $T=\{1,2,3,\ldots\}$.
 
 * Increasing the value of T flattens the graphs, on the other way, reducing the value of T, makes it spiky.
 * At $T=1$, entropy is very low.
