@@ -315,7 +315,10 @@ $$
 * At $T=1$, entropy is very low.
 * But maximum entropy means uniform distribution.
 
+***
+
 #### Goldilock Zone - How value of T is decided
+* Optimal temperature range
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/goldilocks.png" width="500" height="400" />
