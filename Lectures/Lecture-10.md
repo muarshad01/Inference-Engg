@@ -304,7 +304,8 @@ $$
 #### Goldilock Zone
 
 * Soft signals
-* Temperature scales softmax
+
+#### Temperature scaled Softmax
 
 $$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}}$$, where $T=\{1,2,3,\ldots\}$.
 
