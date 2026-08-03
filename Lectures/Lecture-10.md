@@ -301,22 +301,25 @@ $$
 
 * 2:00:00
 
-#### Goldilock Zone
-
-* Soft signals
-
 #### Temperature scaled Softmax
 
-$$P_i = \frac{e^{x_i}}{\sum e^{x_i}} \rightarrow \frac{e^{x_i/T}}{\sum e^{x_i/T}}$$
+\begin{align}
+   P_i &= \text{softmax}      = \frac{e^{x_i}}{\sum e^{x_i}} \\
+   P_i &= \text{softmax}(z/T) = \frac{e^{x_i/T}}{\sum e^{x_i/T}}\\
+\end{align}
 * where $T=\{1,2,3,\ldots\}$.
 
-* Increasing the value of T flattens the graphs, on the other way, reducing the value of T, makes it spiky.
+* Increasing the value of T flattens the graphs (distribution becomes uniform), on the other way, reducing the value of T, makes it spiky.
 * At $T=1$, entropy is very low.
 * But maximum entropy means uniform distribution.
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-10/goldilocks.png" width="500" height="400" />
 </p>
+
+#### Goldilock Zone
+* How value of T is decided
+* Soft signals
 
 ***
 
