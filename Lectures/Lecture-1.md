@@ -5,7 +5,7 @@
 2. Measure the product's SLO - TTFT, ITL, throughput, cost per token
 4. Choose runTime optimizations - Attention varient, Quantization, KV-Cache tricks
 5. Choose Infrastructure layout - Parallelism, Replication, Disaggregation
-6. Deploy via a serving engine - vLLM, SGLang, TensorRT-LLM, Ray Serve
+6. Deploy via a serving engine - __vLLM, SGLang__, TensorRT-LLM, Ray Serve
 7. Benchmark, iterate, re-tune - a new frontier model drops every 6 weeks
 
 ***
