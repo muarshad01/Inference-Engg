@@ -11,8 +11,8 @@
 ***
 
 #### Pre-training versus Inference
-* Pre-training: Compute bound (offline)
-* Inference: Memory bound (online)
+* Pre-training: Compute bound (off-line)
+* Inference: Memory bound (on-line)
 
 #### Inference Engineer
 1. Application
