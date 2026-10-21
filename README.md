@@ -10,8 +10,13 @@
 * [The LLM Evaluation Guidebook](https://huggingface.co/spaces/OpenEvals/evaluation-guidebook)
 
 
+***
+
+#### TODO
+* [TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning](https://arxiv.org/pdf/2610.26754)
 
 ***
+
 |   | Topic  | Notes | Date|
 |---|---|---|---|
 |   | **Phase 1: Foundations and Optimizations** |||
