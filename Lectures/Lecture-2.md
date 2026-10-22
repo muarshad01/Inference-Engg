@@ -119,6 +119,8 @@ The artist painted the portrait of a woman with a brush.
 
 ***
 
+* Saves us number of FLOPs, which speedsUp Inference.
+* Number of FLOPs saved goes on increasing with $\text{SeqLength}$
 * $\text{SeqLength} (\uparrow) \longrightarrow SpeedUp(\uparrow)$
 
 *** 
