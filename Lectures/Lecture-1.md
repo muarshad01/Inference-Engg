@@ -193,6 +193,10 @@ $$
 
 * 2:20:00
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-1/prefill-decode.png" width="400" height="300" />
+</p>
+
 #### Journey of Prompty through Inference Pipeline
 * Prefill / Decode from Scratch
    * Prefill: Comptue bound
