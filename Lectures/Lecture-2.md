@@ -62,6 +62,8 @@ The artist painted the portrait of a woman with a brush.
 
 * 1:00:00
 
+#### KV Cache
+
 <p align="center">
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/Decode-1.png" width="400" height="300" />
 </p>
@@ -70,6 +72,13 @@ The artist painted the portrait of a woman with a brush.
 * Decode = N
 * Attention Score = $O(N^2)$
 * For each of N Decode, we have to perform $O(N^2)$ operations = Total operations $O(N^3)$
+
+***
+
+* Basically, we only need query vector, key vector, and value vector for "bright".
+* X_{bright}(1,8) x W_k(8,4) = Key vector for bright (1,4) -> Append to keys cache
+* X_{bright}(1,8) x W_q(8,4) = Query vector for bright (1,4)
+* X_{bright}(1,8) x W_v(8,4) = Value vector for bright (1,4) -> Append to values cache
 
 ***
 
