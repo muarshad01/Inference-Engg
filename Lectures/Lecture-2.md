@@ -62,6 +62,10 @@ The artist painted the portrait of a woman with a brush.
 
 * 1:00:00
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/Decode-1.png" width="400" height="300" />
+</p>
+
 * Prefill = N
 * Decode = N
 * Attention Score = $O(N^2)$
