@@ -76,9 +76,24 @@ The artist painted the portrait of a woman with a brush.
 ***
 
 * Basically, we only need query vector, key vector, and value vector for "bright".
-* X_{bright}(1,8) x W_k(8,4) = Key vector for bright (1,4) -> Append to keys cache
-* X_{bright}(1,8) x W_q(8,4) = Query vector for bright (1,4)
-* X_{bright}(1,8) x W_v(8,4) = Value vector for bright (1,4) -> Append to values cache
+* $X_{bright}(1,8) x W_k(8,4)$ = Key vector for bright (1,4) -> Append to keys cache
+* $X_{bright}(1,8) x W_q(8,4)$ = Query vector for bright (1,4)
+* $X_{bright}(1,8) x W_v(8,4)$ = Value vector for bright (1,4) -> Append to values cache
+
+***
+
+#### Inference loop with KV Cache
+* Receive new token: The model looks up the embedding for new token ($X_{bright}(1,8)$).
+* Compute Query vector, Key vector, and Value vector
+* Retrieve from cache: K and V cache of earlier tokens
+* Append to cache: Append Key and Value vectors of new token to existing cache
+* Multiply Query vector with keys -> Attention scores -> Attention weights
+* Multiply Attention weights with Values -> Context vector for new token
+* Context vector * W_0 -> get out of my attention block
+* FFN
+* Multiple transformer blocks
+* Logits vector for new tokens
+* select next token
 
 ***
 
