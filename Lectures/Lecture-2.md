@@ -134,7 +134,7 @@ The artist painted the portrait of a woman with a brush.
 * h : attention head dimension ($d_{head}$)
 * $n_{heads}$ : number of attention heads
 * s : sequence length (context length)
-* 2 : number of byptes per PF (Assume each parameter takes 2 bytes)
+* 2 : number of byptes per Parameter (Assume each parameter takes 2 bytes)
 * 2 : Two caches one each for (k,v)
 
 $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbrace{s \times h \times n_{heads}}_\text{One Layer} \times 2 \times 2$$
