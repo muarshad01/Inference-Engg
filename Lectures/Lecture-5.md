@@ -1,3 +1,7 @@
+* Activations!!!
+
+***
+
 ## Flash Attention 1,2,3
 * Cornerstone of both Pre-Training and Inference 
 
