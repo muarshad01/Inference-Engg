@@ -160,12 +160,13 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 * 2:05:00
 
 #### Approaches to Reduce Size of KV-Cache
-1. Quantization
-2. Temporal Compression: MQA, GQA
-3. Compress: Latent Space (MLA by DeepSeek)
-4. Reduce $n_{heads}$ parameter
+1. Quantization (e.g., FP16 -> FP8; store less bytes)
+2. Compress: Projection into Latent Space (MLA)
+3. Temporal Compression (DeepSeek V4): past tokens (high compression) and recent past (low compression); 
+4. Reduce $n_{heads}$s (MQA, GQA)
 5. Limit the SeqLength(s) (Sliding WA)
 6. State Space Models (Mamba, Jamba)
+
 
 ***
 
