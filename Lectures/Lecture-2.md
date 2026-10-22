@@ -1,4 +1,4 @@
-## Lecture-2: KV-Cache
+## Lecture-2: KV Cache
 * __Need__ of KV Cache
 * __Benefits__ of KV Cache
 * __Dark side__ of KV Cache
