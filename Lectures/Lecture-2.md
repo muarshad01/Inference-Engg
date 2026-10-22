@@ -40,8 +40,7 @@
 * We want variance to stay as close to one
 
 #### Why apply `softmax`
-* Probabilities of a row b/w 0-1
-* Sum of row values = 1
+* [softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
 
 ***
 
