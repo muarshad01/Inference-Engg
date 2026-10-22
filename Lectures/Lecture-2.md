@@ -101,8 +101,8 @@ The artist painted the portrait of a woman with a brush.
 
 |||||||
 |---|---|---|---|---|---|
-| __Pre-training__ | Params | Grads  | Optims  | Activs | ---|
-| __Inference__    | Params | ---    | ---     | Activs | KV-cache |
+| __Pre-training__ | Params ($W_Q, W_K, W_V$) | Grads  | Optims  | Activs ($Q, K, V, A, softmax(A), Z$) | ---|
+| __Inference__    | Params ($W_Q, W_K, W_V$) | ---    | ---     | Activs ($Q, K, V, A, softmax(A), Z$) | KV-cache |
 
 * 1:40:00
 
