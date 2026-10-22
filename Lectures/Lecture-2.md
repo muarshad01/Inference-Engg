@@ -141,6 +141,10 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 
 ***
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/kv-cache-dark-side.png" width="400" height="300" />
+</p>
+
 * High Bandwidth Memory (HBM) needs to be transferred to compute.
 * In the RoofLine graph, __X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__. As the number of Bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
 
