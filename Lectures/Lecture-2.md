@@ -109,8 +109,8 @@ The artist painted the portrait of a woman with a brush.
 ***
 
 #### Good (Necessary Evil)
-* Saves Re-computation
-  * With KV-Cache, we're calculating the same thing over and over (i.e., redundant computation)?
+* Benefit: Saves recomputation
+  * Without KV-Cache, we're calculating the same thing over and over (i.e., redundant computation)?
 * During Inference KV-cache Benefits (TTFT, ITL, TPS)
 * KV-cache benefits ITL, becauses we're doing less FLOPs
   * $\text{num FLOPs} \propto \text{Wall clock time}$
