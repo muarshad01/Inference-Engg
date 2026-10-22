@@ -5,6 +5,13 @@
 
 ***
 
+***
+
+#### Companies
+* [Companies](https://github.com/muarshad01/Inference-Engg/blob/main/companies.md)
+
+*** 
+
 * 30:00
 
 <p align="center">
