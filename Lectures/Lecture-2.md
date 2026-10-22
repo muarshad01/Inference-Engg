@@ -146,7 +146,8 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 </p>
 
 * High Bandwidth Memory (HBM) needs to be transferred to compute.
-* In the RoofLine graph, __X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__. As the number of Bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
+* In the roofline graph, X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__.
+* As the number of bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
 
 ***
 
