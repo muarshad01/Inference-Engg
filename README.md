@@ -1,4 +1,5 @@
 ## Inference Engineering
+* Inference Engineer sits at the intersection of three layers.
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
