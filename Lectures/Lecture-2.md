@@ -16,7 +16,7 @@
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/LLM.png" width="400" height="300" />
 </p>
 
-* Assume embedding-dim = 8
+* Assume embedding dimension = 8
 
 | Single HA | Multi HA ||
 |---|---|---|
