@@ -1,7 +1,7 @@
 ## Lecture-2: KV-Cache
-* What - Need
-* Good: Benefits
-* Evil: Dark side
+* __Need__ of KV Cache
+* __Benefits__ of KV Cache
+* __Dark side__ of KV Cache
 
 ***
 
