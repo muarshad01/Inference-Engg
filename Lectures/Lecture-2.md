@@ -62,7 +62,7 @@ The artist painted the portrait of a woman with a brush.
 
 * 1:00:00
 
-* Prefill = N ()
+* Prefill = N
 * Decode = N
 * Attention Score = $O(N^2)$
 * For each of N Decode, we have to perform $O(N^2)$ operations = Total operations $O(N^3)$
