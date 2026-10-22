@@ -10,8 +10,6 @@
 
 *** 
 
-* 30:00
-
 <p align="center">
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/LLM.png" width="400" height="300" />
 </p>
@@ -41,6 +39,8 @@
 * [softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
 
 ***
+
+* 30:00
 
 #### Perspective
 
