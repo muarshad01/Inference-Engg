@@ -48,7 +48,7 @@
 The artist painted the portrait of a woman with a brush.
 ```
 
-1. painting a woman with a "brush"
+1. painting a woman with a "brush" (in artists other hand.)
 2. painting of a "woman with a brush"
 
 *** 
