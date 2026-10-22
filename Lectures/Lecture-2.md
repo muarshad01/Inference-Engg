@@ -108,7 +108,7 @@ The artist painted the portrait of a woman with a brush.
 
 ***
 
-#### Good (Necessary Evil)
+#### Good Side: Necessary Evil
 * Benefit: Saves recomputation
   * Without KV-Cache, we're calculating the same thing over and over (i.e., redundant computation)?
 * During Inference KV-cache Benefits (TTFT, ITL, TPS)
@@ -123,7 +123,7 @@ The artist painted the portrait of a woman with a brush.
 
 *** 
 
-#### Size of KV Cache
+#### Dark Side: Size of KV Cache
 
 <p align="center">
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/KV-cache-size.png" width="400" height="300" />
@@ -145,7 +145,6 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 * In the RoofLine graph, __X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__. As the number of Bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
 
 ***
-
 
 * 2:05:00
 
