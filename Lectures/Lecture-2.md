@@ -138,6 +138,10 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times s \times
 
 * 2:05:00
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/KV-cache-size.png" width="400" height="300" />
+</p>
+
 #### Approaches to Reduce Size of KV-Cache
 1. Quantization
 2. Temporal Compression: MQA, GQA
