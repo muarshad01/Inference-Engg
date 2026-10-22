@@ -53,6 +53,17 @@ The artist painted the portrait of a woman with a brush.
 
 *** 
 
+#### The problem of redundant computations
+* Output: (num_tokens, vocab_size)
+   * Only the last row is relevant to predict the next token
+* Are we calculating the same thing over and over
+
+***
+
+* 1:00:00
+
+***
+
 * 1:30:00
 
 |||||||
