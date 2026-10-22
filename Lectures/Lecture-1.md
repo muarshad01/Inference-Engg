@@ -10,7 +10,9 @@
 
 ***
 
-
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-1/InfEngg.png" width="400" height="300" />
+</p>
 
 ***
 
