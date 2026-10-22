@@ -185,7 +185,7 @@ Deoploy
 | Paper ||
 |---|---|
 | [TurboQuant: Redefining AI efficiency with extreme compression](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/) | Can we store KV-cache in low precisin. |
-| [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) | |
+| [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) | Temporal Caching for KV Cache |
 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) ||
 | [DeepSeek V4 in vLLM: Efficient Long-context Attention](https://vllm-project.github.io/2026/04/24/deepseek-v4.html) ||
 
@@ -201,7 +201,7 @@ Deoploy
 
 * 3:20:00
 
-#### DeepSeek V4 KV-Cache
+#### DeepSeek V4 KV-Cache: Temporal Caching
 1. near past
 2. middle past (compressed version of tokens - C4A)
 3. far past (compressed version of tokens - C128A)
