@@ -123,15 +123,11 @@ The artist painted the portrait of a woman with a brush.
 
 *** 
 
-#### Size of KV_Cache
+#### Size of KV Cache
 
 <p align="center">
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/KV-cache-size.png" width="400" height="300" />
 </p>
-
-* High Bandwidth Memory (HBM) needs to be transferred to compute.
-* In the RoofLine graph, __X-axis is called Arithmetic Intensity (AI), which is (FLOPs/Bytes)__. As the number of Bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
-
 
 * l : number of transformer blocks layers
 * b : batch size
@@ -141,10 +137,15 @@ The artist painted the portrait of a woman with a brush.
 * 2 : number of byptes per PF (Assume each parameter takes 2 bytes)
 * 2 : Two caches one each for (k,v)
 
-
 $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times s \times h \times n_{heads} \times 2 \times 2$$
 
 ***
+
+* High Bandwidth Memory (HBM) needs to be transferred to compute.
+* In the RoofLine graph, __X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__. As the number of Bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
+
+***
+
 
 * 2:05:00
 
