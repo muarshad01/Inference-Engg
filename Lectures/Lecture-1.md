@@ -56,6 +56,10 @@
 
 * 20:00
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-1/dif-optimizations.png" width="600" height="300" />
+</p>
+
 #### Attention Varients
 * MHA
 * MQA
