@@ -149,6 +149,10 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 * In the roofline graph, X-axis is called Arithmetic Intensity (AI), which is (FLOPs/bytes)__.
 * As the number of bytes increase, we shift towards left/down along the slope, i.e., become more MEMORY Bound.
 
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/Llama3-memory-budget.png" width="400" height="300" />
+</p>
+
 ***
 
 * 2:05:00
