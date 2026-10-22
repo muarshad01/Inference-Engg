@@ -22,7 +22,7 @@
 |---|---|---|---|
 |   | **Phase 1: Foundations and Optimizations** |||
 | **L1** | **Three Stages of Inference** — Difference between inference and pre-training. Journey of a token through inference, prefill, and decode. | [L1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
-| **L2** | **Good and Evil of KV Cache** | [L2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Apr 30, 2026 |
+| **L2** | **Good and Evil of KV Cache** | [L2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Oct 22, 2026 |
 | **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [L3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | June 30, 2026 |
 | **L4** | **Attention Variants Part 2** — SWA, LA, SSMs, Mamba Architecture | [L4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | July 04, 2026 |
 | **L5** | **Flash Attention1,2,3** — Flash Attention | [L5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | July 06, 2026 |
