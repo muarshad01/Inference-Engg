@@ -163,10 +163,9 @@ $$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times \underbr
 1. Quantization (e.g., FP16 -> FP8; store less bytes)
 2. Compress: Projection into Latent Space (MLA)
 3. Temporal Compression (DeepSeek V4): past tokens (high compression) and recent past (low compression); 
-4. Reduce $n_{heads}$s (MQA, GQA)
+4. Reduce $n_{heads}$ (MQA, GQA)
 5. Limit the SeqLength(s) (Sliding WA)
 6. State Space Models (Mamba, Jamba)
-
 
 ***
 
@@ -189,7 +188,6 @@ Deoploy
 | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) | Temporal Caching for KV Cache |
 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) ||
 | [DeepSeek V4 in vLLM: Efficient Long-context Attention](https://vllm-project.github.io/2026/04/24/deepseek-v4.html) ||
-
 
 ***
 
