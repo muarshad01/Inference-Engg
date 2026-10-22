@@ -35,6 +35,12 @@
 | $Z(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg) \times V$ | $Z_1(4,2)=\text{Perspective-1}$ <br> $Z_2(4,2)=\text{Perspective-2}$ | Context matrix |
 || $Z(4,4) = [Z_1(4,2) \parallel Z_2(4,2)]$ |Concatinate Context matrices|
 
+#### Why divide by $\sqrt{d_{keys}$
+* $Q \times K^T$ variance can become vary large
+* We want variance to stay as close to one
+* 
+
+
 ***
 
 #### Perspective
