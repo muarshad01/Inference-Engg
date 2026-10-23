@@ -207,8 +207,21 @@ Deoploy
 
 * Keys dimesion = 768
 * Values dimension = 768 (The call it as channels)
+* Outlier problem across dimensions (some dimensions have really high values.)
 
 ***
+
+* First convert the vector so that it remains on a unit sphere.
+* Secondly, rotate that on sphere so that spikyness reduces.
+
+***
+
+* Spiky Vector (V_1) -> Quantize (V_2) -> De-quantize (V_3)
+* L_1 = Loss(V_1, V_3)
+* Spiky Vector (V_1) -> Rotate -> Quantize (V_2) -> De-quantize (V_3^')
+* L_2 = Loss(V_1, V_3^')
+* L_2 <<< L_1
+
 
 #### REDO This part
 
