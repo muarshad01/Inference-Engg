@@ -178,6 +178,15 @@ Pod name: KV Cache Inference Worskshop
 Volume Disk
 Deoploy
 ```
+
+<p align="center">
+   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/result-ITL.png" width="400" height="300" />
+</p>
+
+ * $\text{num FLOPs} (\uparrow)   \longrightarrow  \text{Wall clock time} (\uparrow)   \longrightarrow ITL(\uparrow)$
+* Number of FLOPs saved goes on increasing with $\text{SeqLength}$
+* $\text{SeqLength} (\uparrow) \longrightarrow SpeedUp(\uparrow)$
+
 ***
 
 * 2:35:00
