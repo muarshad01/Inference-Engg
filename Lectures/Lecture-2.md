@@ -205,6 +205,8 @@ Deoploy
 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale (2022)](https://arxiv.org/abs/2208.07339) ||
 | [DeepSeek V4 in vLLM: Efficient Long-context Attention](https://vllm-project.github.io/2026/04/24/deepseek-v4.html) ||
 
+***
+
 * Keys dimesion = 768
 * Values dimension = 768 (The call it as channels)
 * Outlier problem across dimensions (some dimensions have really high values.)
@@ -224,19 +226,18 @@ Deoploy
 
 ***
 
-#### REDO This part
-
 * Weights are quantized in blocks
 * Activations are quantized in channels (Spikyness issue only showsup in Activations)
 
 ***
 
-* 3:20:00
+* 3:18:00
 
 #### DeepSeek V4 KV-Cache: Temporal Caching
-1. near past
-2. middle past (compressed version of tokens - C4A)
-3. far past (compressed version of tokens - C128A)
+* For a new Query they don't store Key and Value but shared value.
+1. Near past
+2. Middle past (compressed version of tokens - C4A[C4A1(s0,s7),C4A2(s7,s11)])
+3. Far past (compressed version of tokens - C128A)
 
 ***
 
