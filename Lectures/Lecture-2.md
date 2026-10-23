@@ -183,13 +183,14 @@ Deoploy
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/seqlen-speedup.png" width="400" height="300" />
 </p>
 
+* $\text{SeqLength} (\uparrow) \longrightarrow SpeedUp(\uparrow)$
+* $\text{num FLOPs} (\downarrow)   \longrightarrow  \text{Wall clock time} (\downarrow)   \longrightarrow ITL(\downarrow)$
+* Number of FLOPs saved goes on increasing with $\text{SeqLength}$
+
+
 <p align="center">
    <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-2/seqlen-users.png" width="400" height="300" />
 </p>
-
- * $\text{num FLOPs} (\downarrow)   \longrightarrow  \text{Wall clock time} (\downarrow)   \longrightarrow ITL(\downarrow)$
-* Number of FLOPs saved goes on increasing with $\text{SeqLength}$
-* $\text{SeqLength} (\uparrow) \longrightarrow SpeedUp(\uparrow)$
 
 ***
 
