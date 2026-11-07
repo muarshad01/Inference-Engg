@@ -5,7 +5,7 @@
 * Ray
 
 #### Company
-* [Company - AnyScale](https://github.com/muarshad01/5D-Parallelism/blob/main/companies.md)
+* [Company - AnyScale uses Ray](https://github.com/muarshad01/5D-Parallelism/blob/main/companies.md)
 
 
 <p align="center">
