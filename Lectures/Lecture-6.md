@@ -88,7 +88,7 @@
 
 $$
 \begin{align}
-   \text{Memory for 1-block} &= l  \times b \times n_{heads} \times d_h \times s \times 2 \times 2\\
+   \text{Memory for 1-block} &= l(32)  \times b \times n_{heads} \times d_h \times s \times 2 (BF16) \times 2 (K&V)\\
                              &= 32 \times 1 \times 8         \times 128 \times 16 \times 2 \times 2 \\
                              &= ~2MB \\
   \text{Number of blocks}    &= \frac{57.6 GB}{2 MB} = 28,800 ~blocks                       
