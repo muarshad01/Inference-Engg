@@ -41,9 +41,7 @@
 
 * 20:00
 
-#### Different Models
-* [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
-* [roneneldan/TinyStories · Datasets at Hugging Face](https://huggingface.co/datasets/roneneldan/TinyStories)
+* [Model/Dataset](https://github.com/muarshad01/5D-Parallelism/blob/main/models.md)
 
 ***
 
