@@ -14,18 +14,19 @@
 
 ***
 
-* [From the roofline to vLLM.](https://vizuaraai.github.io/convolution-musical-journey/roofline-to-vllm.html)
-
-* Prefill (Comptue Bound) - Impacts TTFT
-* Decode (Memory Bound) - Impacts ITL and Througput
-
-***
-
 * 5:00
+
+* [From the roofline to vLLM.](https://vizuaraai.github.io/convolution-musical-journey/roofline-to-vllm.html)
+  * Prefill (Comptue Bound) - Impacts TTFT - FLOPS/byte
+  * Decode  (Memory Bound) - Impacts ITL and Througput - FLOPS/s
 
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/prefill-decode.png" width="400" height="300" />
 </p>
+
+***
+
+* 5:00
 
 #### GPU memory- HBM
 * Consider H100 - 80GB
