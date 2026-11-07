@@ -22,6 +22,7 @@
 <p align="center">
  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/prefill-decode.png" width="400" height="300" />
 </p>
+
 * __NOTE__: Bandwidth (slope of line) is fixed
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
