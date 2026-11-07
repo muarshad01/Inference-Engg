@@ -28,7 +28,7 @@
 
 ***
 
-* 5:00
+* 10:00
 
 #### GPU memory- HBM
 * Consider H100 - 80GB
@@ -44,8 +44,8 @@
 * NAIVE - Recompute everything every step
 
 #### Approaches to reduce KV Cache size
-1. Across heads (GQA, MQA, MLA)
-2. Across tokens (SWA, LA (context bottleneck issue), Mamba, Jamba)
+1. Across heads - GQA, MQA, MLA (Compress KVs)
+2. Across tokens - SWA, LinearAttention (Replace softmax with $\phi$ function; constant cache size; context bottleneck issue), Mamba, Jamba
 * DSA
 
 ***
