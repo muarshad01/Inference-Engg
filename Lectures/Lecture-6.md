@@ -29,22 +29,13 @@
 *** 
 
 * 10:00
-* NAIVE - Recompute everything every step
+
+#### Navie Approach
+* Recompute everything every step
 
 #### Approaches to reduce KV Cache size
-1. Across heads - GQA, MQA, MLA (Compress KVs)
+1. Across heads - GQA, MQA, MLA (Compress KVs), DeepSeek Sparse Attention (DSA) -- ALL the past is not important
 2. Across tokens - SWA, LinearAttention (Replace softmax with $\phi$ function; constant cache size; context bottleneck issue), Mamba, Jamba
-* DeepSeek Sparse Attention (DSA) -- ALL the past is not important
-
-***
-
-#### GPU memory- HBM
-* Consider H100 - 80GB
-* 8% reserved - 6.4 GB - for CUDA kernals / tmp buffers, etc.
-* Remaining 92% - 73.6 GB
-* Model weights (FP16) - $W_q, W_K, W_V$
-* Estimate Activations: $K,Q,V$
-* KV Cache
 
 ***
 
