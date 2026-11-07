@@ -9,6 +9,13 @@
 
 ***
 
+| Attention ||
+|---|---|
+| Standard Attention | $N^2 + Nd$ |
+| Flash Attention | $$ |
+
+***
+
 * 40:00
 
 * Information transfer from HBM-to-Compute
