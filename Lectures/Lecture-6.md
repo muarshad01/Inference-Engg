@@ -74,9 +74,7 @@
 
 #### Block Size
 * block-size = 16 means each block holds K and V caches of 16 tokens.
-
-* KV Cache pool = 57.6 GB
-* Divide pool into fixed size blocks
+* KV Cache pool = ~56 GB, Divide pool into fixed size blocks
 
 | Block | KV Cache size|
 |---|---|
@@ -85,7 +83,8 @@
 
 ***
 
-#### Calculate size
+#### Number of Blocks
+* KV cache for 16 tokens for ALL layers (llama=32)
 * $n_{heads} = 8$
 * $d_{head} = 128$
 
