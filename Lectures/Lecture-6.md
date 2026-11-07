@@ -187,9 +187,11 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/big-prefill-block.png" width="400" height="300" />
 </p>
 
-```
+
+```python
 --max-num-seqs 128
---enable-chunked-prefill --max-num-batched-tokens 512
+--enable-chunked-prefill
+--max-num-batched-tokens 512
 ```
 
 <p align="center">
