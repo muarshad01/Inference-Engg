@@ -11,8 +11,8 @@
 
 | Attention ||
 |---|---|
-| Standard Attention | $N^2 + Nd$ |
-| Flash Attention | $\frac{N^2d^2}{M} + Nd$ |
+| Standard Attention | $O(N^2 + Nd)$ |
+| Flash Attention | $O(\frac{N^2d^2}{M} + Nd)$ |
 
 ***
 
