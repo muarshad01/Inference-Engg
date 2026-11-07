@@ -12,6 +12,10 @@
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/inference.png" width="400" height="300" />
 </p>
 
+***
+
+* [From the roofline to vLLM.](https://vizuaraai.github.io/convolution-musical-journey/roofline-to-vllm.html)
+
 * Prefill (Comptue Bound) - Impacts TTFT
 * Decode (Memory Bound) - Impacts ITL and Througput
 
