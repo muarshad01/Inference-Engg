@@ -71,14 +71,17 @@
 ***
 
 * 40:00
+
+#### Block Size
+* block-size = 16 means each block holds K and V caches of 16 tokens.
+
 * KV Cache pool = 57.6 GB
 * Divide pool into fixed size blocks
-* `block-size = 16` means each block KV vectors of size 16.
 
 | Block | KV Cache size|
 |---|---|
-| Block-1 | - $\\{k_1, k_2,...,k_{16}\\}$ <br> - $\\{v_1, v_2,...,v_{16}\\}$ |
-| Block-2 | - $\\{k_{17}, k_2,...,k_{32}\\}$ <br> - $\\{v_{17}, v_2,...,v_{32}\\}$ |
+| Block-1 | - $\\{(k_1, v_1),...,(k_{16}, k_{16})\\}$ |
+| Block-2 | - $\\{(k_{17}, v_{17}),...,(k_{32}, v_{32})\\}$ |
 
 ***
 
