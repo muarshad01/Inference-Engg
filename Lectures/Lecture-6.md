@@ -100,10 +100,10 @@ $$
 
 * 50:00
 
-#### Two Key Data Structures
+#### Phase 1 and 2: Two Key Data Structures
 1. free-block-list: $\\{block_0, block_1, ..., block_N\\}$
-2. block-table dictionary: $\\{seq_i : block_j\\} \rightarrow Paging$
-* Block tables maintain mapping for sequences:
+2. block-table (dictionary): $\\{seq_i : block_j\\} \rightarrow Paging$
+* Block tables maintain mapping for sequences
 
 #### **Phase-3**:
 * Write the formula for pythagorean theorem
@@ -112,7 +112,7 @@ $$
 * Action taken: Pop block_0 from free-list
 * After allocation:
   * free-block-list = $\\{block_1, block_2,..., block_N\\}$
-  * block-table: seq_A = Block_0 (10 slots used; 6 slots free)
+  * block-table: {seq_A : Block_0} (10 slots used; 6 slots free)
 * Tow sequences will never ever share the same block
 * **WITHOUt Paged Attention**
   * 4,096 tokens pre-allocated
@@ -133,6 +133,7 @@ $$
 * This kind of attention is called **Paged Attention**.
 
 ***
+
 * What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory.
 * Why is it fine?
 * Because, we can use online softmax to merge the outputs!
