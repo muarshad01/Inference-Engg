@@ -94,8 +94,7 @@ $$
 \end{align}
 $$
 
-* Number of blocks vLLM allocates before Inference = $\frac{57.6~GB}{2~MB} = 28,800 ~blocks$
-
+* Number of blocks vLLM allocates before Inference = 28,800 ~blocks
 
 ***
 
