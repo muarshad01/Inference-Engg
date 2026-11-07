@@ -1,7 +1,7 @@
 ## Lecture 6: Anatomy of vLLM Step
 * [vLLM](https://github.com/vllm-project/vllm) -- Most modern Inference Engine!
 * [SGL](https://github.com/sgl-project/sglang) -- High-performance serving framework for LLM and multimodal models.
-* [Company - AnyScale - Run and Scale AI with Ray](https://www.anyscale.com/platform)
+* [Company - AnyScale](https://github.com/muarshad01/5D-Parallelism/blob/main/companies.md)
 * [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
 <p align="center">
