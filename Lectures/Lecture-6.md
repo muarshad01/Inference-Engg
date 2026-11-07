@@ -73,15 +73,13 @@
 * 40:00
 
 #### Block Size
-* block-size = 16 means each block holds K and V caches of 16 tokens.
+* block-size = 16 (Each block holds K and V caches of 16 tokens.)
 * KV Cache pool = ~56 GB, Divide pool into fixed size blocks
 
 | Block | KV Cache size|
 |---|---|
 | Block-1 | - $\\{(k_1, v_1),...,(k_{16}, k_{16})\\}$ |
 | Block-2 | - $\\{(k_{17}, v_{17}),...,(k_{32}, v_{32})\\}$ |
-
-***
 
 #### Number of Blocks
 * KV cache for 16 tokens for ALL layers (llama=32)
@@ -92,8 +90,8 @@ $$
 \begin{align}
    \text{Memory for 1-block} &= l~(32)  \times b \times n_{heads} \times d_h \times s~(tokens) \times 2~(BF16) \times 2~(KV)\\
                              &= 32 \times 1 \times 8         \times 128 \times 16 \times 2 \times 2 \\
-                             &= 2~MB \\
-  \text{Number of blocks}    &= \frac{57.6 GB}{2 MB} = 28,800 ~blocks                       
+                             &= 2~MB / block \\
+  \text{Number of blocks}    &= \frac{57.6 GB}{2 MB} = 28,800 ~blocks
 \end{align}
 $$
 
