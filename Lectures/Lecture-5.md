@@ -12,7 +12,7 @@
 | Attention ||
 |---|---|
 | Standard Attention | $N^2 + Nd$ |
-| Flash Attention | $$ |
+| Flash Attention | $\frac{N^2d^2}{M} + Nd$ |
 
 ***
 
