@@ -65,6 +65,9 @@
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/vllm-example.png" width="400" height="300" />
 </p>
 
+* [H100 Reserved Memory](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+
+
 ***
 
 * 40:00
