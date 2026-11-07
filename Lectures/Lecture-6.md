@@ -90,7 +90,7 @@ $$
    \text{Memory for 1-block} &= l~(32)  \times b \times n_{heads} \times d_h \times s~(tokens) \times 2~(BF16) \times 2~(KV)\\
                              &= 32 \times 1 \times 8         \times 128 \times 16 \times 2 \times 2 \\
                              &= 2~MB / block \\
-  \text{Number of blocks vLLM allocates before Inference}    &= \frac{57.6 GB}{2 MB} = 28,800 ~blocks
+  \text{Number of blocks vLLM allocates before Inference}    &= \frac{57.6~GB}{2~MB} = 28,800 ~blocks
 \end{align}
 $$
 
