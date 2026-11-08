@@ -152,6 +152,8 @@ $$
 
 * 1:30:00
 
+#### What exactly is a vLLM step?
+
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/one-step.png" width="600" height="600" />
 </p>
