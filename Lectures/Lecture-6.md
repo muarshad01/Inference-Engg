@@ -137,6 +137,8 @@ $$
 * What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory (Paging/Block table).
 * Because, we can use __Online Softmax__ to merge the outputs!
 * Blocks are freed when `<EOS>` is reached or `--max-model-length 4096` is reached.
+* Each decode step takes roughly 2-3ms on A100 GPU for an 8G model. This gives 200-500 tokens/s for a sequence.
+
 ***
 
 * 1:20:00
@@ -144,8 +146,7 @@ $$
 | Papers ||
 |---|---|
 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)| vLLM - Paged Attention|
-| [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/) | SGLang - RadixAttention and Semantic Caching
-|
+| [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/) | SGLang - RadixAttention and Semantic Caching|
 
 *** 
 
