@@ -136,7 +136,7 @@ $$
 #### vLLM - Paged Attention
 * What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory (Paging/Block table).
 * Because, we can use __Online Softmax__ to merge the outputs!
-* Blocks are freed when <EOS> is reached or 
+* Blocks are freed when `<EOS>` is reached or `--max-model-length 4096` is reached.
 ***
 
 * 1:20:00
