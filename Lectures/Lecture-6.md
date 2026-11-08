@@ -126,14 +126,18 @@ $$
 
 * 1:00:00
 
-#### **Phase-4**:
-* Prefill: 11 tokens
-* Decode: 11,12,13,14,15,16 token...then we fetch a new block
-* block-table: Seq A: [0, 77]
+#### **Phase-4: Prefill**:
+* block-table: {seq_A : Block_0}
+* Aftger Prefill, we have 11 tokens in Block_0 with 5 empty slots.
+* After 1 Decode, we have 12 tokens in Block_0 with 4 empty slots.
+* After 4 more Decodes, Block_0 is full.
+* Decode: 11,12,13,14,15,16 token...then we fetch a new block, say 77
+* block-table: { Seq A: [Block_0, Block_77]}
 * This kind of attention is called **Paged Attention**.
 
 ***
 
+* 1:10:00
 * What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory.
 * Why is it fine?
 * Because, we can use online softmax to merge the outputs!
