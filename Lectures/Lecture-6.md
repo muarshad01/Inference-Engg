@@ -45,12 +45,6 @@
 
 ***
 
-#### Paged Attention
-* Paging table
-* On-line Softmax
-
-***
-
 #### Continuous Batching
 * Efficient batching moves you up the Roofline plot
 * Batching
@@ -138,23 +132,20 @@ $$
 ***
 
 * 1:10:00
-* What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory.
-* Why is it fine?
-* Because, we can use online softmax to merge the outputs!
 
+#### vLLM - Paged Attention
+* What vLLM says, it fine if keys and values vectors for query don't live contiguously in memory (Paging/Block table).
+* Because, we can use __Online Softmax__ to merge the outputs!
+* Blocks are freed when <EOS> is reached or 
 ***
 
 * 1:20:00
 
-#### Paged Attention vLLM
-
-| Paper |
-|---|
-| [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)|
-
-#### RadixAttention & Semantic Caching
-
-* [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/)
+| Papers ||
+|---|---|
+| [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)| vLLM - Paged Attention|
+| [Fast and Expressive LLM Inference with RadixAttention and SGLang](https://www.lmsys.org/blog/2024-01-17-sglang/) | SGLang - RadixAttention and Semantic Caching
+|
 
 *** 
 
