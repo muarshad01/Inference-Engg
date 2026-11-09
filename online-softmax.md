@@ -3,7 +3,7 @@
 * Bring tiles into SRAM ([H100 Memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md))
 * Find partial output vectors
 * Merge
-* Send output vectors from SRAM to HBM.
+* Send output vectors from SRAM-to-HBM.
 
 ***
 
