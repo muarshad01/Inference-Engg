@@ -38,13 +38,13 @@
 
 #### Memory: Pre-training versus Inference
 
-|| Pre-Training | Inference |
-|---|---|---|
-| | Params($W_k,W_q,W_v$) | Params($W_k,W_q,W_v$) |
-| | Activs($K,Q,V$)       | Activs($K,Q,V$) |
-|| ---  |Gradients|
-|| --- |Optimizations|
-|| KV Cache | --- |
+| Pre-Training | Inference |
+|---|---|
+| Params($W_k,W_q,W_v$) | Params($W_k,W_q,W_v$) |
+| Activations($K,Q,V$)  | Activations($K,Q,V$) |
+| ---  |Gradients|
+| --- |Optimizations|
+| KV Cache | --- |
 
 * [How to Make LLM Training Faster with Unsloth and NVIDIA](https://unsloth.ai/blog/nvidia-collab)
 * [Cerebras Model Zoo](https://github.com/Cerebras/modelzoo)
