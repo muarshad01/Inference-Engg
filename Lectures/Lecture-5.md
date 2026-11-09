@@ -71,19 +71,19 @@
   * Read/Write A
   * Read/Write S
 
-***
-
 #### Problem with Traditional Attention
 
 ```
 N = 4,096 = 4k
 N X N = 4k x 4k x 2 = 32 MB for one Layer
 One Layer -> 32 MB
-32 Layers -> 1 GB / forward pass -- just for attention
-* This whole 1 GB has to pass through HBM!
+32 Layers -> 1 GB/forward-pass just for attention!
+* This whole 1 GB has to pass through HBM!!!
 ```
 
 ***
+
+* 1:05:00
 
 #### Solution
 * (N x N) matrix is main issue!
