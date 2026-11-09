@@ -59,7 +59,7 @@
 1. **Activations** $Q, K, V$ matrices are WRITTEN to HBM
 2. READ $Q, K$ from HBM and we compute $A(N,N) = Q \times K^T$
 3. WRITE attn score matrix (A) $\to$ HBM
-4. READ attn score matrix (A) back from HBM. Comptue $S=\text{softmax}(A)$
+4. READ attn score matrix (A) back from HBM. Comptue $\text{softmax}(A)$
 5. WRITE $\{softmax}(A)$ to HBM
 6. READ $\{softmax}(A)$ and $V$ from HBM and compute $\{softmax}(A) \times V \to O=\text{Context Vector}$ 
 * 3R + 3W
