@@ -228,19 +228,15 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/complete-picture.png" width="500" height="300" />
 </p>
 
-
 ***
 
-* In Inferenece, data-parallelism is not important but tensor-parallelism is important.
+* 2:20:00
 
-***
-
-* 2:25:00
-
-#### Prompt Caching
-
-***
+* In Inferenece, data parallelism (DP) is not important but tensor parallelism (TP) is important.
 
 * 2:30:00
+
+#### Prompt Caching
+* We cache the key and value vectors for the prompt.
 
 ***
