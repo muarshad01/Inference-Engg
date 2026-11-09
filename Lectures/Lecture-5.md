@@ -31,6 +31,7 @@
 
 #### Information transfer from Memory-to-Compute
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+* If more bytes are transferred from HBM to compute the Arithmetic Intensity (AI) - FLOPs/bytes - decreases.
 
 ***
 
