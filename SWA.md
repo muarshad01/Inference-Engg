@@ -1,4 +1,5 @@
 #### [Sliding Window Attention](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch04/06_swa/README.md)
+* [Sliding Window Attention (SWA)](https://sebastianraschka.com/llm-architecture-gallery/swa/) - Sebastian
 * N: Seq length
 * W: Sliding window length (We consider a fixed number of past tokens.)
 * We reduce KV-cache size by a factor of $\frac{N}{W}$
