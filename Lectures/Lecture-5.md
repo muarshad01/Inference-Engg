@@ -37,7 +37,6 @@
 * 50:00
 
 #### Memory: Pre-training versus Inference
-
 | Pre-Training | Inference |
 |---|---|
 | Params($W_k,W_q,W_v$) | Params($W_k,W_q,W_v$) |
