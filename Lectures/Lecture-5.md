@@ -32,10 +32,6 @@
 #### Information transfer from Memory-to-Compute
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
-* **Tensor Core** - Specific to matrix multiplication
-* **CUDA Core** - For any type of math
-* WARP: A group of 32 threads
-
 ***
 
 | Stage | Stored in Memory|
