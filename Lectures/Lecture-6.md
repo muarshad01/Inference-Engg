@@ -152,30 +152,31 @@ $$
 
 * 1:30:00
 
-#### What exactly is a vLLM step?
-
-<p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/one-step.png" width="600" height="600" />
-</p>
-
-#### Phase-6: What is a vLLM Step? One Forward Pass.
+#### Phase-6: What exactly is a vLLM Step? 
 * One vLLM step is one forward pass.
-  * Schedule collects work, builds a batch (`max-num-seqs=128`), runs it through 32 transformers.
+  * Schedule collects work, builds a batch (--max-num-seqs=128`), runs it through 32 transformers.
   * Stream to user once one batch is processed
   * That's why batch size effects user experience
 * What if there are 10,000 users?
 * One vLLM operation is whatever is there in a BATCH.
 
+***
+
+```python
+--max_seq_batch=128
+```
+
 #### vLLM Queue
 * Waiting Queue
 * Running Queue
 
-#### vLLM uses Continuous Batching
-* Static batching
-* Continuous batching
-  * You don't have to wait for all sequence in one batch to finish. New sequence can come in.
+#### Static versus Continuous Batching
+* vLLM uses Continuous Batching
+* In Continuous batching, you don't have to wait for all-sequences in one batch to finish. New sequence can come in if some some sequence of batch finish.
 
-***
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/one-step.png" width="600" height="600" />
+</p>
 
 * 1:45:00
 
@@ -185,11 +186,10 @@ $$
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-6/big-prefill-block.png" width="400" height="300" />
 </p>
 
-
 ```python
---max-num-seqs 128
+--max-num-seqs=128
 --enable-chunked-prefill
---max-num-batched-tokens 512
+--max-num-batched-tokens=512
 ```
 
 <p align="center">
