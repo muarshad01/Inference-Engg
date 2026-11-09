@@ -12,7 +12,7 @@
 | Attention ||
 |---|---|
 | Standard Attention | $O(N^2 + Nd)$ |
-| Flash Attention | $O(\big\frac{N^2d^2}{M} + Nd\big)$ |
+| Flash Attention | $O\big(\frac{N^2d^2}{M} + Nd\big)$ |
 
 ***
 
