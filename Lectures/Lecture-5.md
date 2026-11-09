@@ -18,19 +18,12 @@
 
 * 40:00
 
-* Information transfer from HBM-to-Compute
+#### Information transfer from Memory-to-Compute
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
-| Memory Type | Speed |
-|---|---|
-| Registers |  20 TB/s |
-| L1        |  19 TB/s |
-| L2        |   4 TB/s |
-| HBM       | 3.5 TB/s |
-
 * **Tensor Core** - Specific to matrix multiplication
-* **CUDA Core** - For anytype of math
-* WARP: Group of threads
+* **CUDA Core** - For any type of math
+* WARP: A group of 32 threads
 
 ***
 
