@@ -15,10 +15,9 @@
 
 #### [Lecture 4 - Review](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)
 
-* 24:00
-
-
 ***
+
+* 24:00
 
 | Attention ||
 |---|---|
@@ -35,10 +34,12 @@
 
 ***
 
+* 50:00
+
 | Stage | Stored in Memory|
 |---|---|
-| Pre-Training | Params, Activs, Grads, Optims |
-| Inference    | Params, Activs, ~~Grads, Optims,~~ KV-cache |
+| Pre-Training | Params($W_k,W_q,W_v$), Activs($K,Q,V$), Grads, Optims |
+| Inference    | Params($W_k,W_q,W_v$), Activs($K,Q,V$), KV Cache |
 
 * [How to Make LLM Training Faster with Unsloth and NVIDIA](https://unsloth.ai/blog/nvidia-collab)
 * [Cerebras Model Zoo](https://github.com/Cerebras/modelzoo)
