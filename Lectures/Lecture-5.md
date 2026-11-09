@@ -1,4 +1,14 @@
-* Activations!!!
+## Flash Attention
+* Reduces the number-of-bytes transferred from HBM memory to place where compute happens.
+* A method at the GPU level.
+
+| Papers |
+|---|
+| [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) |
+| [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)|
+| [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) |
+| [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451) |
+| [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036) |
 
 ***
 
@@ -6,6 +16,9 @@
 * Cornerstone of both Pre-Training and Inference 
 
 #### [Lecture 4 - Review](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)
+
+* 24:00
+
 
 ***
 
@@ -78,13 +91,6 @@ One Layer -> 32 MB
 
 ****
 
-| Papers |
-|---|
-| [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) |
-| [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)|
-| [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) |
-| [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451) |
-| [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036) |
 
 ***
 
