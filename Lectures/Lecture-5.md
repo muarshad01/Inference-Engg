@@ -36,10 +36,7 @@
 
 * 50:00
 
-| Stage | Stored in Memory|
-|---|---|
-| Pre-Training | Params($W_k,W_q,W_v$), Activs($K,Q,V$), Grads, Optims |
-| Inference    | Params($W_k,W_q,W_v$), Activs($K,Q,V$), KV Cache |
+#### Memory: Pre-training versus Inference
 
 || Pre-Training | Inference |
 |---|---|---|
