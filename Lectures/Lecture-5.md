@@ -1,6 +1,7 @@
 ## Flash Attention
 * Reduces the number-of-bytes transferred from HBM memory to place where compute happens.
 * A method at the GPU level.
+* Flash Attention 1,2,3 - Cornerstone of both Pre-Training and Inference 
 
 | Papers |
 |---|
@@ -11,9 +12,6 @@
 | [DFlash: Block Diffusion for Flash Speculative Decoding - (Mar 2026)](https://arxiv.org/abs/2602.06036) |
 
 ***
-
-## Flash Attention 1,2,3
-* Cornerstone of both Pre-Training and Inference 
 
 #### [Lecture 4 - Review](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)
 
