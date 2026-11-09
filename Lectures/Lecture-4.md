@@ -4,7 +4,7 @@
 1. Full Attention (baseline)
 2. Sliding Window Attention (SWA)
 3. Linear Attention
-4. State Space Models (SSM) - Mamba Architecture
+4. State Space Models (SSM) - Mamba Architecture ([Nemotron 3](https://arxiv.org/pdf/2512.20848))
 
 ***
 
