@@ -41,6 +41,13 @@
 | Pre-Training | Params($W_k,W_q,W_v$), Activs($K,Q,V$), Grads, Optims |
 | Inference    | Params($W_k,W_q,W_v$), Activs($K,Q,V$), KV Cache |
 
+|| Pre-Training | Inference |
+|---|---|---|
+| | Params($W_k,W_q,W_v$) | Params($W_k,W_q,W_v$) |
+| | Activs($K,Q,V$)       | Activs($K,Q,V$) |
+|| --  |Gradients|
+|| --- |Optimizations|
+
 * [How to Make LLM Training Faster with Unsloth and NVIDIA](https://unsloth.ai/blog/nvidia-collab)
 * [Cerebras Model Zoo](https://github.com/Cerebras/modelzoo)
 
