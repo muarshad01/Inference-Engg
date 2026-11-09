@@ -71,8 +71,7 @@
   * Read/Write A
   * Read/Write S
 
-#### Problem with Traditional Attention
-
+#### Example: Problem with Traditional Attention
 ```
 N = 4,096 = 4k
 N X N = 4k x 4k x 2 = 32 MB for one Layer
