@@ -91,6 +91,8 @@ $$
 
 ***
 
+* 1:50:00 
+
 #### Tile Size
 * M = SRAM Memory
 * $M_{SRAM} = d \times \text{tile size}$
@@ -120,7 +122,7 @@ $$
 
 ***
 
-* 2:20:00
+* 2:00:00
 
 #### Variants of Flash Attention
 
