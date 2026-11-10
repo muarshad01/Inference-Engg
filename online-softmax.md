@@ -122,6 +122,14 @@ $$
 
 ***
 
+#### Pre-training versus Prefill Stage
+* __Pre-training Stage__
+   * In pre-training, we perform casual attation. A query ($q_i$) needs all the previous keys($1,2,\ldots, k_{i-1}$) and values ($1,2,\ldots, q_{i-1}$).
+* __Prefill Stage of Inference__
+   * Every query needs to attend to ALL the Keys.
+
+***
+
 * 2:20:00
 
 #### Flash Attention Variants
