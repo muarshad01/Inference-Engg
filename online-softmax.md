@@ -91,7 +91,8 @@ $$
 
 ***
 
-#### SRAM Memory (M) Size
+#### Tile Size
+* M = SRAM Memory
 * $M_{SRAM} = d \times \text{tile size}$
 
 $$
