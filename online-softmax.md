@@ -102,8 +102,10 @@ $$
 $$
 
 * **Standard Attention**:
-   * For $Q,K,V$ matricies of dimension $(N,d)$ - $O(3Nd)$ R/W
-   * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$ - $O(2N^2)$
+   * For $Q,K,V$ matricies of dimension $(N,d)$
+      * $O(3Nd)$ R/W
+   * For $A = Q\times K^T$ and $S = \text{softmax}(A)$ matrices of dimension $(N,N)$
+      * $O(2N^2)$
 * **Flash Attention**:
    * For each query tile, I need to fetch all K and V from HRAM.
       * K and V size is $Nd$
