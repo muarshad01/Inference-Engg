@@ -122,7 +122,7 @@ $$
 
 ***
 
-* 2:00:00
+* 2:15:00
 
 #### Variants of Flash Attention
 
