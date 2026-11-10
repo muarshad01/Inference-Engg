@@ -66,10 +66,11 @@ $$
 * Consider tile size = 4 tokens
 
 * $Q = \\{Q_1,Q_2,Q_3,Q_4\\}$
-   * $Q_1 = \\{q_1,q_2,q_3,q_4 \\}$
+   * $Q_1 = \\{q_1,q_2,q_3,q_4\\}$, ...
 * $K = \\{K_1,K_2,K_3,K_4\\}$
+   * $K_1 = \\{k_1,k_2,k_3,k_4\\}$, ...
 * $V = \\{V_1,V_2,V_3,V_4\\}$
-
+   * $V_1 = \\{v_1,v_2,v_3,v_4\\}$, ...
 
 | Q | K | Attention Score | Attention Weights | Context Vector |  Store |
 |---|---|---|---|---|---|
