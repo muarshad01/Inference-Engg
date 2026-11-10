@@ -20,9 +20,9 @@
 
 $$
 \begin{align}
-   Attention Weights &= Q\times K^T\\
-   Attention Scores &= \text{softmax}(A)\\
-   Context Vector &= S \times V
+   \text{Attention ~Weights (A)} &= Q\times K^T\\
+   \text{Attention ~Scores} &= \text{softmax}(A)\\
+   \text{Context ~Vector} &= S \times V
 \end{align}
 $$
 
