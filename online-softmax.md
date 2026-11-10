@@ -144,6 +144,7 @@ $$
    * Tensor Memory Accelerator
    * Accelerates transfer of memory from HBM to compute area.
    * We can technally overlap bytes transfer and compute
+   * SFU: special function unit
    * Producer Consumer Pipeline
 
 
