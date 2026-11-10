@@ -145,8 +145,14 @@ $$
    * Accelerates transfer of memory from HBM to compute area.
    * We can technally overlap bytes transfer and compute
    * SFU: special function unit
-   * Producer Consumer Pipeline
+   * Quantization: FP8 (less memory transferred)
+   * ~~Producer Consumer Pipeline~~
 
+***
+
+* [Flash-Decoding for long-context inference](https://pytorch.org/blog/flash-decoding/)
+
+***
 
 | Papers |
 |---|
