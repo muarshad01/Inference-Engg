@@ -33,6 +33,11 @@ $$
 \end{align}
 $$
 
+***
+
+* $q_1 (1,8) \times K^T(8,16) \rightarrow \\{s_1,s_2, ..., s_{16}\\} \rightarrow \\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\}$
+* $\\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\} \times V(16,8) \rightarrow o_1(1,8)$ 
+
 | $q_1 (1,8)$ | $K(16,8)$ | $q_1 \times K^T (1,16)$ | $V(16,8)$ | $o_1(1,8)$ |
 |---|---|---|---|---|
 |---|---|---|---|---|
@@ -52,10 +57,6 @@ $$
 | $q_1$ |  $k_{14}$ | $s_{14}$ | $v_{14}$ |  |
 | $q_1$ |  $k_{15}$ | $s_{15}$ | $v_{15}$ |  |
 | $q_1$ |  $k_{16}$ | $s_{16}$ | $v_{16}$ |  |
-
-
-* $q_1 (1,8) \times K^T(8,16) \rightarrow \\{s_1,s_2, ..., s_{16}\\} \rightarrow \\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\}$
-* $\\{\{\frac{e^{s_1}}{\text{sum}}, \frac{e^{s_2}}{\text{sum}}, ..., \frac{e^{s_{16}}}{\text{sum}}\}\\} \times V(16,8) \rightarrow O(1,8)$ 
 
 ***
 
