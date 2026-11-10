@@ -72,6 +72,7 @@ $$
 * $V = \\{V_1,V_2,V_3,V_4\\}$
    * $V_1 = \\{v_1,v_2,v_3,v_4\\}$, ...
 
+#### FlashAttention-2
 | Q | K | Attention Score | Attention Weights | Context Vector |  Store |
 |---|---|---|---|---|---|
 | $q_1(1,8)$ | $K_1(4,8)$ | $A_1 = q_1 \times K_1^T$  | $S_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$   | $O_1 = S_1 \times V_1(4,8)$ | $O_1 \times sum_1$; running-sum of denominator |
@@ -136,6 +137,16 @@ $$
 * [Dao AI Lab](https://github.com/Dao-AILab)
 
 
+* 2:25:00
+
+#### FlashAttention-3
+* Hopper GPUs (Specilized hardware) - H100, H200,...
+   * Tensor Memory Accelerator
+   * Accelerates transfer of memory from HBM to compute area.
+   * We can technally overlap bytes transfer and compute
+   * Producer Consumer Pipeline
+
+
 | Papers |
 |---|
 | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness - (June 20222)](https://arxiv.org/abs/2205.14135) |
@@ -144,7 +155,6 @@ $$
 | [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling - (Mar 2026)](https://arxiv.org/abs/2603.05451) |
 | [DFlash: Block Diffusion for Flash Speculative Decoding - (Mar 2026)](https://arxiv.org/abs/2602.06036) |
 
-* - Flash Attention 3: Specilized hardware: Tensor memory accelerator. <br> - Producer Consumer Pipeline
 
 ***
 
