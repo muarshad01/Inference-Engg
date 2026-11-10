@@ -115,7 +115,7 @@ $$
 
 | Scheme |                              | R/W from HRAM ||
 |---|---|---|---|
-| Standard Attention | $O(3Nd + 2N^2d)$ | $O(Nd + N^2)$              | |
+| Standard Attention | $O(3Nd + 2N^2d)$ | $O(Nd + N^2d)$              | |
 | Flash Attention    |                  | $O(Nd + \frac{N^2d^2}{M})$ | $\frac{d^2}{M} <<< 1$ |
 
 ***
