@@ -1,4 +1,5 @@
 ## Inference Engineering
+* [Inference Engineering Is the Most Important AI Skill Right Now: The 4-Layer Stack](https://www.youtube.com/watch?v=UHGCKoTvohU)
 * Inference Engineer sits at the intersection of three layers.
 
 <p align="center">
