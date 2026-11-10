@@ -111,10 +111,10 @@ $$
       * $Nd \times \frac{N}{\text{tile size}}$
       * $Nd \times \frac{N}{\frac{M}{d}}=\frac{N^2d^2}{M}$
 
-| Scheme |  | R/W from HRAM ||
+| Scheme |                              | R/W from HRAM ||
 |---|---|---|---|
-| Standard Attention | $O(3Nd + 2N^2d)$ | $O(Nd + N^2)$ | |
-| Flash Attention    |              | $Nd + \frac{N^2d^2}{M}$ | $\frac{d^2}{M} <<< 1$ |
+| Standard Attention | $O(3Nd + 2N^2d)$ | $O(Nd + N^2)$              | |
+| Flash Attention    |                  | $O(Nd + \frac{N^2d^2}{M})$ | $\frac{d^2}{M} <<< 1$ |
 
 ***
 
