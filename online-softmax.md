@@ -21,7 +21,7 @@
 $$
 \begin{align}
    \text{Attention ~Weights (A)} &= Q\times K^T\\
-   \text{Attention ~Scores} &= \text{softmax}(A)\\
+   \text{Attention ~Scores (S)} &= \text{softmax}(A)\\
    \text{Context ~Vector} &= S \times V
 \end{align}
 $$
