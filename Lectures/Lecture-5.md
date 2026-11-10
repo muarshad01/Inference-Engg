@@ -80,8 +80,6 @@ One Layer -> 32 MB
 * This whole 1 GB has to pass through HBM!!!
 ```
 
-***
-
 * 1:05:00
 
 #### Solution
