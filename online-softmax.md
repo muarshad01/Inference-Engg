@@ -171,11 +171,13 @@ $$
 * 2:40:00
 
 #### Code
-* H100 or H200
+* Hopper: H100 or H200
+* Blackwell: B*
 * PyTorch SDPA - Scaled Dot Product Attention
-* SFU - Special function unit
 
 ***
+
+
 
 * 3:00:00
 
