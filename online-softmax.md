@@ -122,10 +122,9 @@ $$
 
 ***
 
-* 2:15:00
+* 2:20:00
 
-#### Variants of Flash Attention
-
+#### Flash Attention Variants
 * [Dao AI Lab](https://github.com/Dao-AILab)
 
 | Paper ||
