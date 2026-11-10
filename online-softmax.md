@@ -81,6 +81,10 @@ $$
 
 * After each iteration i, we store $O_i$ and running sum of denominator value.
 
+$$
+Final ~Answer=\bigg(\frac{O_1 \times sum_1 + O_2 \times sum_2 + O_3 \times sum_3 + O_4 \times sum_4}{sum_1 + sum_2 + sum_3 + sum_4}\bigg)
+$$
+
 ***
 
 #### SRAM Memory (M) Size
