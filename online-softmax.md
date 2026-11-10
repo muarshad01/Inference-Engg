@@ -19,8 +19,8 @@
 * 1:15:00 
 
 #### [Online Softmax - Day08](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-08.md)
-* Number of tokens - N = 16
-* Embedding dimension - d = 8
+* N = 16
+* d = 8
 * $Q(16,8) - \\{q_1,q_2, ..., q_{16}\\}$
 * $K(16,8) - \\{k_1,k_2, ..., k_{16}\\}$
 * $V(16,8) - \\{v_1,v_2, ..., v_{16}\\}$
