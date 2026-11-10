@@ -60,7 +60,8 @@ $$
 
 ***
 
-* Consider Tile size= 4 Tokens
+#### Tiling
+* Consider tile size = 4 tokens
 
 | Q | K | Attention Score | Attention Weights | Context Vector |  Store |
 |---|---|---|---|---|---|
