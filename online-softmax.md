@@ -65,6 +65,12 @@ $$
 #### Tiling
 * Consider tile size = 4 tokens
 
+* $Q = \\{Q_1,Q_2,Q_3,Q_4\\}$
+   * $Q_1 = \\{q_1,q_2,q_3,q_4 \\}$
+* $K = \\{K_1,K_2,K_3,K_4\\}$
+* $V = \\{V_1,V_2,V_3,V_4\\}$
+
+
 | Q | K | Attention Score | Attention Weights | Context Vector |  Store |
 |---|---|---|---|---|---|
 | $q_1(1,8)$ | $K_1(4,8)$ | $A_1 = q_1 \times K_1^T$  | $S_1 = \bigg( \frac{e^{s_1}}{sum_1}, \frac{e^{s_2}}{sum_1}, \frac{e^{s_3}}{sum_1}, \frac{e^{s_4}}{sum_1}\bigg)$   | $O_1 = S_1 \times V_1(4,8)$ | $O_1 \times sum_1$; running-sum |
