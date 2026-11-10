@@ -1,9 +1,18 @@
 #### Main Idea
+* How tiling is done?
+* How output of tiling is merged?
+
+***
+
 * Tile Q,K,V
 * Bring tiles into SRAM ([H100 Memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md))
-* Find partial output vectors
+* Do computations, find partial output context vectors
 * Merge
 * Send output vectors from SRAM-to-HBM.
+
+***
+
+* [In PyTorch, Scaled Dot-Product Attention (SDPA) is an API design](https://docs.pytorch.org/docs/2.15/generated/torch.nn.functional.scaled_dot_product_attention.html)
 
 ***
 
