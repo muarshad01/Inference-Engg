@@ -25,7 +25,7 @@
 | **L2** | **Good and Evil of KV Cache** | [L2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md) | Oct 23, 2026 |
 | **L3** | **Attention Variants Part 1** — MHA, MQA, GQA, MLA, DSA | [L3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md) | June 30, 2026 |
 | **L4** | **Attention Variants Part 2** — SWA, LA, SSMs, Mamba Architecture | [L4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md) | July 04, 2026 |
-| **L5** | **Flash Attention1,2,3** — Flash Attention | [L5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | July 06, 2026 |
+| **L5** | **Flash Attention1,2,3** — Flash Attention | [L5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md) | Nov 10, 2026 |
 | **L6** | **vLLM - Paged Attention, Continuous Batching, Chunked Prefill, ~~Prefix Caching,~~** | [L6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md) | Nov 09, 2026 |
 | **L7** | **All about Quantization** | [L7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md) | July 14, 2026 |
 |  | **Capstone Project 1** |[Capstone Project 1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/phase-1-capstone-project.md) | May XX, 2026 |
@@ -46,7 +46,6 @@
 | **L14** | __Capstone Project 2 (Production- Level Voice Agents)__	| [L14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md) | June 18, 2026 |
 | **Final Lecture Part 1** | Guided Decoding, eval harness, cold starts, canary deploys, cache-aware routing, guardrails | [FL-part1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part1.md) | June 18, 2026 |
 | **Final Lecture Part 2** | Disaggregated serving, Building a million user production interface system | [FL-part2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/FL-part2.md) | June 18, 2026 |
-
 
 ***
 
