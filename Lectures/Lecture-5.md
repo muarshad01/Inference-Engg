@@ -68,8 +68,8 @@
 
 * __Question__: $N \times N$ matrix moves through GPU how many times?
   * 2 times
-  * Read/Write A
   * Read/Write S
+  * Read/Write P
 
 #### Example: Problem with Traditional Attention
 ```
