@@ -57,11 +57,11 @@
 #### Total RW = 3r + 3w
 * Attention Block
 1. **Activations** $Q, K, V$ matrices are WRITTEN to HBM
-2. READ $Q, K$ from HBM and we compute atten score matrix, $S = \text{causal}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)$ (N,N)
-3. WRITE S $\to$ HBM
-4. READ S back from HBM. Comptue attention weight matrix, $P = \text{softmax}(S)$
-5. WRITE P to HBM
-6. READ P and $V$ from HBM and compute output matrix $O = P \times V$ also called Context Vectors.
+2. READ $Q, K$ from HBM and we compute atten score matrix, $S = \text{causal}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)$ 
+3. WRITE S(N,N) $\to$ HBM
+4. READ S(N,N) back from HBM. Comptue attention weight matrix, $P = \text{softmax}(S)$
+5. WRITE P(N,N) to HBM
+6. READ P(N,N) and $V$ from HBM and compute output matrix $O = P \times V$ also called Context Vectors.
 * 3R + 3W
 
 ***
