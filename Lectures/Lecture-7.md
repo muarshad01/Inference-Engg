@@ -1,3 +1,8 @@
+#### TODO
+* [End to End 4 Bit Training Full Workshop](https://www.youtube.com/watch?v=a3nV32Guxcc)
+
+***
+
 ## Quantization: The Inference Workhorse
 * What exactly are Floating Point (FP) numbers?
 * **Quantization**: Prefill and Decode
