@@ -30,3 +30,4 @@
 
 *** 
 
+* There is a cap to the memeory speed = 3.35 TB/s
