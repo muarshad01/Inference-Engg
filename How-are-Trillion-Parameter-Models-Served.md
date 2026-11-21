@@ -31,3 +31,24 @@
 *** 
 
 * There is a cap to the memeory speed = 3.35 TB/s
+* Since we have 25 GPUS, we can transfer 25 x 3.35 = 83.75 TB/s
+* So, total time it takes to transer model parameters= $\frac{2 ~TB}{83.85 TB/s}$ = 24 ms
+* This would mean 99.7% of GPU time goes waiting!
+
+***
+
+| Number of users | Weight read time | Computation time |
+|---|---|---|
+| 1   | 24 ms | 0.08 ms |
+| 32  | 24 ms | 2.6 ms  |
+| 295 | 24 ms | 24 ms   |
+
+* You can accomodate uptill 295 users!
+
+***
+
+* 20:00
+
+
+
+
