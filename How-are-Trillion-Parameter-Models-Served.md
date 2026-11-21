@@ -53,6 +53,7 @@
 * Memory transfer rate = 3.35 TB/s
 * Hence, for each byte of memory transferred, there are $\frac{989}{3.35} = 295$ FLOPs (operation per sec)
 * In the time, memory delievers one byte, Tensor Cores can do 295 operations on it.
+* If the job does fewer than 295 op/byte, the users sit idle waiting for data.
 
 *** 
 
