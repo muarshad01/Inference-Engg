@@ -14,7 +14,19 @@
 
 ***
 
+* 10:00
+
 * Now, let us try to estimate how much time it will take us to to serve a single token for a 1T model?
+
+* H100 - 989T ops/sec
+* Total operations = 2 x parameters = 2 Trillion
+* Total GPUs = 25
+* One GPU operats = 2T/25 = 0.08 Trillion
+* One GPU = 0.08 / 989 = 0.08 ms
+
+***
+
+* 15:00
 
 *** 
 
