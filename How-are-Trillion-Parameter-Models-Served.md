@@ -49,6 +49,11 @@
 
 * 20:00
 
+* GPU can perform 989 TFLOPs/s (operations per sec)
+* Memory transfer rate = 3.35 TB/s
+* Hence, for each byte of memory transferred, there are $\frac{989}{3.35} = 295$ FLOPs (operation per sec)
+* In the time, memory delievers one byte, Tensor Cores can do 295 operations on it.
 
+*** 
 
 
