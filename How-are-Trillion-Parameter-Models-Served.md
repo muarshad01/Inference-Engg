@@ -125,7 +125,7 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 | Dec 24  | Gated Delta Net (KIMI) |
 | Sep 25  | Qwen-3 Next: Gated Delta Net + Full Attention |
 | Oct 25  | Kimi Linear: KDA + MLA |
-| 2026    | Kimi k3, Qwen-3.8; Mematron 3 Linear: KDA + MLA |
+| 2026    | Kimi k3, Qwen-3.8; Mematron 3 Linear: bring hybrids to frontier |
 
 #### Hybrid Linear Attention
 
