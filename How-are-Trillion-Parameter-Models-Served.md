@@ -141,6 +141,13 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 
 ***
 
+#### Splitting the Model
+
+* 1:00:00
+
+***
+
+
 
 
 
