@@ -100,9 +100,33 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 * 61 layers
 * 64 attention heads
 
-* Bytes taken up by KV cache = $l \times b \times s \times \underbrace{h \times n_{heads}}_{d_{model}} \times 2 \times 2$
+* 1 KV pair = 128 x 2B x 2 x 64 x 61 ~ 1MB
+* To store one key and value for a token takes ~ 2MB
+* for 128k token conversion ~ 262 GB
 
 ***
 
+* Let us say, we have 32 GPU = 2,560 GB
+* Out of this 2,000 GB is for weights alone, so out of 560 GB remaining
+* For one use KV cache = 262 GB, so we can only server 1 user.
+
+***
+
+#### MQA
+#### GQA
+#### MLA
+
+| When | What |
+|---|---|
+| June 20 | Linear Attention |
+| Feb 21  | Delta Rule for Linear Attention |
+| - Dec 23 <br> - May 24  | - Mamba <br> - Mamba2 |
+| May 24  | Jamba |
+| Dec 24  | Gated Delta Net (KIMI) |
+| Sep 25  | Qwen-3 Next: Gated Delta Net + Full Attention |
+
+
+
+#### Hybrid Linear Attention
 
 
