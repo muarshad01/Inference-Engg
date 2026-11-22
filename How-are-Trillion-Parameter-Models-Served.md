@@ -136,7 +136,7 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/kv-cache-optimizations.png" width="400" height="300" />
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/kv-cache-optimizations.png" width="600" height="500" />
 </p>
 
 ***
