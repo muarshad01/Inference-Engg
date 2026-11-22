@@ -74,7 +74,6 @@ You past 2,000 token document and ask summarize this. The model writes a 500 tok
 #### Phase-1: Prefill
 * The model processes all 2,000 tokens in a single pass.
 
-
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/prefill.png" width="400" height="300" />
 </p>
@@ -134,4 +133,18 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 | Feb 2025  | NSA: Native Sparse Attention |
 | Sept 2025 | DSA: DeepSeek-V3.2-Exp |
 | 2026      | GLM 5.x, Kimi 3.1-pro <br> Mistral large-4 adopt |
+
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/kv-cache-optimizations.png" width="400" height="300" />
+</p>
+
+***
+
+
+
+
+
+
+
 
