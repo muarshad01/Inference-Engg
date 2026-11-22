@@ -100,7 +100,7 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 * 61 layers
 * 64 attention heads
 
-* Bytes ~taken ~up ~by ~KV cache = $l \times b \times s \times \underbrace{h \times n_{heads}}_{d_{model}} \times 2 \times 2$
+* Bytes taken up by KV cache = $l \times b \times s \times \underbrace{h \times n_{heads}}_{d_{model}} \times 2 \times 2$
 
 ***
 
