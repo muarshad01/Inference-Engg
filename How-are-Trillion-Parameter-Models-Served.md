@@ -79,7 +79,17 @@ You past 2,000 token document and ask summarize this. The model writes a 500 tok
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/prefill.png" width="400" height="300" />
 </p>
 
+In Prefill, what is important is TTFT = 160 ms (0.16 sec)
   
+***
+
+* 30:00
+
+#### Phase-1: Decode
+* The model writes the summary one token at a time.
+* Time per output token (TPOT) = 24ms
+* Total time = TTFT + 500*TPOT = 0.16+500*24ms = 12.2 seconds
+
 ***
 
 
