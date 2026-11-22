@@ -64,7 +64,16 @@
 * 25:00
 
 ## Part-2: Life of a Request
+* Every serving engine (vLLM/SGLang) runs the following loop
+* prompt - tokenize - prefill - decode - stream
 
+```
+You past 2,000 token document and ask summarize this. The model writes a 500 token summary.
+```
+
+#### Phase-1: Prefill
+* The model processes all 2,000 tokens in a single pass.
+* 
 
 ***
 
