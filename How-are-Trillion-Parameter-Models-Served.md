@@ -47,6 +47,10 @@
 
 ***
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/gpu-utilization.png" width="400" height="300" />
+</p>p
+
 * 20:00
 
 * GPU can perform 989 TFLOPs/s (operations per sec)
@@ -57,11 +61,10 @@
 
 *** 
 
+* 25:00
+
 ## Part-2: Life of a Request
 
-<p align="center">
-  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/gpu-utilization.png" width="400" height="300" />
-</p>p
 
 ***
 
