@@ -88,10 +88,21 @@ In Prefill, what is important is TTFT = 160 ms (0.16 sec)
 #### Phase-1: Decode
 * The model writes the summary one token at a time.
 * Time per output token (TPOT) = 24ms
-* Total time = TTFT + 500*TPOT = 0.16+500*24ms = 12.2 seconds
+* Total time = TTFT + 500*TPOT = 0.16 + 500x24 ms = 12.2 seconds
 
 ***
 
+* 35:00
+
+## Part-3: KV-Cache
+
+#### KIMI K2 model
+* 61 layers
+* 64 attention heads
+
+* Bytes ~taken ~up ~by ~KV cache = $l \times b \times s \times \underbrace{h \times n_{heads}}_{d_{model}} \times 2 \times 2$
+
+***
 
 
 
