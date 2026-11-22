@@ -59,6 +59,10 @@
 
 ## Part-2: Life of a Request
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/gpu-utilization.png" width="400" height="300" />
+</p>p
+
 ***
 
 
