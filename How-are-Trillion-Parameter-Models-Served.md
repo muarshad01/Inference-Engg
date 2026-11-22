@@ -49,7 +49,7 @@
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/gpu-utilization.png" width="400" height="300" />
-</p>p
+</p>
 
 * 20:00
 
@@ -73,8 +73,13 @@ You past 2,000 token document and ask summarize this. The model writes a 500 tok
 
 #### Phase-1: Prefill
 * The model processes all 2,000 tokens in a single pass.
-* 
 
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/prefill.png" width="400" height="300" />
+</p>
+
+  
 ***
 
 
