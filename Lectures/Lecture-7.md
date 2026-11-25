@@ -55,9 +55,10 @@
 * __Example__: $6.1 \rightarrow FP32$
   * Window: $\[2^2, 2^3\]$ because 6 lies between [4,8]
   * Exponent: 2 ($2^2=4$) + 127 (bias) = 129 = 1000|0001
+    * Bias= 127 = $2^{\text{exp bits}-1}-1$
   * Mantisssa (Governs the offset): $2^{23} (\text{num buckets}) \times 52.5%$ = 4,404,019
     * Note: 6.1 is $\frac{6.1 - 4}{8 - 4}=52.5$ of [4,8] window
-  * Bias= 127 = $2^{\text{exp bits}-1}-1$
+    * NOTE: ALL Windows are divided into same number of buckets.
 * (Exponent -> Ranage) = (Mantissa -> Precision)
 
 ```
