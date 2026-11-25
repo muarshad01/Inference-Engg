@@ -31,7 +31,7 @@
 
 #### Post session visualization
 * Quantization in TurboQuant
-* Generative Pre-trained Transformer Quantization (GPTQ) and Activation Aware Quantization (AWQ)
+* **Generative Pre-trained Transformer Quantization (GPTQ)** and **Activation Aware Quantization (AWQ)** are post-training weight-only quantization (W4A16) methods that compress LLM weights from 16-bit to 4-bit
 * GPT-Generated Unified Format (GGUF)
 
 ***
