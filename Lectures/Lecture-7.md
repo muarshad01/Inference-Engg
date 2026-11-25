@@ -45,8 +45,8 @@
   * 0 (+ve)
   * 1 (-ve)
 * __Exponent (8 bits)__:
-  * Within which power of 2 the number lies in?
-  * Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$
+  * Within which consective power of 2 the number lies in?
+  * Window in which the number lies in, i.e., $=[0.5, 1], [1, 2], [2, 4], [4, 8], [8, 16], [16, 32], [32, 64], [64, 127], [127, 128]$
   * Number of windows ~ Number of exponent bits ~ More range
   * 
 * __Mantissa (23 bits)__:
