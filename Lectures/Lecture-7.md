@@ -45,8 +45,10 @@
   * 0 (+ve)
   * 1 (-ve)
 * __Exponent (8 bits)__:
+  * Within which power of 2 the number lies in?
   * Window in which the number lies in, i.e., $[2^{-1}, 2^0, 2^1, 2^2, 2^3, 2^4, ...]=[0.5, 1, 2, 4, 8, 16,...]$
   * Number of windows ~ Number of exponent bits ~ More range
+  * 
 * __Mantissa (23 bits)__:
   * Offset - $2^{23} (\text{num of buckets})$
   * Larger mantissa means more precision
