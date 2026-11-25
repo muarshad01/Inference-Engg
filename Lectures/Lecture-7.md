@@ -10,7 +10,7 @@
 * 2-type of Post-Training Quantization (PTQ)
 
 #### Quantization
-* FP32 & BF16 (Brain Floating point) - Same range but reduced accuracy!
+* TP32 & BF16 (Brain Floating point) - Same range but reduced accuracy!
 * FP16
 * FP8 (DeepSeek uses E4M3)
 * FP8 - E5M2
